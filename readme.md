@@ -45,7 +45,6 @@ macOS Sequoia 15.7 or later
 Final Cut Pro 12.0 (Lifetime / Perpetual Version) or later
 Final Cut Pro Creator Studio 12.0 (Subscription Version) or later
 Runs only on Apple silicon Macs
-Internet connection is necessary for some modules and functionality
 
 ## Use Cases
 - Marker Notes Database

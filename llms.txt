@@ -1,12 +1,12 @@
 ﻿# Production Data
 
-> Marker Data allows users to extract, convert & create databases from Final Cut Pro’s marker metadata.
+> Production Data allows users to extract, convert & create databases from Final Cut Pro’s marker metadata.
 
 - [Additional Credits](http://productiondata.theacharya.co/additional-credits.md): Production Data is also made possible because of the hard work of these amazing open-source projects and libraries. ❤️
 - [Disclaimers](http://productiondata.theacharya.co/disclaimers.md): The author(s) have no affiliation with Apple or Microsoft in any capacity. All product names, logos, and brands are property of their respective owners.
-- [Marker Data License Agreement](http://productiondata.theacharya.co/license.md): Copyright (c) 2026 The Acharya
+- [Production Data End User License Agreement](http://productiondata.theacharya.co/license.md): Copyright (c) 2026 The Acharya
 - [Production Data](http://productiondata.theacharya.co/readme.md): Production Data
-- [Prologue](http://productiondata.theacharya.co/prologue.md): TARS translated quantum gravitational data into Morse code for Cooper to transmit from Gargantua's tesseract to Murph's watch on Earth.Similarly, Marker Data streamlines the translation and transmission of Final Cut Pro's Marker metadata to databases effortlessly.
+- [Prologue](http://productiondata.theacharya.co/prologue.md): TARS translated quantum gravitational data into Morse code for Cooper to transmit from Gargantua's tesseract to Murph's watch on Earth.Similarly, Production Data streamlines the translation and transmission of Final Cut Pro's Marker metadata to databases effortlessly.
 - [Frequently Asked Questions](http://productiondata.theacharya.co/faq.md): Production Data facilitates extraction from any conceivable timeline such as Projects and Compound Clips.
 - [Troubleshooting](http://productiondata.theacharya.co/troubleshooting.md): Below, you will find a comprehensive list of common issues users may encounter, accompanied by solutions to resolve them.
 - [Press Kit & Media](http://productiondata.theacharya.co/press-kit-media.md): We would greatly appreciate your support in sharing and promoting Production Data!
@@ -21,9 +21,10 @@
 
 ## User Guide
 
-- [Overview](http://productiondata.theacharya.co/user-guide/overview.md): Marker Data has been meticulously crafted with a focus on simplicity, ensuring that users can effortlessly execute tasks and operations with minimal interaction.
+- [Overview](http://productiondata.theacharya.co/user-guide/overview.md): Production Data has been meticulously crafted with a focus on simplicity, ensuring that users can effortlessly execute tasks and operations with minimal interaction.
 - [Extract](http://productiondata.theacharya.co/user-guide/extract.md): Extract Window
 - [General Settings](http://productiondata.theacharya.co/user-guide/general.md): General Settings
+- [Roles](http://productiondata.theacharya.co/user-guide/roles.md): Extract Window
 - [Configuration Settings](http://productiondata.theacharya.co/user-guide/configurations.md): Configuration Settings
 - [Keyboard Shortcuts](http://productiondata.theacharya.co/user-guide/keyboard-shortcuts.md): You can use keyboard shortcuts to quickly accomplish Common tasks in Production Data. To use a keyboard shortcut, press all the keys in the shortcut at the same time.
 

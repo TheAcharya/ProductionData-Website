@@ -16,10 +16,10 @@
     <loc>http://productiondata.theacharya.co/prologue/</loc>
   </url>
   <url>
-    <loc>http://productiondata.theacharya.co/user-guide/configurations/</loc>
+    <loc>http://productiondata.theacharya.co/credits/</loc>
   </url>
   <url>
-    <loc>http://productiondata.theacharya.co/credits/</loc>
+    <loc>http://productiondata.theacharya.co/user-guide/configurations/</loc>
   </url>
   <url>
     <loc>http://productiondata.theacharya.co/faq/</loc>
@@ -46,15 +46,18 @@
     <loc>http://productiondata.theacharya.co/user-guide/keyboard-shortcuts/</loc>
   </url>
   <url>
-    <loc>http://productiondata.theacharya.co/in-action/notion-profile/</loc>
+    <loc>http://productiondata.theacharya.co/user-guide/overview/</loc>
   </url>
   <url>
-    <loc>http://productiondata.theacharya.co/user-guide/overview/</loc>
+    <loc>http://productiondata.theacharya.co/in-action/notion-profile/</loc>
   </url>
   <url>
     <loc>http://productiondata.theacharya.co/case-study/final-cut-pro-enigma/</loc>
   </url>
   <url>
     <loc>http://productiondata.theacharya.co/case-study/creating-vfx-database/</loc>
+  </url>
+  <url>
+    <loc>http://productiondata.theacharya.co/user-guide/roles/</loc>
   </url>
 </urlset>

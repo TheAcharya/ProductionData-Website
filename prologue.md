@@ -2,7 +2,7 @@
 
 ## Come on <a href="https://interstellarfilm.fandom.com/wiki/TARS" target="_blank">TARS</a>!
 
-![TARS translated quantum gravitational data into Morse code for Cooper to transmit from Gargantua's tesseract to Murph's watch on Earth.<br>Similarly, **Marker Data** streamlines the translation and transmission of Final Cut Pro's Marker metadata to databases effortlessly.](assets/interstellar_01.gif)
+![TARS translated quantum gravitational data into Morse code for Cooper to transmit from Gargantua's tesseract to Murph's watch on Earth.<br>Similarly, **Production Data** streamlines the translation and transmission of Final Cut Pro's Marker metadata to databases effortlessly.](assets/interstellar_01.gif)
 
 Considering the multifaceted issues and concepts elucidated in the case studies, my aspiration is to conceive an application that adeptly tackles these challenges. This envisioned application would proficiently extract Marker metadata from Final Cut Pro, seamlessly integrating it into Notion or any database in a manner that is not only meaningful but also dynamic. Envision a scenario where users can judiciously manage and organise Final Cut Pro Markers, VFX Shots, Shot Collections, Comments, and Edit Notes with unparalleled efficiency. The overarching goal is to enable users to collaborate seamlessly, sharing databases with team members without the burden of exorbitant platform costs.
 
