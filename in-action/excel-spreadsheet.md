@@ -1,4 +1,4 @@
-# Sending to Notion
+# Creating Excel Spreadsheet
 
 ![](/assets/content-banner-notion.png)
 

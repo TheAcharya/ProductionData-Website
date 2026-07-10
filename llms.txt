@@ -31,4 +31,4 @@
 
 ## In Action
 
-- [Sending to Notion](http://productiondata.theacharya.co/in-action/notion-profile.md): Create Your Notion Database Profile.
+- [Creating Excel Spreadsheet](http://productiondata.theacharya.co/in-action/excel-spreadsheet.md): Create Your Notion Database Profile.
