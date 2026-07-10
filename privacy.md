@@ -54,4 +54,4 @@ If you have any questions about this Privacy Policy, feel free to reach out [her
 
 ---
 
-Last updated: [11th July 2026]
+Last updated: 11th July 2026
