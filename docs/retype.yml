@@ -25,18 +25,18 @@ outbound:
 
 links:
 - text: Buy
-  icon: mark-github
-  link: https://tech.theacharya.co
-  target: blank
-  
-- text: Send Feedback
-  icon: download
+  icon: desktop-download
   link: https://tech.theacharya.co
   target: blank
   
 - text: OpenFCPXMLKit
   link: https://github.com/TheAcharya/OpenFCPXMLKit
-  icon: heart-fill
+  icon: mark-github
+  target: blank
+  
+- text: The Acharya Technology
+  icon: link
+  link: https://tech.theacharya.co
   target: blank
   
 - text: Vigneswaran Rajkumar

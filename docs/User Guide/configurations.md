@@ -1,7 +1,7 @@
 ---
 label: Configurations
 icon: briefcase
-order: -7
+order: -5
 ---
 # Configuration Settings
 
@@ -14,7 +14,7 @@ order: -7
 You will not be allowed to delete or make changes to the Default Configuration.
 
 !!!info Info
-The Default Configuration serves as a comprehensive delineation of the default values and parameters pertaining to **Marker Data**. You are required to create a new Configuration in order to utilise the complete functionality of **Marker Data**.
+The Default Configuration serves as a comprehensive delineation of the default values and parameters pertaining to **Production Data**. You are required to create a new Configuration in order to utilise the complete functionality of **Production Data**.
 !!!
 
 ## Add Configuration
@@ -55,7 +55,7 @@ Alternatively, you can click on the `Configurations` menu located in the menu ba
 
 ### Method 3
 
-You can also click on the `Quick Configurations Selector` menu located on the top-right corner of **Marker Data**.
+You can also click on the `Quick Configurations Selector` menu located on the top-right corner of **Production Data**.
 
 1. Click on the `Quick Configurations Selector` menu.
 
@@ -65,7 +65,7 @@ You can also click on the `Quick Configurations Selector` menu located on the to
 
 ### Method 4
 
-Starting with **Marker Data** version 1.1.0, you will have the capability to assign a shortcut to your chosen Configuration. Shortcuts can be assigned using key combinations ranging from `⌘` `1` to `⌘` `9`.
+Starting with **Production Data** version 1.1.0, you will have the capability to assign a shortcut to your chosen Configuration. Shortcuts can be assigned using key combinations ranging from `⌘` `1` to `⌘` `9`.
 
 1. Right-click on your desired Configuration.
 
@@ -109,11 +109,11 @@ Click `Update Active Configuration` within the Configuration settings.
 
 ### Method 2
 
-Go to **Marker Data**'s menu bar, click on `Update Active Configuration` under Configuration menu.
+Go to **Production Data**'s menu bar, click on `Update Active Configuration` under Configuration menu.
 
 ### Method 3
 
-Press `⌘` `s` on your keyboard to `Update Active Configuration`. You can press `⌘` `s` anywhere within **Marker Data**.
+Press `⌘` `s` on your keyboard to `Update Active Configuration`. You can press `⌘` `s` anywhere within **Production Data**.
 
 ## Delete Configuration
 

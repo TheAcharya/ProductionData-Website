@@ -15,10 +15,10 @@ order: -1
 `Rename Key Column` option will not be used for this demonstration.
 !!!
 
-2. Duplicate Notion's [Marker Data Template](/user-guide/databases/#notion-template) in to your Notion account.
+2. Duplicate Notion's [Production Data Template](/user-guide/databases/#notion-template) in to your Notion account.
 
 !!!info Info
-You possess the liberty to tailor the [Marker Data Template](/user-guide/databases/#notion-template) to suit your preferences, affording you the opportunity to incorporate additional [Notion Database properties](https://www.notion.so/help/database-properties) as per your discretion. While it is recommended to refrain from the removal of existing properties, should such an inclination arise, it is imperative to note that **Marker Data** will disregard any column properties that have been deleted.
+You possess the liberty to tailor the [Production Data Template](/user-guide/databases/#notion-template) to suit your preferences, affording you the opportunity to incorporate additional [Notion Database properties](https://www.notion.so/help/database-properties) as per your discretion. While it is recommended to refrain from the removal of existing properties, should such an inclination arise, it is imperative to note that **Production Data** will disregard any column properties that have been deleted.
 !!!
 
 3. [Obtain your Database URL](/databases/notion-prerequisite/#obtain-your-database-url) by going to your Notion Database, and right-click on the view and click **Copy link to view**.
@@ -43,7 +43,7 @@ It is presumed that you have acquired and inputted your [Notion Integration Toke
 5. Select your desired [Overlays](/user-guide/label/#overlays).
 6. Return back to Configurations to [Update Active Configuration](/user-guide/configurations/#update-active-configuration)
 
-## Final Cut Pro to Notion (Marker Data Template)
+## Final Cut Pro to Notion (Production Data Template)
 
 <video controls width="1920">
   <source src="/assets/md-send-to-notion-03.mp4" type="video/mp4">
@@ -52,8 +52,8 @@ Your browser does not support the video tag.
 
 <br>
 
-1. Select `Marker Data Source` or `Marker Data H.264` from [Final Cut Pro's Share menu](user-guide/share-destination/).
-2. **Marker Data** will start to perform its task.
+1. Select `Production Data Source` or `Production Data H.264` from [Final Cut Pro's Share menu](user-guide/share-destination/).
+2. **Production Data** will start to perform its task.
 
 ## Updating Specific Column Data
 
