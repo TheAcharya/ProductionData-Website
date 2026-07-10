@@ -1,6 +1,6 @@
 ---
 label: Release Notes
 icon: note
-order: -98
+order: -97
 ---
 # Release Notes

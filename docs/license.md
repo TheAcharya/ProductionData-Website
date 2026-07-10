@@ -6,7 +6,7 @@ layout: page
 
 Copyright (c) 2026 The Acharya
 
-### Production Data
+## Production Data
 
 This licence agreement is between you ("You") and The Acharya ("We" or "Us") for the use of Production Data (the "App"). By downloading or using the App, You agree to these terms. If You do not agree, do not use the App.
 
