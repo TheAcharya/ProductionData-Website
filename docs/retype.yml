@@ -39,11 +39,6 @@ links:
   icon: issue-opened
   target: blank
   
-- text: Discussions
-  link: https://github.com/TheAcharya/MarkerData/discussions
-  icon: comment-discussion
-  target: blank
-  
 - text: Sponsor
   link: https://github.com/sponsors/TheAcharya
   icon: heart-fill
