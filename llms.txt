@@ -2,31 +2,31 @@
 
 > Marker Data allows users to extract, convert & create databases from Final Cut Pro’s marker metadata.
 
-- [Additional Credits](https://productiondata.theacharya.co/additional-credits.md): Production Data is also made possible because of the hard work of these amazing open-source projects and libraries. ❤️
-- [Disclaimers](https://productiondata.theacharya.co/disclaimers.md): The author(s) have no affiliation with Apple or Microsoft in any capacity. All product names, logos, and brands are property of their respective owners.
-- [Marker Data License Agreement](https://productiondata.theacharya.co/license.md): Copyright (c) 2026 The Acharya
-- [Marker Data](https://productiondata.theacharya.co/readme.md): Marker Data
-- [Prologue](https://productiondata.theacharya.co/prologue.md): TARS translated quantum gravitational data into Morse code for Cooper to transmit from Gargantua's tesseract to Murph's watch on Earth.Similarly, Marker Data streamlines the translation and transmission of Final Cut Pro's Marker metadata to databases effortlessly.
-- [Frequently Asked Questions](https://productiondata.theacharya.co/faq.md): Production Data facilitates extraction from any conceivable timeline such as Projects and Compound Clips.
-- [Troubleshooting](https://productiondata.theacharya.co/troubleshooting.md): Below, you will find a comprehensive list of common issues users may encounter, accompanied by solutions to resolve them.
-- [Press Kit & Media](https://productiondata.theacharya.co/press-kit-media.md): We would greatly appreciate your support in sharing and promoting Production Data!
-- [Release Notes](https://productiondata.theacharya.co/release-notes.md)
-- [The Acharya](https://productiondata.theacharya.co/the-acharya.md): The Acharya is an independent production company based in Singapore founded by Vigneswaran Rajkumar. Its current relentless pursuit is to develop and produce feature films for a distinctive global audience.
-- [Credits](https://productiondata.theacharya.co/credits.md): Created by Vigneswaran Rajkumar
+- [Additional Credits](http://productiondata.theacharya.co/additional-credits.md): Production Data is also made possible because of the hard work of these amazing open-source projects and libraries. ❤️
+- [Disclaimers](http://productiondata.theacharya.co/disclaimers.md): The author(s) have no affiliation with Apple or Microsoft in any capacity. All product names, logos, and brands are property of their respective owners.
+- [Marker Data License Agreement](http://productiondata.theacharya.co/license.md): Copyright (c) 2026 The Acharya
+- [Marker Data](http://productiondata.theacharya.co/readme.md): Marker Data
+- [Prologue](http://productiondata.theacharya.co/prologue.md): TARS translated quantum gravitational data into Morse code for Cooper to transmit from Gargantua's tesseract to Murph's watch on Earth.Similarly, Marker Data streamlines the translation and transmission of Final Cut Pro's Marker metadata to databases effortlessly.
+- [Frequently Asked Questions](http://productiondata.theacharya.co/faq.md): Production Data facilitates extraction from any conceivable timeline such as Projects and Compound Clips.
+- [Troubleshooting](http://productiondata.theacharya.co/troubleshooting.md): Below, you will find a comprehensive list of common issues users may encounter, accompanied by solutions to resolve them.
+- [Press Kit & Media](http://productiondata.theacharya.co/press-kit-media.md): We would greatly appreciate your support in sharing and promoting Production Data!
+- [Release Notes](http://productiondata.theacharya.co/release-notes.md)
+- [The Acharya](http://productiondata.theacharya.co/the-acharya.md): The Acharya is an independent production company based in Singapore founded by Vigneswaran Rajkumar. Its current relentless pursuit is to develop and produce feature films for a distinctive global audience.
+- [Credits](http://productiondata.theacharya.co/credits.md): Created by Vigneswaran Rajkumar
 
 ## Case Study
 
-- [Final Cut Pro's Enigma](https://productiondata.theacharya.co/case-study/final-cut-pro-enigma.md): Final Cut Pro stands out as a radically different NLE primarily because of its exclusive optimisation for the macOS ecosystem, leveraging seamless integration with Apple hardware and software.
-- [Creating VFX Database](https://productiondata.theacharya.co/case-study/creating-vfx-database.md): Josh Beal provides a compelling analysis, drawing a noteworthy comparison between the workflows of two prominent video editing platforms, namely Media Composer and Final Cut Pro, particularly in the context of VFX database creation.
+- [Final Cut Pro's Enigma](http://productiondata.theacharya.co/case-study/final-cut-pro-enigma.md): Final Cut Pro stands out as a radically different NLE primarily because of its exclusive optimisation for the macOS ecosystem, leveraging seamless integration with Apple hardware and software.
+- [Creating VFX Database](http://productiondata.theacharya.co/case-study/creating-vfx-database.md): Josh Beal provides a compelling analysis, drawing a noteworthy comparison between the workflows of two prominent video editing platforms, namely Media Composer and Final Cut Pro, particularly in the context of VFX database creation.
 
 ## User Guide
 
-- [Overview](https://productiondata.theacharya.co/user-guide/overview.md): Marker Data has been meticulously crafted with a focus on simplicity, ensuring that users can effortlessly execute tasks and operations with minimal interaction.
-- [Extract](https://productiondata.theacharya.co/user-guide/extract.md): Extract Window
-- [General Settings](https://productiondata.theacharya.co/user-guide/general.md): General Settings
-- [Configuration Settings](https://productiondata.theacharya.co/user-guide/configurations.md): Configuration Settings
-- [Keyboard Shortcuts](https://productiondata.theacharya.co/user-guide/keyboard-shortcuts.md): You can use keyboard shortcuts to quickly accomplish Common tasks in Production Data. To use a keyboard shortcut, press all the keys in the shortcut at the same time.
+- [Overview](http://productiondata.theacharya.co/user-guide/overview.md): Marker Data has been meticulously crafted with a focus on simplicity, ensuring that users can effortlessly execute tasks and operations with minimal interaction.
+- [Extract](http://productiondata.theacharya.co/user-guide/extract.md): Extract Window
+- [General Settings](http://productiondata.theacharya.co/user-guide/general.md): General Settings
+- [Configuration Settings](http://productiondata.theacharya.co/user-guide/configurations.md): Configuration Settings
+- [Keyboard Shortcuts](http://productiondata.theacharya.co/user-guide/keyboard-shortcuts.md): You can use keyboard shortcuts to quickly accomplish Common tasks in Production Data. To use a keyboard shortcut, press all the keys in the shortcut at the same time.
 
 ## In Action
 
-- [Sending to Notion](https://productiondata.theacharya.co/in-action/notion-profile.md): Create Your Notion Database Profile.
+- [Sending to Notion](http://productiondata.theacharya.co/in-action/notion-profile.md): Create Your Notion Database Profile.
