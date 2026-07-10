@@ -41,11 +41,11 @@ Your browser does not support the video tag.
 
 ## Screenshot
 
-![Main Extract Window](/assets/md-main-share.png)
+![Main Extract Window](/assets/pd-main.png)
 
-![General Settings](/assets/md-general-settings.png)
+![General Settings](/assets/pd-general-settings.png)
 
-![Configuration Settings](/assets/md-configuration-settings.png)
+![Configuration Settings](/assets/pd-configuration-settings.png)
 
 ## System Requirements
 

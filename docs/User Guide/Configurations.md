@@ -5,7 +5,7 @@ order: -7
 ---
 # Configuration Settings
 
-![Configuration Settings](/assets/md-configuration-settings.png)
+![Configuration Settings](/assets/pd-general-settings.png)
 
 ## Default Configuration
 

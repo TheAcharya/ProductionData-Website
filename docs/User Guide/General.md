@@ -5,7 +5,7 @@ order: -4
 ---
 # General Settings
 
-![General Settings](/assets/md-general-settings.png)
+![General Settings](/assets/pd-general-settings.png)
 
 ## Export Destination
 
@@ -173,21 +173,3 @@ Select the `Open macOS Notification Settings` link to open macOS Notification Se
 !!!info Info
 **Marker Data** will only show up in the macOS Notification Settings solely after the initial prompting attempt. If **Marker Data** is the focused application, notifications won’t make a sound or appear on the screen.
 !!!
-
-<hr>
-
-## Updates
-
-![](/assets/md-general-settings-updates.png)
-
-### Check for Updates
-
-Pressing `Check for Updates` button would check for the latest release for **Marker Data**.
-
-### Automatically check for updates
-
-You can enable `Automatically check for updates` to automatically check for the latest release for **Marker Data**.
-
-### Automatically download updates
-
-Enabling `Automatically download updates` would automatically download for the latest release of **Marker Data**.
