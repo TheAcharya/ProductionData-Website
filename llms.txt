@@ -11,6 +11,7 @@
 - [Troubleshooting](http://productiondata.theacharya.co/troubleshooting.md): Below, you will find a comprehensive list of common issues users may encounter, accompanied by solutions to resolve them.
 - [Press Kit & Media](http://productiondata.theacharya.co/press-kit-media.md): We would greatly appreciate your support in sharing and promoting Production Data!
 - [Release Notes](http://productiondata.theacharya.co/release-notes.md)
+- [Privacy Policy](http://productiondata.theacharya.co/privacy.md)
 - [The Acharya](http://productiondata.theacharya.co/the-acharya.md): The Acharya is an independent production company based in Singapore founded by Vigneswaran Rajkumar. Its current relentless pursuit is to develop and produce feature films for a distinctive global audience.
 - [Credits](http://productiondata.theacharya.co/credits.md): Created by Vigneswaran Rajkumar
 
