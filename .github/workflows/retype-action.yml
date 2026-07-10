@@ -21,7 +21,7 @@ jobs:
 
       - uses: retypeapp/action-build@latest
         env:
-          RETYPE_SECRET: ${{ secrets.RETYPE_KEY }}
+          RETYPE_SECRET: ${{ secrets.RETYPE_SECRET }}
 
       - uses: retypeapp/action-github-pages@latest
         with:
