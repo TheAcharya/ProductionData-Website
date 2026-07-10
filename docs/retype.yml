@@ -24,23 +24,18 @@ outbound:
   icon: ""
 
 links:
-- text: Star our App on GitHub
+- text: Buy
   icon: mark-github
-  link: https://github.com/TheAcharya/MarkerData
+  link: https://tech.theacharya.co
   target: blank
   
-- text: Download
+- text: Send Feedback
   icon: download
-  link: https://github.com/TheAcharya/MarkerData/releases/latest
+  link: https://tech.theacharya.co
   target: blank
   
-- text: Issues
-  link: https://github.com/TheAcharya/MarkerData/issues
-  icon: issue-opened
-  target: blank
-  
-- text: Sponsor
-  link: https://github.com/sponsors/TheAcharya
+- text: OpenFCPXMLKit
+  link: https://github.com/TheAcharya/OpenFCPXMLKit
   icon: heart-fill
   target: blank
   
