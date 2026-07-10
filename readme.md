@@ -62,10 +62,4 @@ Runs only on Apple silicon Macs
 
 ## Support
 
-Technical support questions are best asked in the [Discussions](https://github.com/TheAcharya/MarkerData/discussions).
-
-For bug reports, feature requests and other suggestions you can create a new [issue](https://github.com/TheAcharya/MarkerData/issues) to discuss.
-
-!!!
-Some images and videos on this documentation site may reflect earlier versions of the application and macOS. Features, layout, or functionality may have changed in recent updates.
-!!!
+Feel free to reach out if you have any questions or issues with the downloaded software. You can contact us [here](https://tech.theacharya.co).
