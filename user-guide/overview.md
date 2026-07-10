@@ -18,10 +18,6 @@ Notwithstanding the emphasis on user-friendly design, this website stands ready 
 6. Create your first [Configuration](/user-guide/configurations).
 7. Start using **Marker Data** and have fun!
 
-!!!warning Warning
-**Marker Data** must be installed in the Applications folder to run correctly. Running the application outside of this designated directory would result in functionality issues.
-!!!
-
 ## Onboarding
 
 It is imperative to review Marker Data’s Onboarding information and instructions to familiarise yourself with its key features and perform necessary initial steps before using the application.
@@ -29,10 +25,3 @@ It is imperative to review Marker Data’s Onboarding information and instructio
 ![Marker Data's Onboarding Screen](/assets/md-onboarding.gif)
 
 ## Uninstall
-
-![Marker Data Uninstaller App](/assets/md-uninstall.png)
-
-1. Double click on `Uninstall Marker Data.app`.
-2. Click on `Uninstall Marker Data` button.
-3. Click on `Uninstall Marker Data` button in the confirmation dialogue box.
-4. `Uninstall Marker Data.app` will create a log file named `Marker-Data_Uninstall_Log.txt` on your Desktop.

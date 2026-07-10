@@ -25,7 +25,7 @@
 - [Extract](https://productiondata.theacharya.co/user-guide/extract.md): Extract Window
 - [General Settings](https://productiondata.theacharya.co/user-guide/general.md): General Settings
 - [Configuration Settings](https://productiondata.theacharya.co/user-guide/configurations.md): Configuration Settings
-- [Keyboard Shortcuts](https://productiondata.theacharya.co/user-guide/keyboard-shortcuts.md): You can use keyboard shortcuts to quickly accomplish Common tasks in Marker Data. To use a keyboard shortcut, press all the keys in the shortcut at the same time.
+- [Keyboard Shortcuts](https://productiondata.theacharya.co/user-guide/keyboard-shortcuts.md): You can use keyboard shortcuts to quickly accomplish Common tasks in Production Data. To use a keyboard shortcut, press all the keys in the shortcut at the same time.
 
 ## In Action
 
