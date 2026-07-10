@@ -49,6 +49,9 @@ markdown:
   
 backlinks:
   enabled: false
+
+actions:
+  enabled: false
   
 scheme:
   mode: dark
