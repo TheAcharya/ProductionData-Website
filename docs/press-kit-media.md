@@ -30,7 +30,4 @@ Feel free to reach out directly [here](https://tech.theacharya.co).
 
 ## Trivia
 
-- **Production Data** is the inaugural macOS application developed by The Acharya.
-- The development of **Production Data**, encompassing all underlying libraries, tools, and technologies, spanned approximately three years from conception to completion.
-- **Production Data** is the first open-source application for Final Cut Pro to feature and integrate both Workflow Extension and Share Destination features.
-- **Production Data** is the first application to seamlessly integrate a non-linear editing (NLE) system with database platforms such as Notion and Airtable.
+- **Production Data** is the second macOS application developed by The Acharya.
