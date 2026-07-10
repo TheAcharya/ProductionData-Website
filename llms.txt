@@ -1,11 +1,11 @@
-﻿# Marker Data
+﻿# Production Data
 
 > Marker Data allows users to extract, convert & create databases from Final Cut Pro’s marker metadata.
 
 - [Additional Credits](http://productiondata.theacharya.co/additional-credits.md): Production Data is also made possible because of the hard work of these amazing open-source projects and libraries. ❤️
 - [Disclaimers](http://productiondata.theacharya.co/disclaimers.md): The author(s) have no affiliation with Apple or Microsoft in any capacity. All product names, logos, and brands are property of their respective owners.
 - [Marker Data License Agreement](http://productiondata.theacharya.co/license.md): Copyright (c) 2026 The Acharya
-- [Marker Data](http://productiondata.theacharya.co/readme.md): Marker Data
+- [Production Data](http://productiondata.theacharya.co/readme.md): Production Data
 - [Prologue](http://productiondata.theacharya.co/prologue.md): TARS translated quantum gravitational data into Morse code for Cooper to transmit from Gargantua's tesseract to Murph's watch on Earth.Similarly, Marker Data streamlines the translation and transmission of Final Cut Pro's Marker metadata to databases effortlessly.
 - [Frequently Asked Questions](http://productiondata.theacharya.co/faq.md): Production Data facilitates extraction from any conceivable timeline such as Projects and Compound Clips.
 - [Troubleshooting](http://productiondata.theacharya.co/troubleshooting.md): Below, you will find a comprehensive list of common issues users may encounter, accompanied by solutions to resolve them.
