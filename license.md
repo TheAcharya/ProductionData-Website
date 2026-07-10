@@ -33,7 +33,7 @@ To the extent permitted by law, We are not liable for any indirect or consequent
 
 ## Your Data
 
-Our use of any data collected through the App is described in Our Privacy Policy at [PRIVACY POLICY URL].
+Our use of any data collected through the App is described in Our [Privacy Policy](/privacy).
 
 ## Legal Compliance
 

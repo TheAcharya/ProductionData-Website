@@ -26,13 +26,13 @@ The App does not use tracking technologies of any kind. We do not use cookies, a
 
 The App does not integrate any third-party analytics, advertising, or crash-reporting software development kits (SDKs). If a future version of the App includes any third-party service that processes data, We will update this Privacy Policy beforehand.
 
-Our support and documentation site, https://tech.theacharya.co, is hosted independently of the App and may collect standard technical data (such as IP address or browser type) as part of normal website hosting. This is separate from the App itself, which does not transmit any data.
+Our support and documentation [site](https://productiondata.theacharya.co), is hosted independently of the App and may collect standard technical data (such as IP address or browser type) as part of normal website hosting. This is separate from the App itself, which does not transmit any data.
 
-We also use GitHub to host documentation and, where applicable, source code related to the App. If you visit our GitHub repository, GitHub's own privacy practices will apply to that visit. You can read GitHub's Privacy Statement at https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement.
+We also use GitHub to host documentation and, where applicable, source code related to the App. If you visit our GitHub repository, GitHub's own privacy practices will apply to that visit. You can read GitHub's Privacy Statement at [here](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement).
 
 ## Apple's Own Data Collection
 
-Apple may collect and use certain usage and performance data from apps available on the App Store to help improve the App Store and the overall user experience. This collection is carried out by Apple, not by Us, applies generally rather than to any individual user, and cannot be opted out of by app developers. You can read Apple's App Store Privacy Policy at https://www.apple.com/legal/privacy/data/en/app-store/.
+Apple may collect and use certain usage and performance data from apps available on the App Store to help improve the App Store and the overall user experience. This collection is carried out by Apple, not by Us, applies generally rather than to any individual user, and cannot be opted out of by app developers. You can read Apple's App Store Privacy Policy at [here](https://www.apple.com/legal/privacy/data/en/app-store/).
 
 If you install the App through TestFlight, Apple's TestFlight service may separately collect certain data, such as crash logs and feedback you choose to submit, in accordance with Apple's TestFlight terms. This collection is also carried out by Apple, not by Us.
 
@@ -50,8 +50,8 @@ We may update this Privacy Policy from time to time. Any changes will be reflect
 
 ## Contact Us
 
-If you have any questions about this Privacy Policy, feel free to reach out here: https://tech.theacharya.co
+If you have any questions about this Privacy Policy, feel free to reach out [here](https://tech.theacharya.co).
 
 ---
 
-Last updated: [DATE]
+Last updated: [11th July 2026]

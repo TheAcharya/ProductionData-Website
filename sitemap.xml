@@ -4,16 +4,19 @@
     <loc>http://productiondata.theacharya.co/</loc>
   </url>
   <url>
+    <loc>http://productiondata.theacharya.co/license/</loc>
+  </url>
+  <url>
     <loc>http://productiondata.theacharya.co/additional-credits/</loc>
   </url>
   <url>
     <loc>http://productiondata.theacharya.co/disclaimers/</loc>
   </url>
   <url>
-    <loc>http://productiondata.theacharya.co/license/</loc>
+    <loc>http://productiondata.theacharya.co/prologue/</loc>
   </url>
   <url>
-    <loc>http://productiondata.theacharya.co/prologue/</loc>
+    <loc>http://productiondata.theacharya.co/privacy/</loc>
   </url>
   <url>
     <loc>http://productiondata.theacharya.co/user-guide/configurations/</loc>
@@ -38,9 +41,6 @@
   </url>
   <url>
     <loc>http://productiondata.theacharya.co/release-notes/</loc>
-  </url>
-  <url>
-    <loc>http://productiondata.theacharya.co/privacy/</loc>
   </url>
   <url>
     <loc>http://productiondata.theacharya.co/the-acharya/</loc>
