@@ -61,7 +61,7 @@ You and We agree that Apple, and Apple's subsidiaries, may enforce this Agreemen
 
 ## Contact
 
-Questions or issues with the App? Reach out to us [here](https://tech.theacharya.co).
+Feel free to reach out if you have any questions or issues with the downloaded software. You can contact us [here](https://tech.theacharya.co). 
 
 ---
 

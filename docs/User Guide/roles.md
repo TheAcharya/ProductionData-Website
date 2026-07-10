@@ -1,6 +1,6 @@
 ---
 label: Roles
-icon: home
+icon: list-unordered
 order: -4
 ---
 # Roles
