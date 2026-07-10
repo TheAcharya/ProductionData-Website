@@ -43,15 +43,15 @@ You confirm that You are not located in a country subject to a US government emb
 
 This Agreement stays in effect until You stop using the App or We terminate it for breach of these terms. On termination, You must stop using and delete the App.
 
-## 9. Changes to These Terms
+## Changes to These Terms
 
 We may change this Agreement at any time. If We do, We will update the "Last updated" date below. Your continued use of the App after a change means You accept the updated terms.
 
-## 10. Governing Law
+## Governing Law
 
 This Agreement is governed by the laws of Singapore.
 
-## 11. Apple as Third-Party Beneficiary
+## Apple as Third-Party Beneficiary
 
 You and We agree that Apple, and Apple's subsidiaries, may enforce this Agreement against You as a third-party beneficiary of it.
 
