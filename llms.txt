@@ -2,4 +2,4 @@
 
 > Marker Data allows users to extract, convert & create databases from Final Cut Pro’s marker metadata.
 
-- [Marker Data](http://productiondata.theacharya.co/readme.md): Marker Data
+- [Marker Data](https://productiondata.theacharya.co/readme.md): Marker Data
