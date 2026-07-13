@@ -61,21 +61,15 @@ By [!badge text="Default"], disabled clips are included in the spreadsheet.
 
 Checking `Create PDF Report` instructs **Production Data** to write a PDF report (`.pdf`) alongside the Excel workbook (`.xlsx`) for each export. Both files are saved in the same timestamped subfolder within your `Export Destination`.
 
-By [!badge text="Default"], only the Excel workbook is exported. Enable this option when you need a print-oriented, shareable PDF for review or distribution.
+By [!badge text="Default"], only the Excel workbook is exported. Enable this option when you need a shareable PDF for review or distribution. When enabled, **Production Data** exports `MyTimeline.xlsx` and `MyTimeline.pdf` in the same folder (for example, `My Project-2026-07-13-10-30-45/MyTimeline.xlsx` and `MyTimeline.pdf`).
 
-!!!info Info
-When enabled, **Production Data** exports `MyTimeline.xlsx` and `MyTimeline.pdf` in the same folder (for example, `My Project-2026-07-13-10-30-45/MyTimeline.xlsx` and `MyTimeline.pdf`).
-!!!
-
-The PDF report is generated from the same built report as the Excel export. The columns, sheets, role inclusions, timecode format, and clip filtering reflected in the PDF are determined entirely by the **active Configuration** selected in the toolbar or [Configurations](/configurations) panel.
+The PDF report is generated from the same built report as the Excel export. The columns, sheets, role inclusions, timecode format, and clip filtering reflected in the PDF are determined entirely by the [Active Configuration](configurations/#make-active-configuration) selected in the toolbar or [Configurations](/configurations) panel.
 
 **Production Data** does not maintain separate PDF-specific sheet, column, or role settings. Any change to `Sheets`, `Columns`, or `Roles` in the active Configuration applies equally to both the `.xlsx` and `.pdf` outputs for that export. This is intentional.
 
-To produce a different PDF layout or column set, switch to or update the appropriate Configuration before exporting.
+To produce a different PDF layout or column set, switch to or update the appropriate [Configurations](/configurations) before exporting.
 
-When `Create PDF Report` is enabled and the export completes successfully, `Extract` displays an `Open PDF` action alongside `Open Spreadsheet` and `Show in Finder`. `Open PDF` opens the exported file in `Preview`. To open the PDF in another application, use `Show in Finder` and open the file with your preferred PDF reader.
-
-!!!danger Experimental
+!!!info Experimental
 PDF report export is experimental. This document is optimised for A4 landscape review and distribution. Column titles, cell values, and metadata may be truncated where they exceed the available page width or column layout limits. Wide tables are paginated horizontally into column sets and vertically across continuation pages. The Row column is repeated on every continuation and column-set page so row numbers stay traceable across the sheet. All pages that belong to the same workbook sheet share a subtle background tint and header accent colour so spanned sections remain visually grouped. For the complete, untruncated dataset, column customisation, and workbook formatting options, please refer to the accompanying Excel (.xlsx) report exported alongside this PDF.
 !!!
 
