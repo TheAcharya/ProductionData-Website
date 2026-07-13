@@ -1,6 +1,6 @@
 ﻿# Production Data
 
-> Production Data allows users to extract, convert & create databases from Final Cut Pro’s marker metadata.
+> Production Data allows users to export Excel production reports from Final Cut Pro timelines.
 
 - [Additional Credits](http://productiondata.theacharya.co/additional-credits.md): Production Data is also made possible because of the hard work of these amazing open-source projects and libraries. ❤️
 - [Disclaimers](http://productiondata.theacharya.co/disclaimers.md): The author(s) have no affiliation with Apple or Microsoft in any capacity. All product names, logos, and brands are property of their respective owners.

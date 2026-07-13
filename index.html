@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.837226043292">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.837227761562">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -12,7 +12,7 @@
     <!-- Primary Meta Tags -->
     <title>Production Data</title>
     <meta name="title" content="Production Data">
-    <meta name="description" content="Production Data allows users to extract, convert & create databases from Final Cut Pro’s marker metadata.">
+    <meta name="description" content="Production Data allows users to export Excel production reports from Final Cut Pro timelines.">
 
     <!-- Canonical -->
     <link rel="canonical" href="http://productiondata.theacharya.co/">
@@ -22,7 +22,7 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="http://productiondata.theacharya.co/">
     <meta property="og:title" content="Production Data">
-    <meta property="og:description" content="Production Data allows users to extract, convert & create databases from Final Cut Pro’s marker metadata.">
+    <meta property="og:description" content="Production Data allows users to export Excel production reports from Final Cut Pro timelines.">
     <meta property="og:image" content="http://productiondata.theacharya.co/static/production-data-social-card.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -34,7 +34,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="http://productiondata.theacharya.co/">
     <meta name="twitter:title" content="Production Data">
-    <meta name="twitter:description" content="Production Data allows users to extract, convert & create databases from Final Cut Pro’s marker metadata.">
+    <meta name="twitter:description" content="Production Data allows users to export Excel production reports from Final Cut Pro timelines.">
     <meta name="twitter:image" content="http://productiondata.theacharya.co/static/production-data-social-card.png">
     <meta name="twitter:image:alt" content="Production Data">
 
@@ -44,11 +44,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="static/favicon.ico" />
-    <link href="resources/css/retype.css?v=4.6.0.837226043292" rel="stylesheet">
+    <link href="resources/css/retype.css?v=4.6.0.837227761562" rel="stylesheet">
 
-    <script data-cfasync="false" src="resources/js/config.js?v=4.6.0.837226043292" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="resources/js/config.js?v=4.6.0.837227761562" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="resources/js/lunr.js?v=4.6.0.837226043292" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="resources/js/lunr.js?v=4.6.0.837227761562" data-turbo-eval="false" defer></script>
 
     <meta name="msvalidate.01" content="325120C12888C61306930ACDFB17A57E" />
     <!-- Google Tag Manager -->
@@ -230,36 +230,70 @@
 
                 <!-- Page content  -->
 <h1 id="production-data">Production Data</h1>
-<div id="retype-page-description" class="description-display text-description font-description leading-description mb-description-margin-bottom mt-description-margin-top tracking-description text-transform-description">Production Data allows users to extract, convert &amp; create databases from Final Cut Pro’s marker metadata.</div>
+<div id="retype-page-description" class="description-display text-description font-description leading-description mb-description-margin-bottom mt-description-margin-top tracking-description text-transform-description">Production Data allows users to export Excel production reports from Final Cut Pro timelines.</div>
 <figure class="content-center">
     <img src="static/production-data-social-card.png" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="1200" height="630" />
     <figcaption class="caption"></figcaption>
 </figure>
-<p>The avant-garde Marker extraction application crafted for <a href="https://www.apple.com/final-cut-pro/" class="outbound" target="_blank">Final Cut Pro</a>. It allows users to extract, convert and create databases from Final Cut Pro’s Marker metadata effortlessly.</p>
+<p>The lightweight spreadsheet creation application crafted for <a href="https://www.apple.com/final-cut-pro/" class="outbound" target="_blank">Final Cut Pro</a>. It allows users to export structured Excel production reports from Final Cut Pro projects effortlessly, powered by <a href="https://github.com/TheAcharya/OpenFCPXMLKit" class="outbound" target="_blank">OpenFCPXMLKit</a>, a free and open-source FCPXML parsing engine.</p>
 <h2 id="core-features">Core Features</h2>
 <ul>
-<li>Functionality allowing batch extraction and rendering of stills or animated GIFs based on each Marker&#x27;s timecode.</li>
-<li>Automatically analyse and embed colour swatches from extracted images for shot reference.</li>
-<li>Integrates with Final Cut Pro, boasting a native Share Destination &amp; Workflow Extension.</li>
-<li>Precise extraction of Markers, ensuring an accurate representation of metadata.</li>
-<li>Native integration with renowned databases such as <a href="https://www.notion.so" class="outbound" target="_blank">Notion</a> and <a href="https://www.airtable.com" class="outbound" target="_blank">Airtable</a>.</li>
-<li>Effortlessly synchronise Final Cut Pro&#x27;s Marker metadata to cloud databases with a single click.</li>
-<li>Versatile features for batch burning-in labels, embedding comprehensive metadata of each Marker onto stills or animated GIFs.</li>
+<li>Functionality allowing export of Excel workbooks (<code translate="no" v-pre>.xlsx</code>) from Final Cut Pro timelines.</li>
+<li>Precise extraction of timeline metadata, ensuring an accurate representation of clips, roles, and production information.</li>
+<li>Role-based inventory sheets built from audio and video roles on the timeline, with per-role enable and disable control.</li>
 <li>Comprehensive timeline functionality, encompassing support for timelines such as Projects and Compound Clips.</li>
-<li>Allows the creation of multiple configurations tailored to diverse project requirements.</li>
-<li>Harnesses the potential to utilise Captions as Markers, adding a layer of flexibility.</li>
-<li>Convert Markers into shareable, professional PDFs via Pagemaker.</li>
+<li>Optional report sheets for Markers, Keywords, Titles &amp; Generators, Transitions, Effects, Speed Changes, Summary, and Media Summary.</li>
+<li>Configurable report columns, timecode format, and disabled-clip exclusion for tailored deliverables.</li>
+<li>Allows the creation of multiple configurations tailored to diverse project requirements, with assignable keyboard shortcuts.</li>
+<li>Export on drop or confirm when you are ready, with automatic and manual export modes.</li>
+<li>Accepts drag and drop, Final Cut Pro timeline drags, and Finder text clippings.</li>
+<li>Each export is saved to a uniquely named timestamped folder within your chosen export destination.</li>
 <li>Written in Apple Swift language and SwiftUI framework.</li>
-<li>Application is Notarised by Apple.</li>
+<li>Available on the Mac App Store.</li>
+</ul>
+<h2 id="available-report-sheets">Available Report Sheets</h2>
+<ul>
+<li>Selected Roles Inventory</li>
+<li>Markers</li>
+<li>Keywords</li>
+<li>Titles &amp; Generators</li>
+<li>Transitions</li>
+<li>Video &amp; Audio Effects</li>
+<li>Speed Change Effects</li>
+<li>Summary</li>
+<li>Media Summary</li>
 </ul>
 <h2 id="demo">Demo</h2>
-<doc-panel id="send-to-notion" collapsed>
-    <template #title>Send to Notion</template>
+<doc-panels expando>
+   <doc-panel id="export-to-excel" collapsed>
+       <template #title>Export to Excel</template>
 <video controls width="1920">
-  <source src="/assets/md-send-to-notion-03.mp4" type="video/mp4">
+  <source src="/assets/pd-export-01.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
-</doc-panel>
+   </doc-panel>
+   <doc-panel id="review-roles" collapsed>
+       <template #title>Review Roles</template>
+<video controls width="1920">
+  <source src="/assets/pd-roles-01.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+   </doc-panel>
+   <doc-panel id="automatic-export" collapsed>
+       <template #title>Automatic Export</template>
+<video controls width="1920">
+  <source src="/assets/pd-automatic-export-01.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+   </doc-panel>
+   <doc-panel id="manual-export" collapsed>
+       <template #title>Manual Export</template>
+<video controls width="1920">
+  <source src="/assets/pd-manual-export-01.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+   </doc-panel>
+</doc-panels>
 <h2 id="screenshot">Screenshot</h2>
 <figure class="content-center">
     <img src="assets/pd-main.png" alt="Main Extract Window" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="2064" height="1368" />
@@ -270,28 +304,29 @@ Your browser does not support the video tag.
     <figcaption class="caption">General Settings</figcaption>
 </figure>
 <figure class="content-center">
+    <img src="/assets/pd-roles.png" alt="Roles" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" />
+    <figcaption class="caption">Roles</figcaption>
+</figure>
+<figure class="content-center">
     <img src="assets/pd-configuration-settings.png" alt="Configuration Settings" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="2064" height="1368" />
     <figcaption class="caption">Configuration Settings</figcaption>
 </figure>
 <h2 id="system-requirements">System Requirements</h2>
-<p>macOS Sequoia 15.7 or later<br />
+<p>macOS 26.0 or later<br />
 Final Cut Pro 12.0 (Lifetime / Perpetual Version) or later<br />
 Final Cut Pro Creator Studio 12.0 (Subscription Version) or later<br />
 Runs only on Apple silicon Macs</p>
 <h2 id="use-cases">Use Cases</h2>
 <ul>
-<li>Marker Notes Database</li>
-<li>Shot Library Database</li>
-<li>VFX Database</li>
-<li>ADR Database</li>
-<li>Stock Footage Database</li>
-<li>Music Cue Sheet Database</li>
-<li>Colourist’s Notes Database</li>
-<li>Client Review &amp; Tracking Database</li>
-<li>Offline &amp; Online Notes Database</li>
-<li>Send Final Cut Pro&#x27;s Markers to DAWs</li>
-<li>Create YouTube Chapters</li>
-<li>Create PDFs via Pagemaker</li>
+<li>Production tracking spreadsheets</li>
+<li>Role inventory for sound editorial and mix</li>
+<li>Assistant editor clip and conform reports</li>
+<li>VFX turnover and handoff sheets</li>
+<li>Post-production deliverable documentation</li>
+<li>Timeline marker and keyword logging exports</li>
+<li>Client review and tracking workbooks</li>
+<li>Offline and online editorial notes</li>
+<li>Dubbing and ADR role sheets</li>
 </ul>
 <h2 id="support">Support</h2>
 <p>Feel free to reach out if you have any questions or issues with the downloaded software. You can contact us <a href="https://tech.theacharya.co" class="outbound" target="_blank">here</a>.</p>
