@@ -16,13 +16,16 @@
     <loc>http://productiondata.theacharya.co/prologue/</loc>
   </url>
   <url>
-    <loc>http://productiondata.theacharya.co/privacy/</loc>
-  </url>
-  <url>
     <loc>http://productiondata.theacharya.co/user-guide/configurations/</loc>
   </url>
   <url>
+    <loc>http://productiondata.theacharya.co/privacy/</loc>
+  </url>
+  <url>
     <loc>http://productiondata.theacharya.co/credits/</loc>
+  </url>
+  <url>
+    <loc>http://productiondata.theacharya.co/user-guide/general/</loc>
   </url>
   <url>
     <loc>http://productiondata.theacharya.co/faq/</loc>
@@ -34,13 +37,10 @@
     <loc>http://productiondata.theacharya.co/press-kit-media/</loc>
   </url>
   <url>
-    <loc>http://productiondata.theacharya.co/user-guide/extract/</loc>
-  </url>
-  <url>
     <loc>http://productiondata.theacharya.co/release-notes/</loc>
   </url>
   <url>
-    <loc>http://productiondata.theacharya.co/user-guide/general/</loc>
+    <loc>http://productiondata.theacharya.co/user-guide/extract/</loc>
   </url>
   <url>
     <loc>http://productiondata.theacharya.co/the-acharya/</loc>
@@ -52,10 +52,10 @@
     <loc>http://productiondata.theacharya.co/user-guide/overview/</loc>
   </url>
   <url>
-    <loc>http://productiondata.theacharya.co/in-action/excel-spreadsheet/</loc>
+    <loc>http://productiondata.theacharya.co/case-study/final-cut-pro-enigma/</loc>
   </url>
   <url>
-    <loc>http://productiondata.theacharya.co/case-study/final-cut-pro-enigma/</loc>
+    <loc>http://productiondata.theacharya.co/in-action/excel-spreadsheet/</loc>
   </url>
   <url>
     <loc>http://productiondata.theacharya.co/case-study/reviving-a-lost-feature/</loc>
