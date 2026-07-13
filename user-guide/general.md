@@ -64,7 +64,7 @@ When enabled, **Production Data** exports `MyTimeline.xlsx` and `MyTimeline.pdf`
 
 The PDF report is generated from the same built report as the Excel export. The columns, sheets, role inclusions, timecode format, and clip filtering reflected in the PDF are determined entirely by the **active Configuration** selected in the toolbar or [Configurations](/configurations) panel.
 
- **Production Data** does not maintain separate PDF-specific sheet, column, or role settings. Any change to `Sheets`, `Columns`, or `Roles` in the active Configuration applies equally to both the `.xlsx` and `.pdf` outputs for that export. This is intentional.
+**Production Data** does not maintain separate PDF-specific sheet, column, or role settings. Any change to `Sheets`, `Columns`, or `Roles` in the active Configuration applies equally to both the `.xlsx` and `.pdf` outputs for that export. This is intentional.
 
 To produce a different PDF layout or column set, switch to or update the appropriate Configuration before exporting.
 
