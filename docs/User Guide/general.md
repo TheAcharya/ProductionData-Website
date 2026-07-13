@@ -27,17 +27,17 @@ You can select your desired location by clicking on the Folder Icon. Upon right-
 
 ## Sheets
 
-![](/assets/pd-general-settings-sheets.png)
+![](/assets/md-general-settings-roles.png)
 
 <hr>
 
 ## Columns
 
-![](/assets/pd-general-settings-columns.png)
+![](/assets/md-general-settings-roles.png)
 
 ## Notification
 
-![](/assets/pd-general-settings-notifications.png)
+![](/assets/md-general-settings-notifications.png)
 
 ### Notification Frequency
 
@@ -54,7 +54,7 @@ By [!badge text="Default"] Progress Bar is shown on **Production Data**'s dock i
 
 ### Open macOS Notification Settings
 
-![](/assets/pd-general-settings-notifications_macOS.png)
+![](/assets/md-general-settings-notifications_macOS.png)
 
 Select the `Open macOS Notification Settings` link to open macOS Notification Settings. Navigate to **Production Data** to manage notification settings.
 
