@@ -37,10 +37,10 @@
     <loc>http://productiondata.theacharya.co/user-guide/extract/</loc>
   </url>
   <url>
-    <loc>http://productiondata.theacharya.co/user-guide/general/</loc>
+    <loc>http://productiondata.theacharya.co/release-notes/</loc>
   </url>
   <url>
-    <loc>http://productiondata.theacharya.co/release-notes/</loc>
+    <loc>http://productiondata.theacharya.co/user-guide/general/</loc>
   </url>
   <url>
     <loc>http://productiondata.theacharya.co/the-acharya/</loc>
@@ -58,7 +58,10 @@
     <loc>http://productiondata.theacharya.co/case-study/final-cut-pro-enigma/</loc>
   </url>
   <url>
-    <loc>http://productiondata.theacharya.co/case-study/creating-vfx-database/</loc>
+    <loc>http://productiondata.theacharya.co/case-study/reviving-a-lost-feature/</loc>
+  </url>
+  <url>
+    <loc>http://productiondata.theacharya.co/case-study/personal-shot-library/</loc>
   </url>
   <url>
     <loc>http://productiondata.theacharya.co/user-guide/roles/</loc>
