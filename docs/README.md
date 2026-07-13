@@ -1,6 +1,6 @@
 ---
 label: Welcome
-description: Production Data allows users to extract, convert & create databases from Final Cut Pro’s marker metadata. 
+description: Production Data allows users to export Excel production reports from Final Cut Pro timelines.
 icon: home
 order: -1
 image: /static/production-data-social-card.png
@@ -10,30 +10,62 @@ image: /static/production-data-social-card.png
 
 ![](/static/production-data-social-card.png)
 
-The avant-garde Marker extraction application crafted for [Final Cut Pro](https://www.apple.com/final-cut-pro/). It allows users to extract, convert and create databases from Final Cut Pro’s Marker metadata effortlessly. 
+The lightweight spreadsheet creation application crafted for [Final Cut Pro](https://www.apple.com/final-cut-pro/). It allows users to export structured Excel production reports from Final Cut Pro projects effortlessly, powered by [OpenFCPXMLKit](https://github.com/TheAcharya/OpenFCPXMLKit), a free and open-source FCPXML parsing engine.
 
 ## Core Features
 
-- Functionality allowing batch extraction and rendering of stills or animated GIFs based on each Marker's timecode.
-- Automatically analyse and embed colour swatches from extracted images for shot reference.
-- Integrates with Final Cut Pro, boasting a native Share Destination & Workflow Extension.
-- Precise extraction of Markers, ensuring an accurate representation of metadata.
-- Native integration with renowned databases such as [Notion](https://www.notion.so) and [Airtable](https://www.airtable.com).
-- Effortlessly synchronise Final Cut Pro's Marker metadata to cloud databases with a single click.
-- Versatile features for batch burning-in labels, embedding comprehensive metadata of each Marker onto stills or animated GIFs.
+- Functionality allowing export of Excel workbooks (`.xlsx`) from Final Cut Pro timelines.
+- Precise extraction of timeline metadata, ensuring an accurate representation of clips, roles, and production information.
+- Role-based inventory sheets built from audio and video roles on the timeline, with per-role enable and disable control.
 - Comprehensive timeline functionality, encompassing support for timelines such as Projects and Compound Clips.
-- Allows the creation of multiple configurations tailored to diverse project requirements.
-- Harnesses the potential to utilise Captions as Markers, adding a layer of flexibility.
-- Convert Markers into shareable, professional PDFs via Pagemaker.
+- Optional report sheets for Markers, Keywords, Titles & Generators, Transitions, Effects, Speed Changes, Summary, and Media Summary.
+- Configurable report columns, timecode format, and disabled-clip exclusion for tailored deliverables.
+- Allows the creation of multiple configurations tailored to diverse project requirements, with assignable keyboard shortcuts.
+- Export on drop or confirm when you are ready, with automatic and manual export modes.
+- Accepts drag and drop, Final Cut Pro timeline drags, and Finder text clippings.
+- Each export is saved to a uniquely named timestamped folder within your chosen export destination.
 - Written in Apple Swift language and SwiftUI framework.
-- Application is Notarised by Apple.
+- Available on the Mac App Store.
+
+## Available Report Sheets
+
+- Selected Roles Inventory
+- Markers
+- Keywords
+- Titles & Generators
+- Transitions
+- Video & Audio Effects
+- Speed Change Effects
+- Summary
+- Media Summary
 
 ## Demo
 
-==- Send to Notion
+==- Export to Excel
 
 <video controls width="1920">
-  <source src="/assets/md-send-to-notion-03.mp4" type="video/mp4">
+  <source src="/assets/pd-export-01.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+==- Review Roles
+
+<video controls width="1920">
+  <source src="/assets/pd-roles-01.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+==- Automatic Export
+
+<video controls width="1920">
+  <source src="/assets/pd-automatic-export-01.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+==- Manual Export
+
+<video controls width="1920">
+  <source src="/assets/pd-manual-export-01.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
@@ -45,28 +77,28 @@ Your browser does not support the video tag.
 
 ![General Settings](/assets/pd-general-settings.png)
 
+![Roles](/assets/pd-roles.png)
+
 ![Configuration Settings](/assets/pd-configuration-settings.png)
 
 ## System Requirements
 
-macOS Sequoia 15.7 or later
+macOS 26.0 or later
 Final Cut Pro 12.0 (Lifetime / Perpetual Version) or later
 Final Cut Pro Creator Studio 12.0 (Subscription Version) or later
 Runs only on Apple silicon Macs
 
 ## Use Cases
-- Marker Notes Database
-- Shot Library Database
-- VFX Database
-- ADR Database
-- Stock Footage Database
-- Music Cue Sheet Database
-- Colourist’s Notes Database
-- Client Review & Tracking Database
-- Offline & Online Notes Database
-- Send Final Cut Pro's Markers to DAWs
-- Create YouTube Chapters
-- Create PDFs via Pagemaker
+
+- Production tracking spreadsheets
+- Role inventory for sound editorial and mix
+- Assistant editor clip and conform reports
+- VFX turnover and handoff sheets
+- Post-production deliverable documentation
+- Timeline marker and keyword logging exports
+- Client review and tracking workbooks
+- Offline and online editorial notes
+- Dubbing and ADR role sheets
 
 ## Support
 
