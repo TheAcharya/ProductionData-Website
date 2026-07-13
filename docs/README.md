@@ -10,7 +10,7 @@ image: /static/production-data-social-card.png
 
 ![](/static/production-data-social-card.png)
 
-The lightweight spreadsheet creation application crafted for [Final Cut Pro](https://www.apple.com/final-cut-pro/). It allows users to export structured Excel production reports from Final Cut Pro projects effortlessly, powered by [OpenFCPXMLKit](https://github.com/TheAcharya/OpenFCPXMLKit), a free and open-source FCPXML parsing engine.
+The lightweight spreadsheet creation application crafted for [Final Cut Pro](https://www.apple.com/final-cut-pro/). It allows users to export structured Excel production reports from Final Cut Pro projects effortlessly, powered by [OpenFCPXMLKit](https://github.com/TheAcharya/OpenFCPXMLKit), a free and open-source experimental FCPXML parsing engine.
 
 ## Core Features
 
