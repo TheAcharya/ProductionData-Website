@@ -1,6 +1,6 @@
 # Configuration Settings
 
-![Configuration Settings](/assets/pd-general-settings.png)
+![Configuration Settings](/assets/pd-configuration-settings.png)
 
 ## Default Configuration
 
