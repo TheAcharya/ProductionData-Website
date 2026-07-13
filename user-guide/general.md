@@ -12,10 +12,10 @@ If no folder has been chosen, **Production Data** will display `Please select!` 
 
 ### Export Folder Naming
 
-Each export is saved within a subfolder inside your chosen export destination. In order to mitigate conflicts and potential overwrites of previously generated reports, **Production Data** incorporates the project name and the current date and time within the folder nomenclature. Consequently, each export yields a distinct and uniquely identified result.
+Each export is saved within a subfolder inside your chosen export destination. In order to mitigate conflicts and potential overwrites of previously generated reports, **Production Data** incorporates the project name and the current date and time within the folder nomenclature. The timestamp uses the `yyyy-MM-dd-HH-mm-ss` format. Consequently, each export yields a distinct and uniquely identified result.
 
 !!!info Info
-`My Project--26-07-13-10-30-45`
+`My Project-2026-07-13-10-30-45`
 !!!
 
 ### Export Mode
