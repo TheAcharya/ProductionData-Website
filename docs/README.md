@@ -24,7 +24,6 @@ The lightweight spreadsheet creation application crafted for [Final Cut Pro](htt
 - Export on drop or confirm when you are ready, with automatic and manual export modes.
 - Accepts drag and drop, Final Cut Pro timeline drags, and Finder text clippings.
 - Each export is saved to a uniquely named timestamped folder within your chosen export destination.
-- Optional experimental PDF report export (`.pdf`) alongside the Excel workbook, using the same active Configuration settings.
 - Written in Apple Swift language and SwiftUI framework.
 - Available on the Mac App Store.
 
