@@ -15,8 +15,7 @@ Some keyboard shortcuts can be changed in System Settings (or System Preferences
 
 | Action | Shortcut |
 |---|---|
-| Open [Pagemaker](/user-guide/pagemaker/) | `⌘` `P` |
-| Clean Cache | `⌘` `K` |
+| Open | `⌘` `O` |
 
 ## Main Application
 
