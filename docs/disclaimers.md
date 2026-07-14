@@ -3,7 +3,7 @@ layout: page
 ---
 # Disclaimers
 
-The author(s) have no affiliation with Apple or Microsoft in any capacity. All product names, logos, and brands are property of their respective owners.
+The author(s) have no affiliation with Apple, Microsoft, or Adobe in any capacity. All product names, logos, and brands are property of their respective owners.
 
 ## Fair Use Statement
 
@@ -20,3 +20,7 @@ Final Cut Pro® is a registered trademark of Apple Inc. References to Final Cut 
 Microsoft® is a registered trademark of Microsoft Corporation. References to Microsoft in this software application are for compatibility and identification purposes only and do not imply any affiliation with or endorsement by Microsoft Corporation.
 
 Excel® is a registered trademark of Microsoft Corporation. References to Excel in this software application are for compatibility and identification purposes only and do not imply any affiliation with or endorsement by Microsoft Corporation.
+
+### Adobe
+
+PDF® is a registered trademark of Adobe Inc. References to PDF in this software application are for compatibility and identification purposes only and do not imply any affiliation with or endorsement by Adobe Inc.
