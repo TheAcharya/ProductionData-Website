@@ -65,7 +65,7 @@ The PDF report is generated from the same built report as the Excel export. The 
 To produce a different PDF layout or column set, switch to or update the appropriate [Configurations](/configurations) before exporting.
 
 !!!info Experimental
-PDF report export is experimental. This document is optimised for A4 landscape review and distribution. Column titles, cell values, and metadata may be truncated where they exceed the available page width or column layout limits. Wide tables are paginated horizontally into column sets and vertically across continuation pages. The Row column is repeated on every continuation and column-set page so row numbers stay traceable across the sheet. All pages that belong to the same workbook sheet share a subtle background tint and header accent colour so spanned sections remain visually grouped. For the complete, untruncated dataset, column customisation, and workbook formatting options, please refer to the accompanying Excel (.xlsx) report exported alongside this PDF.
+PDF export is experimental and optimised for A4 landscape. Tables paginate across pages and cell text may truncate. The Row column is included by default for traceability; exclude it the same way as in Excel. Matching sheet pages share a tint. For the complete dataset and column options, use the accompanying Excel (.xlsx) report.
 !!!
 
 <hr>
