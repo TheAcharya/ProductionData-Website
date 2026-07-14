@@ -30,7 +30,7 @@ For these reasons, the existing drag-and-drop approach is considered the most se
 
 No. **Production Data** is built and optimised exclusively for Apple Silicon.
 
-## Why is Marker Data only available on the latest macOS versions?
+## Why is Production Data only available on the latest macOS versions?
 
 **Production Data** is compatible exclusively with the current and preceding major release of macOS, owing to Apple's policy of restricting new software features and frameworks to their most recent operating system releases. Whilst these features may technically function on older systems, Apple provides no official support for such compatibility, which presents considerable challenges for developers who must then choose between implementing extensive workarounds or confining support to the most current OS versions.
 
