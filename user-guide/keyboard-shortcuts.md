@@ -11,6 +11,7 @@ Some keyboard shortcuts can be changed in System Settings (or System Preferences
 | Action | Shortcut |
 |---|---|
 | Open | `⌘` `O` |
+| Clean Cache | `⌘` `K` |
 
 ## Main Application
 
