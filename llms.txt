@@ -7,7 +7,7 @@
 - [Production Data End User License Agreement](http://productiondata.theacharya.co/license.md): Copyright (c) 2026 The Acharya
 - [Production Data](http://productiondata.theacharya.co/readme.md): Production Data
 - [Prologue](http://productiondata.theacharya.co/prologue.md): TARS translated quantum gravitational data into Morse code for Cooper to transmit from Gargantua's tesseract to Murph's watch on Earth.Similarly, Production Data streamlines the translation and transmission of Final Cut Pro's Marker metadata to databases effortlessly.
-- [Frequently Asked Questions](http://productiondata.theacharya.co/faq.md): Production Data facilitates extraction from any conceivable timeline such as Projects and Compound Clips.
+- [Frequently Asked Questions](http://productiondata.theacharya.co/faq.md): There is currently no dedicated trial version of Production Data. However, prospective users are welcome to download the latest CLI build from OpenFCPXMLKit, the open-source engine that powers the application.
 - [Troubleshooting](http://productiondata.theacharya.co/troubleshooting.md): Below, you will find a comprehensive list of common issues users may encounter, accompanied by solutions to resolve them.
 - [Press Kit & Media](http://productiondata.theacharya.co/press-kit-media.md): We would greatly appreciate your support in sharing and promoting Production Data!
 - [Release Notes](http://productiondata.theacharya.co/release-notes.md)

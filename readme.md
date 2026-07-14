@@ -18,6 +18,7 @@ The lightweight spreadsheet creation application crafted for [Final Cut Pro](htt
 - Each export is saved to a uniquely named timestamped folder within your chosen export destination.
 - Optional experimental PDF report export (`.pdf`) alongside the Excel workbook, using the same active Configuration settings.
 - Written in Apple Swift language and SwiftUI framework.
+- No hidden costs, no subscriptions, no in-app purchases.
 - Available on the Mac App Store.
 
 ## Available Report Sheets
