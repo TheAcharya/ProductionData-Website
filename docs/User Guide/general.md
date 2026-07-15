@@ -103,6 +103,24 @@ A summary of enabled sheets is also shown in the status bar on [Extract](/extrac
 `Media Summary` lists media files referenced in the project. **Production Data** does not read or copy your media files for this sheet.
 !!!
 
+### Label
+
+![](/assets/pd-general-settings-sheets-copyright.png)
+
+The `Label` section adds an optional copyright line to the report cover branding.
+
+Checking `Copyright` includes your text on the Excel cover sheet and, when `Create PDF Report` is enabled, on the PDF cover and centred in the PDF page footer.
+
+By [!badge text="Default"], no copyright label is exported.
+
+Press `Edit Copyright` at the bottom of the Sheets tab to enter or change the text. Enter the string as typed — year, `©`, or any wording you prefer. **Production Data** does not insert a copyright symbol or year for you. When text is set, the current value is shown beside the button.
+
+If `Copyright` is turned on while the text is empty, the editor opens so you can fill it in. Turning `Copyright` off keeps your saved text for later use but omits the label from the next export.
+
+!!!info Info
+Whitespace-only text is treated as empty and is not written to the report.
+!!!
+
 <hr>
 
 ## Columns
