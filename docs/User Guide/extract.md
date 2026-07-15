@@ -7,12 +7,20 @@ order: -2
 
 ![Extract Window](/assets/pd-main.png)
 
-**Production Data** facilitates the execution of an extraction task through two distinct methodologies: an [automated approach via Share Destination](/user-guide/share-destination) and a manual alternative. Following the creation of your [Configuration](/user-guide/configurations), you have the option to either seamlessly drag and drop an `.fcpxmld` or `.fcpxml` file or by clicking the `Choose File` button.
+`Extract Panel` is the home panel of **Production Data**. Use it to provide a Final Cut Pro project and generate an Excel production report (`.xlsx`), with an optional PDF when enabled in [General Settings](/user-guide/general).
+
+Following the creation of your [Configuration](/user-guide/configurations), select an Export Folder, then provide a project to Extract.
+
+## Drag and Drop
+
+![Extract Window](/assets/pd-main-01.gif)
+
+Drag and drop an `.fcpxml` or `.fcpxmld` file onto Extract, or drag a timeline / compound clip directly from Final Cut Pro. You may also use a Finder text clipping that contains FCPXML.
+
+Alternatively, click `Choose File` or press `⌘` `O` to select a file.
+
+In `Automatic` mode, export begins as soon as a project is received. In `Manual` mode, confirm with `Start Export` when you are ready.
 
 !!!info Info
-Export your timeline from Final cut Pro in `.mov` or `.mp4`.  Place it in the same location as your `.fcpxmld` or `.fcpxml` file. Make sure your `.fcpxmld` or `.fcpxml` and media file have identical filename.
-!!!
-
-!!!info Info
-Export Profile is tied to the corresponding preference in the [General Settings](/user-guide/general/#profiles). Upon modifying this option, it is imperative to execute the keyboard command `⌘` `s` to effectuate `Update Active Configuration` before embarking on any subsequent tasks.
+**Production Data** processes one FCPXML project per action. If multiple items are offered at once, only the first item is used.
 !!!
