@@ -104,7 +104,7 @@ A summary of enabled sheets is also shown in the status bar on [Extract](/extrac
 
 The `Label` section adds an optional copyright line to the report cover branding.
 
-Checking `Copyright` includes your text on the Excel cover sheet and, when `Create PDF Report` is enabled, on the PDF cover and centred in the PDF page footer.
+Checking `Copyright` includes your text on the Excel cover sheet and, when [Create PDF Report](#create-pdf-report) is enabled, on the PDF cover and centred in the PDF page footer.
 
 By [!badge text="Default"], no copyright label is exported.
 
