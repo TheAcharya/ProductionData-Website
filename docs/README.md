@@ -79,7 +79,7 @@ Your browser does not support the video tag.
 
 ![General Settings](/assets/pd-general-settings.png)
 
-![Roles](/assets/pd-roles.png)
+![Roles](/assets/pd-roles-settings.png)
 
 ![Configuration Settings](/assets/pd-configuration-settings.png)
 
