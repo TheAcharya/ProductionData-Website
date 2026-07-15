@@ -2,7 +2,7 @@
 
 ![Extract Window](/assets/pd-main.png)
 
-`Extract Panel` is the home panel of **Production Data**. Use it to provide a Final Cut Pro project and generate an Excel production report (`.xlsx`), with an optional PDF when enabled in [General Settings](/user-guide/general).
+**Production Data**'s home panel, `Extract` Panel, lets you provide a Final Cut Pro project and generate an Excel production report (.xlsx), with an optional PDF when enabled in [General Settings](/user-guide/general).
 
 Following the creation of your [Configuration](/user-guide/configurations), select an Export Folder, then provide a project to Extract.
 

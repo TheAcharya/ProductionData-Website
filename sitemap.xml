@@ -22,6 +22,9 @@
     <loc>http://productiondata.theacharya.co/privacy/</loc>
   </url>
   <url>
+    <loc>http://productiondata.theacharya.co/user-guide/extract/</loc>
+  </url>
+  <url>
     <loc>http://productiondata.theacharya.co/credits/</loc>
   </url>
   <url>
@@ -38,9 +41,6 @@
   </url>
   <url>
     <loc>http://productiondata.theacharya.co/release-notes/</loc>
-  </url>
-  <url>
-    <loc>http://productiondata.theacharya.co/user-guide/extract/</loc>
   </url>
   <url>
     <loc>http://productiondata.theacharya.co/the-acharya/</loc>
