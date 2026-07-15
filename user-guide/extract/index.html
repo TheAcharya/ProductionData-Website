@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.837381387449">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.837394973861">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -44,11 +44,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../static/favicon.ico" />
-    <link href="../../resources/css/retype.css?v=4.6.0.837381387449" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.6.0.837394973861" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.837381387449" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.837394973861" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.837381387449" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.837394973861" data-turbo-eval="false" defer></script>
 
     <meta name="msvalidate.01" content="325120C12888C61306930ACDFB17A57E" />
     <!-- Google Tag Manager -->
@@ -278,7 +278,16 @@
     <img src="../../assets/pd-main.png" alt="Extract Window" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="2064" height="1368" />
     <figcaption class="caption">Extract Window</figcaption>
 </figure>
-<p><strong>Production Data</strong> facilitates the execution of an extraction task through two distinct methodologies: an <a href="/user-guide/share-destination">automated approach via Share Destination</a> and a manual alternative. Following the creation of your <a href="/user-guide/configurations">Configuration</a>, you have the option to either seamlessly drag and drop an <code translate="no" v-pre>.fcpxmld</code> or <code translate="no" v-pre>.fcpxml</code> file or by clicking the <code translate="no" v-pre>Choose File</code> button.</p>
+<p><code translate="no" v-pre>Extract Panel</code> is the home panel of <strong>Production Data</strong>. Use it to provide a Final Cut Pro project and generate an Excel production report (<code translate="no" v-pre>.xlsx</code>), with an optional PDF when enabled in <a href="/user-guide/general">General Settings</a>.</p>
+<p>Following the creation of your <a href="/user-guide/configurations">Configuration</a>, select an Export Folder, then provide a project to Extract.</p>
+<h2 id="drag-and-drop">Drag and Drop</h2>
+<figure class="content-center">
+    <img src="../../assets/pd-main-01.gif" alt="Extract Window" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="960" height="597" />
+    <figcaption class="caption">Extract Window</figcaption>
+</figure>
+<p>Drag and drop an <code translate="no" v-pre>.fcpxml</code> or <code translate="no" v-pre>.fcpxmld</code> file onto Extract, or drag a timeline / compound clip directly from Final Cut Pro. You may also use a Finder text clipping that contains FCPXML.</p>
+<p>Alternatively, click <code translate="no" v-pre>Choose File</code> or press <code translate="no" v-pre>⌘</code> <code translate="no" v-pre>O</code> to select a file.</p>
+<p>In <code translate="no" v-pre>Automatic</code> mode, export begins as soon as a project is received. In <code translate="no" v-pre>Manual</code> mode, confirm with <code translate="no" v-pre>Start Export</code> when you are ready.</p>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-info"></div>
     <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
@@ -293,25 +302,7 @@
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Info</h5>
-<p>Export your timeline from Final cut Pro in <code translate="no" v-pre>.mov</code> or <code translate="no" v-pre>.mp4</code>.  Place it in the same location as your <code translate="no" v-pre>.fcpxmld</code> or <code translate="no" v-pre>.fcpxml</code> file. Make sure your <code translate="no" v-pre>.fcpxmld</code> or <code translate="no" v-pre>.fcpxml</code> and media file have identical filename.</p>
-        </div>
-    </div>
-</div>
-<div class="flex mb-6">
-    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-info"></div>
-    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
-        <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-info" width="22" height="22" viewBox="0 0 24 24" role="presentation">
-                <g fill="currentColor"><g>
-                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
-                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                </g></g>
-            </svg>
-        </div>
-        <div class="pr-5 ml-3 w-full">
-            <h5>Info</h5>
-<p>Export Profile is tied to the corresponding preference in the <a href="/user-guide/general/#profiles">General Settings</a>. Upon modifying this option, it is imperative to execute the keyboard command <code translate="no" v-pre>⌘</code> <code translate="no" v-pre>s</code> to effectuate <code translate="no" v-pre>Update Active Configuration</code> before embarking on any subsequent tasks.</p>
+<p><strong>Production Data</strong> processes one FCPXML project per action. If multiple items are offered at once, only the first item is used.</p>
         </div>
     </div>
 </div>
