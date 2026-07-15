@@ -30,7 +30,7 @@ The Default Configuration serves as a comprehensive delineation of the default v
 Identical Configuration Names are disallowed, and attempts to do so will elicit an error prompt.
 !!!
 
-![Couldn't create configuration](/assets/md-configuration-settings_03.png)
+![Couldn't create configuration](/assets/pd-configuration-settings_03.png)
 
 ## Make Active Configuration
 
@@ -69,7 +69,7 @@ Starting with **Production Data** version 1.1.0, you will have the capability to
 
 1. Right-click on your desired Configuration.
 
-![Assign Shortcut](/assets/md-configuration-settings_08.png)
+![Assign Shortcut](/assets/pd-configuration-settings_08.png)
 
 2. Click on your desired keyboard shortcut.
 
@@ -99,7 +99,7 @@ Through the utilisation of the `Duplicate` function, you can effortlessly genera
 
 On any Active Configuration, modifications to any settings prompts the display of a `Changed` badge adjacent to the Configuration side panel.
 
-![Configuration Changed](/assets/md-configuration-settings_07.png)
+![Configuration Changed](/assets/pd-configuration-settings_07.png)
 
 You have three methods for updating an active configuration.
 
