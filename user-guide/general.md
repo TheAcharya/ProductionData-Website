@@ -52,6 +52,12 @@ Checking `Exclude Disabled Clips` will prevent **Production Data** from includin
 
 By [!badge text="Default"], disabled clips are included in the spreadsheet.
 
+### Distinguish Original and Proxy Media
+
+Checking `Distinguish Original and Proxy Media` separates missing original and proxy media into distinct columns on the `Media Summary` sheet, rather than combining them into a single Missing Media column.
+
+By [!badge text="Default"], Media Summary uses one Missing Media column. Enable this option when you need to tell original and proxy media apart. It only takes effect when `Media Summary` is enabled under [Sheets](#sheets).
+
 ### Create PDF Report
 
 Checking `Create PDF Report` instructs **Production Data** to write a PDF report (`.pdf`) alongside the Excel workbook (`.xlsx`) for each export. Both files are saved in the same timestamped subfolder within your `Export Destination`.
