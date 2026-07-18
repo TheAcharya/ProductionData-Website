@@ -16,6 +16,7 @@ Some keyboard shortcuts can be changed in System Settings (or System Preferences
 | Action | Shortcut |
 |---|---|
 | Open | `⌘` `O` |
+| Switch Export Mode | `⌘` `⇧` `E` |
 | Clean Cache | `⌘` `K` |
 
 ## Main Application

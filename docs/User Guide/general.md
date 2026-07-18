@@ -34,6 +34,8 @@ In `Automatic` mode, **Production Data** begins the export as soon as a project 
 
 In `Automatic` mode, dropping a project on the [Roles](/roles) tab will switch to [Extract](/extract) before the export runs.
 
+The current mode is shown as a badge on [Extract](/extract). You can also switch modes from the File menu (`Switch to Manual Export` / `Switch to Automatic Export`) or by pressing `⌘` `⇧` `E` on your keyboard.
+
 !!!info Info
 **Production Data** processes one FCPXML project per action. Whether you drag and drop onto [Extract](/extract) or [Roles](/roles), choose a file with `Choose File`, use `File → Open…`, or open a project from Finder or the Dock, only a single project is accepted. If multiple files are offered at once, **Production Data** uses the first item only.
 !!!
@@ -57,11 +59,31 @@ Checking `Exclude Disabled Clips` will prevent **Production Data** from includin
 
 By [!badge text="Default"], disabled clips are included in the spreadsheet.
 
+### Include Markers Outside Clip Boundaries
+
+Checking `Include Markers Outside Clip Boundaries` includes markers whose start falls outside the host clip’s media range — markers Final Cut Pro hides from the timeline and Tags list — on the `Markers` sheet.
+
+When enabled, the Markers sheet also gains a `Hidden` column: `✓` for markers outside clip boundaries and `✗` for markers inside. By [!badge text="Default"], those out-of-bounds markers are omitted and the `Hidden` column is not shown.
+
+Enable this option when you need a complete marker inventory, including markers that are not visible in Final Cut Pro’s Tags. It only takes effect when `Markers` is enabled under [Sheets](#sheets).
+
+!!!info Info
+The `Hidden` column is not listed under [Columns](#columns). It appears only when this option is on and cannot be excluded like other workbook columns.
+!!!
+
 ### Distinguish Original and Proxy Media
 
 Checking `Distinguish Original and Proxy Media` separates missing original and proxy media into distinct columns on the `Media Summary` sheet, rather than combining them into a single Missing Media column.
 
 By [!badge text="Default"], Media Summary uses one Missing Media column. Enable this option when you need to tell original and proxy media apart. It only takes effect when `Media Summary` is enabled under [Sheets](#sheets).
+
+### Protect Sheets
+
+Checking `Protect Sheets` applies worksheet protection to every sheet in the Excel workbook (`.xlsx`), including the cover sheet and all content sheets. This discourages accidental edits after export.
+
+By [!badge text="Default"], sheets are not protected. Enable this option when you want a light edit lock on the spreadsheet. Excel still opens the file without a password, and anyone can turn protection off in Excel. This is an edit lock, not file-open encryption.
+
+`Protect Sheets` applies to the Excel workbook only. PDF export is unaffected — use Preview’s Encrypt (or another PDF tool) if you need to password-protect a PDF.
 
 ### Create PDF Report
 
