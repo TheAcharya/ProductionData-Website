@@ -9,7 +9,7 @@ order: -5
 
 ## Default Configuration
 
-![Default Configuration](/assets/md-configuration-settings_01.png)
+![Default Configuration](/assets/pd-configuration-settings_01.png)
 
 You will not be allowed to delete or make changes to the Default Configuration.
 
@@ -22,7 +22,7 @@ The Default Configuration serves as a comprehensive delineation of the default v
 1. Click on the `+` button.
 2. You will be prompted to enter a Configuration Name.
 
-![Default Configuration](/assets/md-configuration-settings_02.png)
+![Default Configuration](/assets/pd-configuration-settings_02.png)
 
 3. Click on the `Save` button.
 
@@ -38,7 +38,7 @@ Identical Configuration Names are disallowed, and attempts to do so will elicit 
 
 At any given time, only a single Configuration may be designated as active.
 
-![Active Configuration](/assets/md-configuration-settings_04.gif)
+![Active Configuration](/assets/pd-configuration-settings_04.gif)
 
 1. Select your desired Configuration.
 2. Click on the `Make Active` button.
@@ -49,7 +49,7 @@ Alternatively, you can click on the `Configurations` menu located in the menu ba
 
 1. Click on the `Configurations` menu.
 
-![Configurations Menu](/assets/md-configuration-settings_05.gif)
+![Configurations Menu](/assets/pd-configuration-settings_05.gif)
 
 2. Click on your desired Configuration to `Make Active`.
 
@@ -59,7 +59,7 @@ You can also click on the `Quick Configurations Selector` menu located on the to
 
 1. Click on the `Quick Configurations Selector` menu.
 
-![Quick Configurations Selector](/assets/md-configuration-settings_06.gif)
+![Quick Configurations Selector](/assets/pd-configuration-settings_06.gif)
 
 2. Click on your desired Configuration to `Make Active`.
 
