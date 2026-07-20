@@ -182,6 +182,23 @@ Exports follow the **active Configuration**:
 
 The Markers `Hidden` column appears only when `Include Markers Outside Clip Boundaries` is on; it is not listed under Columns.
 
+If the role inventory `Total` footer is missing, check [Columns](/user-guide/general/#columns). Excluding `Timeline Out` or `Clip Duration` omits the Total footer entirely (Excel and PDF).
+
+## An enabled sheet is missing from the Excel or PDF report
+
+Enabling a sheet under [Sheets](/user-guide/general/#sheets) builds that section when the project has matching content, but an empty timeline does not always produce a populated worksheet.
+
+- **PDF** — optional content sheets with no rows may be omitted
+- **Excel** — an empty `Non-Standard Effects & Templates` sheet is omitted; empty per-role inventory tabs may also be omitted; other optional sheets may still appear with headers only
+
+This is not an export failure. Confirm the timeline actually contains the items you expect for that sheet, or turn the sheet off if you do not need it.
+
+## Excel shows “Non-Std Effects & Templates” instead of the full name
+
+This is expected. Excel limits worksheet names to 31 characters, so the workbook tab may appear as `Non-Std Effects & Templates`. The Sheets toggle and Extract status bar use the full name `Non-Standard Effects & Templates`.
+
+See [Sheets](/user-guide/general/#sheets).
+
 ## Drag and drop from Final Cut Pro does not start an export
 
 Set a valid [Export Folder](#failed-to-export-completely--please-select-a-valid-export-folder) first. Confirm Export Mode: `Automatic` starts immediately; `Manual` waits for `Start Export` on Extract. Drop onto Extract or Roles (or the Dock icon), or use `Choose File` / `File → Open…`. Finder text clippings are accepted only when they contain FCPXML content, and only one project is processed per action.

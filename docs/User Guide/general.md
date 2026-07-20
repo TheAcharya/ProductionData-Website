@@ -120,6 +120,7 @@ Turning `Full Report*` on enables every optional sheet below. Turning it off all
 - **Keywords**
 - **Titles & Generators**
 - **Transitions**
+- **Non-Standard Effects & Templates**
 - **Video & Audio Effects**
 - **Speed Change Effects**
 - **Summary**
@@ -127,8 +128,18 @@ Turning `Full Report*` on enables every optional sheet below. Turning it off all
 
 A summary of enabled sheets is also shown in the status bar on [Extract](/extract).
 
+Checking `Non-Standard Effects & Templates` includes non-Apple effects and Motion templates from the timeline on their own sheet. Missing effect or template paths are flagged as `MISSING`. By [!badge text="Default"], this sheet is not included.
+
+!!!info Info
+In the Excel workbook, the worksheet tab may appear as `Non-Std Effects & Templates` because Excel limits sheet names to 31 characters. The Sheets toggle and Extract status bar use the full name.
+!!!
+
 !!!info Info
 `Media Summary` lists media files referenced in the project. **Production Data** does not read or copy your media files for this sheet.
+!!!
+
+!!!info Info
+If an enabled sheet has no matching items in the project, it may be omitted from the PDF. In Excel, an empty `Non-Standard Effects & Templates` sheet is omitted; other optional sheets may still appear with headers only.
 !!!
 
 ### Label
@@ -154,6 +165,10 @@ Whitespace-only text is treated as empty and is not written to the report.
 ![](/assets/pd-general-settings-columns.png)
 
 The `Columns` tab controls which columns appear on role inventory sheets in the Excel workbook. Use the table to turn individual columns on or off. Disabled columns are omitted from the export.
+
+!!!info Info
+Role inventory sheets also include a `Total` footer that sums `Clip Duration` under the `Timeline Out` column. If `Timeline Out` or `Clip Duration` is excluded, the Total footer is omitted entirely (Excel and PDF).
+!!!
 
 ### Enable All
 
