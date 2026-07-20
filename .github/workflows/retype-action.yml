@@ -19,7 +19,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - uses: retypeapp/action-build@next
+      - uses: retypeapp/action-build@latest
         env:
           RETYPE_SECRET: ${{ secrets.RETYPE_SECRET }}
 
