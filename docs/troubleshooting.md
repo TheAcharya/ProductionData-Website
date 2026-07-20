@@ -195,9 +195,7 @@ This is not an export failure. Confirm the timeline actually contains the items 
 
 ## Excel shows “Non-Std Effects & Templates” instead of the full name
 
-This is expected. Excel limits worksheet names to 31 characters, so the workbook tab may appear as `Non-Std Effects & Templates`. The Sheets toggle and Extract status bar use the full name `Non-Standard Effects & Templates`.
-
-See [Sheets](/user-guide/general/#sheets).
+Excel limits worksheet names to 31 characters, so the workbook tab would appear as `Non-Std Effects & Templates`. The Sheets toggle and Extract status bar use the full name `Non-Standard Effects & Templates`. See [Sheets](/user-guide/general/#sheets).
 
 ## Drag and drop from Final Cut Pro does not start an export
 
