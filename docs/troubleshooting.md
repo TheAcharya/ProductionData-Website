@@ -34,5 +34,5 @@ You will see this when:
 On [Extract](/user-guide/extract), click the folder control in the footer, or open [General Settings](/user-guide/general) → `File` and choose a destination under `Export Destination`. Select a folder you can write to (for example on your Mac, an external drive, or a mounted network volume). Confirm the footer no longer shows `Please select!` — it should display the folder name — then provide your project again, or press `Start Export` if you are in `Manual` mode.
 
 !!!info Info
-The export folder is remembered with a security-scoped bookmark. **Production Data** does not store a plain file path as the source of truth. If the volume is disconnected later, see [Missing Folder!](#export-folder-shows-missing-folder).
+The export folder is remembered with a security-scoped bookmark. **Production Data** does not store a plain file path as the source of truth. If the volume is disconnected later, see Missing Folder!.
 !!!
