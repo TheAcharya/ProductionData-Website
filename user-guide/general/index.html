@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.837829190792">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.837874189855">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -44,11 +44,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../static/favicon.ico" />
-    <link href="../../resources/css/retype.css?v=4.6.0.837829190792" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.6.0.837874189855" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.837829190792" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.837874189855" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.837829190792" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.837874189855" data-turbo-eval="false" defer></script>
 
     <meta name="msvalidate.01" content="325120C12888C61306930ACDFB17A57E" />
     <!-- Google Tag Manager -->
@@ -429,12 +429,34 @@
 <li><strong>Keywords</strong></li>
 <li><strong>Titles &amp; Generators</strong></li>
 <li><strong>Transitions</strong></li>
+<li><strong>Non-Standard Effects &amp; Templates</strong></li>
 <li><strong>Video &amp; Audio Effects</strong></li>
 <li><strong>Speed Change Effects</strong></li>
 <li><strong>Summary</strong></li>
 <li><strong>Media Summary</strong></li>
 </ul>
 <p>A summary of enabled sheets is also shown in the status bar on <a href="/extract">Extract</a>.</p>
+<p>Checking <code translate="no" v-pre>Non-Standard Effects &amp; Templates</code> includes non-Apple effects and Motion templates from the timeline on their own sheet. Missing effect or template paths are flagged as <code translate="no" v-pre>MISSING</code>. By <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-primary-text bg-badge-primary border border-badge-primary-border h-6 px-2 text-xs rounded-md">
+    <span>Default</span>
+</span>, this sheet is not included.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-info"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-info" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Info</h5>
+<p>In the Excel workbook, the worksheet tab may appear as <code translate="no" v-pre>Non-Std Effects &amp; Templates</code> because Excel limits sheet names to 31 characters. The Sheets toggle and Extract status bar use the full name.</p>
+        </div>
+    </div>
+</div>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-info"></div>
     <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
@@ -450,6 +472,24 @@
         <div class="pr-5 ml-3 w-full">
             <h5>Info</h5>
 <p><code translate="no" v-pre>Media Summary</code> lists media files referenced in the project. <strong>Production Data</strong> does not read or copy your media files for this sheet.</p>
+        </div>
+    </div>
+</div>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-info"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-info" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Info</h5>
+<p>If an enabled sheet has no matching items in the project, it may be omitted from the PDF. In Excel, an empty <code translate="no" v-pre>Non-Standard Effects &amp; Templates</code> sheet is omitted; other optional sheets may still appear with headers only.</p>
         </div>
     </div>
 </div>
@@ -489,6 +529,24 @@
     <figcaption class="caption"></figcaption>
 </figure>
 <p>The <code translate="no" v-pre>Columns</code> tab controls which columns appear on role inventory sheets in the Excel workbook. Use the table to turn individual columns on or off. Disabled columns are omitted from the export.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-info"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-info" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Info</h5>
+<p>Role inventory sheets also include a <code translate="no" v-pre>Total</code> footer that sums <code translate="no" v-pre>Clip Duration</code> under the <code translate="no" v-pre>Timeline Out</code> column. If <code translate="no" v-pre>Timeline Out</code> or <code translate="no" v-pre>Clip Duration</code> is excluded, the Total footer is omitted entirely (Excel and PDF).</p>
+        </div>
+    </div>
+</div>
 <h3 id="enable-all">Enable All</h3>
 <p>Pressing <code translate="no" v-pre>Enable All</code> will check all column selections.</p>
 <h3 id="disable-all">Disable All</h3>
