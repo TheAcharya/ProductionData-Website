@@ -44,7 +44,7 @@ In `Manual` mode, `Start Export` stays disabled until a valid export folder is s
 
 See also [Export Mode](/user-guide/general/#export-mode).
 
-## The export fails with an alert — how do I see the details?
+## The export fails with an alert
 
 When an export does not finish successfully, **Production Data** shows `Failed to export completely`.
 
