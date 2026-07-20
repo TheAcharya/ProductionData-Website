@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.837823162326">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.837823486384">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -12,7 +12,6 @@
     <!-- Primary Meta Tags -->
     <title>Troubleshooting</title>
     <meta name="title" content="Troubleshooting">
-    <meta name="description" content="Below, you will find a comprehensive list of common issues users may encounter, accompanied by solutions to resolve them.">
 
     <!-- Canonical -->
     <link rel="canonical" href="http://productiondata.theacharya.co/troubleshooting/">
@@ -22,11 +21,6 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="http://productiondata.theacharya.co/troubleshooting/">
     <meta property="og:title" content="Troubleshooting">
-    <meta property="og:description" content="Below, you will find a comprehensive list of common issues users may encounter, accompanied by solutions to resolve them.">
-    <meta property="og:image" content="http://productiondata.theacharya.co/assets/pd-troubleshooting_01.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="Troubleshooting">
     <meta property="og:site_name" content="Production Data">
     <meta property="og:locale" content="en_US">
 
@@ -34,9 +28,6 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="http://productiondata.theacharya.co/troubleshooting/">
     <meta name="twitter:title" content="Troubleshooting">
-    <meta name="twitter:description" content="Below, you will find a comprehensive list of common issues users may encounter, accompanied by solutions to resolve them.">
-    <meta name="twitter:image" content="http://productiondata.theacharya.co/assets/pd-troubleshooting_01.png">
-    <meta name="twitter:image:alt" content="Troubleshooting">
 
     <!-- Alternate Markdown -->
     <link rel="alternate" type="text/markdown" href="http://productiondata.theacharya.co/troubleshooting.md">
@@ -44,11 +35,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../static/favicon.ico" />
-    <link href="../resources/css/retype.css?v=4.6.0.837823162326" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=4.6.0.837823486384" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=4.6.0.837823162326" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=4.6.0.837823486384" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.6.0.837823162326" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.6.0.837823486384" data-turbo-eval="false" defer></script>
 
     <meta name="msvalidate.01" content="325120C12888C61306930ACDFB17A57E" />
     <!-- Google Tag Manager -->
@@ -266,204 +257,6 @@
 
                 <!-- Page content  -->
 <h1 id="troubleshooting">Troubleshooting</h1>
-<p>Below, you will find a comprehensive list of common issues users may encounter, accompanied by solutions to resolve them.</p>
-<p>If you are still stuck after following these steps, open the logs (<code translate="no" v-pre>Help</code> → <code translate="no" v-pre>Open Logs</code>) and retain the log files from the Logs folder when seeking further help.</p>
-<h2 id="how-to-access-the-logs-in-production-data">How to access the logs in Production Data?</h2>
-<p>To access the logs for <strong>Production Data</strong>, navigate to the <code translate="no" v-pre>Help</code> menu and select <code translate="no" v-pre>Open Logs</code>.</p>
-<p>This opens the Logs folder in Finder and writes a current snapshot of application activity to <code translate="no" v-pre>productiondata_log.txt</code>. During parse and export, <strong>Production Data</strong> also writes <code translate="no" v-pre>openfcpxmlkit_log.txt</code> in the same folder.</p>
-<div class="flex mb-6">
-    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-info"></div>
-    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
-        <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-info" width="22" height="22" viewBox="0 0 24 24" role="presentation">
-                <g fill="currentColor"><g>
-                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
-                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                </g></g>
-            </svg>
-        </div>
-        <div class="pr-5 ml-3 w-full">
-            <h5>Info</h5>
-<p>Both files live under Application Support for <strong>Production Data</strong>. Share them only if you are comfortable doing so when requesting support — they may include project and file names from your machine.</p>
-        </div>
-    </div>
-</div>
-<h2 id="failed-to-export-completely--please-select-a-valid-export-folder">Failed to export completely — “Please select a valid export folder.”</h2>
-<figure class="content-center">
-    <img src="../assets/pd-troubleshooting_01.png" alt="Failed to export completely" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="2064" height="1368" />
-    <figcaption class="caption">Failed to export completely</figcaption>
-</figure>
-<p><strong>Production Data</strong> cannot write the Excel workbook until you choose an export destination.</p>
-<p>You will see this when:</p>
-<ul>
-<li>The Extract footer shows <code translate="no" v-pre>Please select!</code> next to <code translate="no" v-pre>Export Folder</code></li>
-<li>You start an export (drop, <code translate="no" v-pre>Choose File</code>, <code translate="no" v-pre>File → Open…</code>, or <code translate="no" v-pre>Start Export</code>) without a folder selected</li>
-<li>The alert reads <code translate="no" v-pre>Failed to export completely</code> with the message <code translate="no" v-pre>Please select a valid export folder.</code></li>
-</ul>
-<p>On <a href="/user-guide/extract">Extract</a>, click the folder control in the footer, or open <a href="/user-guide/general">General Settings</a> → <code translate="no" v-pre>File</code> and choose a destination under <code translate="no" v-pre>Export Destination</code>. Select a folder you can write to (for example on your Mac, an external drive, or a mounted network volume). Confirm the footer no longer shows <code translate="no" v-pre>Please select!</code> — it should display the folder name — then provide your project again, or press <code translate="no" v-pre>Start Export</code> if you are in <code translate="no" v-pre>Manual</code> mode.</p>
-<div class="flex mb-6">
-    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-info"></div>
-    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
-        <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-info" width="22" height="22" viewBox="0 0 24 24" role="presentation">
-                <g fill="currentColor"><g>
-                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
-                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                </g></g>
-            </svg>
-        </div>
-        <div class="pr-5 ml-3 w-full">
-            <h5>Info</h5>
-<p>The export folder is remembered with a security-scoped bookmark. <strong>Production Data</strong> does not store a plain file path as the source of truth. If the volume is disconnected later, see <doc-anchor-trigger to="#export-folder-shows-missing-folder">Missing Folder!</doc-anchor-trigger>.</p>
-        </div>
-    </div>
-</div>
-<h2 id="export-folder-shows-missing-folder">Export Folder shows “Missing Folder!”</h2>
-<p>The footer (and General → File) shows <code translate="no" v-pre>Missing Folder!</code> when a previously chosen destination can no longer be resolved — for example the drive was ejected, the network volume is offline, or the folder was moved or deleted.</p>
-<p>Reconnect the drive or volume if it was disconnected, then click the folder control and choose the destination again (or a new one). Right-click the folder control and choose <code translate="no" v-pre>Clear Path</code> if you need to remove the old selection first, then pick a folder again.</p>
-<h2 id="start-export-is-disabled-or-greyed-out">Start Export is disabled or greyed out</h2>
-<p>In <code translate="no" v-pre>Manual</code> mode, <code translate="no" v-pre>Start Export</code> stays disabled until a valid export folder is selected. Set an <code translate="no" v-pre>Export Folder</code> first, then press <code translate="no" v-pre>Start Export</code>.</p>
-<p>See also <a href="/user-guide/general/#export-mode">Export Mode</a>.</p>
-<h2 id="the-export-fails-with-an-alert--how-do-i-see-the-details">The export fails with an alert — how do I see the details?</h2>
-<p>When an export does not finish successfully, <strong>Production Data</strong> shows <code translate="no" v-pre>Failed to export completely</code>.</p>
-<ul>
-<li>Press <code translate="no" v-pre>Show Error Details</code> on the alert, <strong>or</strong></li>
-<li>Press <code translate="no" v-pre>Show Error Details</code> in the progress footer on Extract</li>
-</ul>
-<p>This opens the <code translate="no" v-pre>Failed Tasks</code> window with the file path and the error message for each failure. Use that text when searching this page or when contacting support.</p>
-<p>Press <code translate="no" v-pre>Close</code> on the progress footer when you are finished reviewing the result.</p>
-<h2 id="roles-tables-are-empty-on-launch">Roles tables are empty on launch</h2>
-<p>The <a href="/user-guide/roles">Roles</a> panel stays empty until you load an FCPXML project. Tables appear only after a successful roles session.</p>
-<p>Drop an <code translate="no" v-pre>.fcpxml</code> or <code translate="no" v-pre>.fcpxmld</code> file onto Roles or Extract, drag a timeline / compound clip from Final Cut Pro, or use <code translate="no" v-pre>File → Open…</code> (<code translate="no" v-pre>⌘</code> <code translate="no" v-pre>O</code>). Wait until the Roles footer shows roles loaded from your project, then review the Video and Audio tabs and export — or switch to Extract and press <code translate="no" v-pre>Start Export</code> in <code translate="no" v-pre>Manual</code> mode.</p>
-<div class="flex mb-6">
-    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-info"></div>
-    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
-        <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-info" width="22" height="22" viewBox="0 0 24 24" role="presentation">
-                <g fill="currentColor"><g>
-                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
-                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                </g></g>
-            </svg>
-        </div>
-        <div class="pr-5 ml-3 w-full">
-            <h5>Info</h5>
-<p>There is no Clear or Refresh control for Roles. To refresh the list, load a project again.</p>
-        </div>
-    </div>
-</div>
-<h2 id="no-audio-or-video-roles-found">No audio or video roles found</h2>
-<p>After loading a project, Roles may report that no audio or video roles were found. Confirm the file is a Final Cut Pro XML export (<code translate="no" v-pre>.fcpxml</code> / <code translate="no" v-pre>.fcpxmld</code>) or a timeline / compound-clip drag that contains FCPXML. Prefer File → Export XML from Final Cut Pro for a full project document when possible. For compound clips dragged from Final Cut Pro, allow <strong>Production Data</strong> a moment to stage the file — root-level compound clips are normalised before roles are read. You may also try exporting XML again from Final Cut Pro and reopening the new file.</p>
-<p>If roles still do not appear, open the logs (<code translate="no" v-pre>Help</code> → <code translate="no" v-pre>Open Logs</code>) and contact support with <code translate="no" v-pre>openfcpxmlkit_log.txt</code>.</p>
-<h2 id="dropping-a-project-on-roles-does-nothing-useful--stays-on-roles">Dropping a project on Roles does nothing useful / stays on Roles</h2>
-<p>Behaviour depends on <a href="/user-guide/general/#export-mode">Export Mode</a>:</p>
-<ul>
-<li><strong>Automatic</strong> — drop on Roles should switch to Extract and begin the export (after a folder is set).</li>
-<li><strong>Manual</strong> — Roles stays open so you can review enable/disable settings. Switch to Extract and press <code translate="no" v-pre>Start Export</code> when you are ready.</li>
-</ul>
-<p>If you expected an immediate export, switch to <code translate="no" v-pre>Automatic</code> under General → File, or use <code translate="no" v-pre>⌘</code> <code translate="no" v-pre>⇧</code> <code translate="no" v-pre>E</code>.</p>
-<h2 id="only-one-project-is-accepted-when-i-drop-several-files">Only one project is accepted when I drop several files</h2>
-<p>This is intentional. <strong>Production Data</strong> processes one FCPXML project per action. If multiple items are offered at once, only the first item is used.</p>
-<p>Provide one project at a time.</p>
-<h2 id="media-summary-lists-files-as-missing-but-the-media-is-on-disk">Media Summary lists files as missing, but the media is on disk</h2>
-<p><code translate="no" v-pre>Media Summary</code> is an optional sheet. <strong>Production Data</strong> reads media paths from the FCPXML and checks whether those paths exist — it does not open or copy your media files.</p>
-<p>Paths may appear as missing when:</p>
-<ul>
-<li>You dragged a timeline or compound clip from Final Cut Pro (or used a text clipping), so the project was staged in the application Cache without a neighbouring media folder</li>
-<li>Relative paths in the XML cannot be resolved against the source location</li>
-<li>The media volume is offline or the files have moved since the project was edited</li>
-</ul>
-<p>The rest of the Excel (and optional PDF) report still exports normally. Turn off <code translate="no" v-pre>Media Summary</code> under <a href="/user-guide/general/#sheets">Sheets</a> if you do not need this sheet, or open an on-disk <code translate="no" v-pre>.fcpxml</code> / <code translate="no" v-pre>.fcpxmld</code> beside its media when you need more accurate missing-media checks.</p>
-<div class="flex mb-6">
-    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-info"></div>
-    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
-        <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-info" width="22" height="22" viewBox="0 0 24 24" role="presentation">
-                <g fill="currentColor"><g>
-                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
-                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                </g></g>
-            </svg>
-        </div>
-        <div class="pr-5 ml-3 w-full">
-            <h5>Info</h5>
-<p>Checking <code translate="no" v-pre>Distinguish Original and Proxy Media</code> only splits Missing Original / Missing Proxy columns; it does not grant broader disk access.</p>
-        </div>
-    </div>
-</div>
-<h2 id="install-location-warning">Install Location Warning</h2>
-<p>macOS may show <code translate="no" v-pre>Install Location Warning</code> if <strong>Production Data</strong> is not running from the Applications folder.</p>
-<p>Move the application into <code translate="no" v-pre>/Applications</code>, then launch it again. Choose <code translate="no" v-pre>Don't show again</code> only if you intentionally run it from another location and accept the risk of sandbox or bookmark quirks.</p>
-<h2 id="couldnt-create-or-rename-a-configuration">Couldn’t create or rename a configuration</h2>
-<p>Named configurations must be unique. If a configuration with the same name already exists (in the list or as a file on disk), <strong>Production Data</strong> refuses to overwrite it and shows an alert such as <code translate="no" v-pre>Couldn't create configuration</code>.</p>
-<p>Choose a different name. The built-in <code translate="no" v-pre>Default</code> configuration cannot be saved as a named file, renamed, or deleted.</p>
-<p>See <a href="/user-guide/configurations">Configurations</a>.</p>
-<h2 id="configurations-shows-a-changed-badge">Configurations shows a “Changed” badge</h2>
-<p>The orange <code translate="no" v-pre>Changed</code> badge means the active non-default configuration has unsaved edits compared with its saved preset.</p>
-<ul>
-<li>Press <code translate="no" v-pre>Update Active Configuration</code> (<code translate="no" v-pre>⌘</code> <code translate="no" v-pre>S</code>) to save, <strong>or</strong></li>
-<li>Discard changes from the Configurations panel or menu (<code translate="no" v-pre>⌘</code> <code translate="no" v-pre>Z</code>)</li>
-</ul>
-<p>Exports still use your current in-memory settings even when <code translate="no" v-pre>Changed</code> is visible — the badge is a reminder to save the preset if you want those settings kept for next time.</p>
-<h2 id="notifications-do-not-appear">Notifications do not appear</h2>
-<p>Under General → Notifications:</p>
-<ol>
-<li>Confirm <code translate="no" v-pre>Notification Frequency</code> is not set to <code translate="no" v-pre>Never</code>.</li>
-<li>Press <code translate="no" v-pre>Open macOS Notification Settings</code> and allow notifications for <strong>Production Data</strong>.</li>
-<li>Remember that <strong>Production Data</strong> may only appear in Notification Settings after the first authorisation prompt.</li>
-<li>When <strong>Production Data</strong> is the frontmost app, banners may be silent or less obvious — check Notification Centre.</li>
-</ol>
-<p><code translate="no" v-pre>Each Report Step</code> sends intermediate banners without sound; the final completion notification uses the default sound.</p>
-<h2 id="dock-progress-ring-does-not-show">Dock progress ring does not show</h2>
-<p>Enable <code translate="no" v-pre>Show Progress on Dock Icon</code> under General → Notifications. Progress appears only while an export is running.</p>
-<h2 id="clean-cache--when-should-i-use-it">Clean Cache — when should I use it?</h2>
-<p><code translate="no" v-pre>File</code> → <code translate="no" v-pre>Show Cache</code> reveals the temporary FCPXML staging folder. <code translate="no" v-pre>File</code> → <code translate="no" v-pre>Clean Cache</code> (<code translate="no" v-pre>⌘</code> <code translate="no" v-pre>K</code>) empties that folder only.</p>
-<p>Use Clean Cache if staging files have accumulated after many Final Cut Pro drags or text clippings. It does <strong>not</strong> delete preferences, Configurations, Logs, or your export folder.</p>
-<p>Clean Cache is disabled while an export or roles load is in progress. Wait until the run finishes, then clean.</p>
-<div class="flex mb-6">
-    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-info"></div>
-    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
-        <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-info" width="22" height="22" viewBox="0 0 24 24" role="presentation">
-                <g fill="currentColor"><g>
-                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
-                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                </g></g>
-            </svg>
-        </div>
-        <div class="pr-5 ml-3 w-full">
-            <h5>Info</h5>
-<p>Cache files may be named like <code translate="no" v-pre>FCP Drop-…</code>. Export folders and <code translate="no" v-pre>.xlsx</code> / <code translate="no" v-pre>.pdf</code> names still use the project or clip name from the timeline — not the Cache staging name.</p>
-        </div>
-    </div>
-</div>
-<h2 id="pdf-export-looks-different-from-excel-or-truncates-text">PDF export looks different from Excel or truncates text</h2>
-<p><code translate="no" v-pre>Create PDF Report</code> is experimental and optimised for A4 landscape. Tables paginate across pages and cell text may truncate. Matching sheet pages share a tint.</p>
-<p>For the complete dataset and full column control, use the Excel (<code translate="no" v-pre>.xlsx</code>) workbook. The PDF uses the same active Configuration (sheets, columns, roles, timecode, and filters) — there are no separate PDF-only settings.</p>
-<p>See <a href="/user-guide/general/#create-pdf-report">Create PDF Report</a>.</p>
-<h2 id="protect-sheets--i-cannot-open-the-file--where-is-the-password">Protect Sheets — I cannot open the file / where is the password?</h2>
-<p><code translate="no" v-pre>Protect Sheets</code> applies an Excel worksheet <strong>edit lock</strong> so cells are harder to change by accident. It is <strong>not</strong> file-open encryption and does not set a workbook password.</p>
-<p>Excel still opens the file without a password. Anyone can turn protection off in Excel. PDF export ignores this option — use Preview’s Encrypt (or another PDF tool) if you need a password-protected PDF.</p>
-<h2 id="the-spreadsheet-is-missing-sheets-or-columns-i-expected">The spreadsheet is missing sheets or columns I expected</h2>
-<p>Exports follow the <strong>active Configuration</strong>:</p>
-<ol>
-<li>Check <a href="/user-guide/general/#sheets">Sheets</a> for which worksheets are enabled.</li>
-<li>Check <a href="/user-guide/general/#columns">Columns</a> for enabled workbook columns.</li>
-<li>Check <a href="/user-guide/roles">Roles</a> — disabled roles are omitted from the report.</li>
-<li>Confirm options such as <code translate="no" v-pre>Exclude Disabled Clips</code> and <code translate="no" v-pre>Include Markers Outside Clip Boundaries</code> under General → File.</li>
-</ol>
-<p>The Markers <code translate="no" v-pre>Hidden</code> column appears only when <code translate="no" v-pre>Include Markers Outside Clip Boundaries</code> is on; it is not listed under Columns.</p>
-<h2 id="drag-and-drop-from-final-cut-pro-does-not-start-an-export">Drag and drop from Final Cut Pro does not start an export</h2>
-<p>Set a valid <doc-anchor-trigger to="#failed-to-export-completely--please-select-a-valid-export-folder">Export Folder</doc-anchor-trigger> first. Confirm Export Mode: <code translate="no" v-pre>Automatic</code> starts immediately; <code translate="no" v-pre>Manual</code> waits for <code translate="no" v-pre>Start Export</code> on Extract. Drop onto Extract or Roles (or the Dock icon), or use <code translate="no" v-pre>Choose File</code> / <code translate="no" v-pre>File → Open…</code>. Finder text clippings are accepted only when they contain FCPXML content, and only one project is processed per action.</p>
-<p>If nothing happens, try File → Export XML from Final Cut Pro and open the <code translate="no" v-pre>.fcpxml</code> / <code translate="no" v-pre>.fcpxmld</code> file instead.</p>
-<h2 id="library-folders-failed-to-initialise">Library folders failed to initialise</h2>
-<p>On first launch, <strong>Production Data</strong> creates its Application Support folders (preferences, Configurations, Logs, Cache). If you see <code translate="no" v-pre>Failed to initialize Library folders</code>, free disk space, ensure the app may write inside its sandbox container, then quit and reopen <strong>Production Data</strong>.</p>
-<p>If the alert persists, contact support with a description of your macOS version and install location.</p>
 
                 
                 <!-- Required only on API pages -->

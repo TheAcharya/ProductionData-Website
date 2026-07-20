@@ -8,7 +8,7 @@
 - [Production Data](http://productiondata.theacharya.co/readme.md): Production Data
 - [Prologue](http://productiondata.theacharya.co/prologue.md): TARS translated quantum gravitational data into Morse code for Cooper to transmit from Gargantua's tesseract to Murph's watch on Earth.Similarly, Production Data streamlines the translation and transmission of Final Cut Pro's Marker metadata to databases effortlessly.
 - [Frequently Asked Questions](http://productiondata.theacharya.co/faq.md): There is currently no dedicated trial version of Production Data. However, prospective users are welcome to download the latest CLI build from OpenFCPXMLKit, the open-source engine that powers the application.
-- [Troubleshooting](http://productiondata.theacharya.co/troubleshooting.md): Below, you will find a comprehensive list of common issues users may encounter, accompanied by solutions to resolve them.
+- [Troubleshooting](http://productiondata.theacharya.co/troubleshooting.md)
 - [Press Kit & Media](http://productiondata.theacharya.co/press-kit-media.md): We would greatly appreciate your support in sharing and promoting Production Data!
 - [Release Notes](http://productiondata.theacharya.co/release-notes.md)
 - [Privacy Policy](http://productiondata.theacharya.co/privacy.md): The Acharya ("We", "Us", or "Our") built Production Data (the "App") as a simple, private tool, available on the Mac App Store and through TestFlight. This Privacy Policy explains how We handle your information when you use the App, regardless of how you installed it.
