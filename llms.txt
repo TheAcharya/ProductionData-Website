@@ -19,7 +19,7 @@
 
 - [Final Cut Pro's Enigma](http://productiondata.theacharya.co/case-study/final-cut-pro-enigma.md): Final Cut Pro stands out as a radically different NLE primarily because of its exclusive optimisation for the macOS ecosystem, leveraging seamless integration with Apple hardware and software.
 - [Reviving A Lost Feature](http://productiondata.theacharya.co/case-study/reviving-a-lost-feature.md): Those of us who have been in the industry long enough would recall Legacy Final Cut Pro 7. It was a professional video editing software developed by Apple. Final Cut Pro 7 was highly popular and widely used in the film and television industry for its advanced features and powerful tools.
-- [Personal Shot library](http://productiondata.theacharya.co/case-study/personal-shot-library.md): ShotDeck stands as a collaborative digital library of cinematic imagery created by the esteemed cinematographer, Lawrence Sher. This library boasts a comprehensive search functionality, facilitated by the meticulous tagging of each image with over 50 discerning keywords.
+- [Alternative Report Generator](http://productiondata.theacharya.co/case-study/alternative-report-generator.md): ShotDeck stands as a collaborative digital library of cinematic imagery created by the esteemed cinematographer, Lawrence Sher. This library boasts a comprehensive search functionality, facilitated by the meticulous tagging of each image with over 50 discerning keywords.
 
 ## User Guide
 
