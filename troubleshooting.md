@@ -14,7 +14,7 @@ This opens the Logs folder in Finder and writes a current snapshot of applicatio
 Both files live under Application Support for **Production Data**. Share them only if you are comfortable doing so when requesting support — they may include project and file names from your machine.
 !!!
 
-## Failed to export completely — “Please select a valid export folder.”
+## Failed to export completely”
 
 ![Failed to export completely](/assets/pd-troubleshooting_01.png)
 
