@@ -106,7 +106,7 @@ By [!badge text="Default"], **Production Data** includes `Selected Roles Invento
 
 ### Full Report
 
-Turning `Full Report*` on enables every optional sheet below. Turning it off allows you to choose sheets individually.
+Turning `Full Report` on enables every optional sheet below. Turning it off allows you to choose sheets individually.
 
 ### Report Sheets
 
