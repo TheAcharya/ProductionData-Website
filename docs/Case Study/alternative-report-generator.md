@@ -1,11 +1,9 @@
 ---
-label: Personal Shot Library
+label: Alternative Report Generator
 icon: file
 order: -3
 ---
-# Personal Shot library
-
-[!embed](https://www.youtube.com/watch?v=_3_QMq3n4d8)
+# Alternative Report Generator
 
 [ShotDeck](https://shotdeck.com) stands as a collaborative digital library of cinematic imagery created by the esteemed cinematographer, [Lawrence Sher](https://www.imdb.com/name/nm0003394/). This library boasts a comprehensive search functionality, facilitated by the meticulous tagging of each image with over 50 discerning keywords. Its organisational prowess extends to categorisations that encompass diverse facets such as movie genre, lighting nuances, frame dimensions, scene types, and more. Noteworthy is the feature allowing the creation and sharing of image decks among members.
 
