@@ -5,7 +5,7 @@ order: -3
 ---
 # Alternative Report Generator
 
-![](https://upload.wikimedia.org/wikipedia/commons/6/60/Microsoft_Office_Excel_%282025%E2%80%93present%29.svg)
+![](https://upload.wikimedia.org/wikipedia/commons/6/60/Microsoft_Office_Excel_%282025%E2%80%93present%29.svg){width="300"}
 
 [Production's Best Friend](https://www.intelligentassistance.com/productions-best-friend/) is, by a wide margin, the most established and widely trusted tool for generating professional reports from Final Cut Pro projects, developed by Intelligent Assistance. It has served the editorial community faithfully for many years, turning timelines into polished Excel spreadsheets covering roles, clips, markers, and much more, and remains a thoroughly capable choice for editors, coordinators, and producers alike.
 
