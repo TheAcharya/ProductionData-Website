@@ -36,6 +36,7 @@ The lightweight spreadsheet creation application crafted for [Final Cut Pro](htt
 - Keywords
 - Titles & Generators
 - Transitions
+- Non-Standard Effects & Templates*
 - Video & Audio Effects
 - Speed Change Effects
 - Summary
