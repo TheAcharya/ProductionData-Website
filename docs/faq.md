@@ -7,7 +7,7 @@ order: -94
 
 ## How is the Mac app different from the CLI?
 
-Production Data brings the full breadth of OpenFCPXMLKit's Excel reporting into a native, graphical macOS interface. Options that are set via command-line flags in the CLI, such as choosing which report sheets to include, applying column exclusions, selecting a timecode format, filtering by timeline, and enabling PDF export or sheet protection, are instead presented as straightforward, toggleable controls within the app, alongside conveniences like drag-and-drop input.
+Production Data brings the full breadth of [OpenFCPXMLKit](https://github.com/TheAcharya/OpenFCPXMLKit)'s Excel reporting into a native, graphical macOS interface. Options that are set via command-line flags in the CLI, such as choosing which report sheets to include, applying column exclusions, selecting a timecode format, filtering by timeline, and enabling PDF export or sheet protection, are instead presented as straightforward, toggleable controls within the app, alongside conveniences like drag-and-drop input.
 
 The CLI remains free and open source for terminal-based workflows and is, in effect, OpenFCPXMLKit itself. As Production Data is built directly on top of this same engine, the underlying reporting is identical between the two; the choice is simply a matter of interface.
 
