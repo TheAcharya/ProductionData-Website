@@ -10,6 +10,7 @@
 - [Frequently Asked Questions](http://productiondata.theacharya.co/faq.md): Production Data brings the full breadth of OpenFCPXMLKit's Excel reporting into a native, graphical macOS interface. Options that are set via command-line
 - [Troubleshooting](http://productiondata.theacharya.co/troubleshooting.md): Below, you will find a comprehensive list of common issues users may encounter, accompanied by solutions to resolve them.
 - [Press Kit & Media](http://productiondata.theacharya.co/press-kit-media.md): We would greatly appreciate your support in sharing and promoting Production Data!
+- [Epilogue](http://productiondata.theacharya.co/epilogue.md): Cooper and TARS embarks on a new journey.
 - [Release Notes](http://productiondata.theacharya.co/release-notes.md)
 - [Privacy Policy](http://productiondata.theacharya.co/privacy.md): The Acharya ("We", "Us", or "Our") built Production Data (the "App") as a simple, private tool, available on the Mac App Store and through TestFlight. This Privacy Policy explains how We handle your information when you use the App, regardless of how you installed it.
 - [The Acharya](http://productiondata.theacharya.co/the-acharya.md): The Acharya is an independent production company based in Singapore founded by Vigneswaran Rajkumar. Its current relentless pursuit is to develop and produce feature films for a distinctive global audience.
