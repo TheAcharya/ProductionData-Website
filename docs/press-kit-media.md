@@ -1,7 +1,7 @@
 ---
 label: Press Kit & Media
 icon: megaphone
-order: -96
+order: -95
 ---
 
 # Press Kit & Media

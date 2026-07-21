@@ -1,7 +1,7 @@
 ---
 label: Troubleshooting
 icon: tools
-order: -95
+order: -94
 ---
 # Troubleshooting
 
