@@ -70,5 +70,5 @@ In `Automatic` mode, export begins as soon as a project is received. In `Manual`
 +++
 
 !!!info Info
-Both the Excel and PDF visual report formats may change without prior notice as the underlying framework continues to evolve. **Production Data** is powered by [OpenFCPXMLKit](https://github.com/TheAcharya/OpenFCPXMLKit), a free and open-source, experimental FCPXML parsing engine. As the framework has not yet been extensively tested against every edge case or the full complexity of real-world timelines, some data coverage may occasionally be incomplete or omitted.
+Both the Excel and PDF visual report formats may change without prior notice. **Production Data** is powered by [OpenFCPXMLKit](https://github.com/TheAcharya/OpenFCPXMLKit), a free and open-source, experimental FCPXML parsing engine. As the framework is experimental and has not been tested against every edge case or the full complexity of real-world timelines, complete data coverage cannot be guaranteed, and some data would be incomplete or omitted.
 !!!
