@@ -19,3 +19,29 @@ In `Automatic` mode, export begins as soon as a project is received. In `Manual`
 !!!info Info
 **Production Data** processes one FCPXML project per action. If multiple items are offered at once, only the first item is used.
 !!!
+
+## Extract Example
+
++++ Selected Roles Inventory
+![Selected Roles Inventory](/assets/pd-excel-example_01.png)
++++ Titles
+![Titles](/assets/pd-excel-example_02.png)
++++ Video
+![Video](/assets/pd-excel-example_03.png)
++++ Roles
+![Roles](/assets/pd-excel-example_04.png)
++++ Markers
+![Markers](/assets/pd-excel-example_05.png)
++++ Keywords
+![Keywords](/assets/pd-excel-example_06.png)
++++ Titles & Generators
+![Titles & Generators](/assets/pd-excel-example_07.png)
++++ Transitions
+![Transitions](/assets/pd-excel-example_08.png)
++++ Non-Standard Effects & Templates
+![Non-Standard Effects & Templates](/assets/pd-excel-example_09.png)
++++ Video & Audio Effects
+![Video & Audio Effects](/assets/pd-excel-example_10.png)
++++ Summary
+![Summary](/assets/pd-excel-example_11.png)
++++
