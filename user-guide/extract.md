@@ -23,21 +23,21 @@ In `Automatic` mode, export begins as soon as a project is received. In `Manual`
 ## Extract Example
 
 +++ Sheet 1
-![Selected Roles Inventory](/assets/pd-excel-example_sri.png)
+![Selected Roles Inventory](/assets/pd-excel-example_01.png)
 +++ Sheet 2
-![Titles](/assets/pd-excel-example_t.png)
+![Titles](/assets/pd-excel-example_02.png)
 +++ Sheet 3
-![Video](/assets/pd-excel-example_v.png)
+![Video](/assets/pd-excel-example_03.png)
 +++ Sheet 4
-![Roles](/assets/pd-excel-example_r.png)
+![Roles](/assets/pd-excel-example_04.png)
 +++ Sheet 5
-![Markers](/assets/pd-excel-example_m.png)
+![Markers](/assets/pd-excel-example_05.png)
 +++ Sheet 6
-![Keywords](/assets/pd-excel-example_k.png)
+![Keywords](/assets/pd-excel-example_06.png)
 +++ Sheet 7
-![Titles & Generators](/assets/pd-excel-example_tg.png)
+![Titles & Generators](/assets/pd-excel-example_07.png)
 +++ Sheet 8
-![Video & Audio Effects](/assets/pd-excel-example_vae.png)
+![Video & Audio Effects](/assets/pd-excel-example_08.png)
 +++ Sheet 9
-![Summary](/assets/pd-excel-example_summary.png)
+![Summary](/assets/pd-excel-example_09.png)
 +++
