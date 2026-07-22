@@ -53,7 +53,7 @@ As an independent developer, we have elected to support only the current and imm
 
 ## Does Production Data replace Production's Best Friend?
 
-**Production Data** is best understood as a lightweight alternative rather than a direct replacement for **Production's Best Friend**. It is powered by [OpenFCPXMLKit](https://github.com/TheAcharya/OpenFCPXMLKit), a free and open-source, experimental FCPXML parsing engine. As the framework is experimental and it is impossible to test against every edge case or the full complexity of real-world timelines, its coverage would be narrower than that of **Production's Best Friend**. That said, owing to its open-source nature, the parsing and reporting modules within OpenFCPXMLKit stand to benefit from user-submitted files over time, which would in turn lead to upstream improvements and future updates to **Production Data**.
+**Production Data** is best understood as a lightweight alternative rather than a direct replacement for **Production's Best Friend**. It is powered by [OpenFCPXMLKit](https://github.com/TheAcharya/OpenFCPXMLKit), a free and open-source, experimental FCPXML parsing engine. As OpenFCPXMLKit has not yet been extensively tested against every edge case or the full complexity of real-world timelines, its coverage may currently be narrower than that of **Production's Best Friend**. That said, owing to its open-source nature, the parsing and reporting modules within OpenFCPXMLKit stand to benefit from user-submitted files over time, which may in turn lead to upstream improvements and future updates to **Production Data**.
 
 ## Why is Production Data a paid application?
 
