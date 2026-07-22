@@ -20,7 +20,7 @@ In `Automatic` mode, export begins as soon as a project is received. In `Manual`
 **Production Data** processes one FCPXML project per action. If multiple items are offered at once, only the first item is used.
 !!!
 
-## Excel Spreadsheet Sample
+## Excel Sample
 
 +++ Sheet 1
 ![Selected Roles Inventory](/assets/pd-excel-example_01.png)
@@ -44,22 +44,26 @@ In `Automatic` mode, export begins as soon as a project is received. In `Manual`
 
 ## PDF Sample
 
-+++ Sheet 1
++++ Page 1
 ![Selected Roles Inventory](/assets/pd-pdf-example_01.png)
-+++ Sheet 2
++++ Page 2
 ![Titles](/assets/pd-pdf-example_02.png)
-+++ Sheet 3
++++ Page 3
 ![Video](/assets/pd-pdf-example_03.png)
-+++ Sheet 4
++++ Page 4
 ![Roles](/assets/pd-pdf-example_04.png)
-+++ Sheet 5
++++ Page 5
 ![Markers](/assets/pd-pdf-example_05.png)
-+++ Sheet 6
++++ Page 6
 ![Keywords](/assets/pd-pdf-example_06.png)
-+++ Sheet 7
++++ Page 7
 ![Titles & Generators](/assets/pd-pdf-example_07.png)
-+++ Sheet 8
++++ Page 8
 ![Video & Audio Effects](/assets/pd-pdf-example_08.png)
-+++ Sheet 9
++++ Page 9
 ![Summary](/assets/pd-pdf-example_09.png)
 +++
+
+!!!info Info
+Both the Excel and PDF visual report formats may change without prior notice as the underlying framework continues to evolve. **Production Data** is powered by [OpenFCPXMLKit](https://github.com/TheAcharya/OpenFCPXMLKit), a free and open-source, experimental FCPXML parsing engine. As the framework has not yet been extensively tested against every edge case or the full complexity of real-world timelines, some data coverage may occasionally be incomplete or omitted.
+!!!

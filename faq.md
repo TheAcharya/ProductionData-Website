@@ -22,6 +22,10 @@ Apple provides a mechanism for requesting refunds on App Store purchases. Please
 
 **Production Data** facilitates extraction from any conceivable timeline such as Projects and Compound Clips.
 
+## Why are Markers or Keywords listed twice?
+
+This is expected behaviour rather than a fault. For an A/V clip, a report intentionally generates one row per component role, so a single marker or keyword attached to a clip with both a Video role and a Music role, for instance, will appear as two separate rows, one for each role. This ensures that the role breakdown remains accurate and complete, rather than collapsing distinct roles into a single, less informative entry.
+
 ## Why is there no Workflow Extension for Production Data?
 
 Incorporating a Final Cut Pro Workflow Extension into **Production Data** would not, in practice, unlock any meaningfully new capability for spreadsheet generation. There are two principal reasons for this decision.
