@@ -25,7 +25,7 @@ In `Automatic` mode, export begins as soon as a project is received. In `Manual`
 **Production Data** processes one FCPXML project per action. If multiple items are offered at once, only the first item is used.
 !!!
 
-## Excel Sample
+## Excel Sample Sheets
 
 +++ Sheet 1
 ![Selected Roles Inventory](/assets/pd-excel-example_01.png)
@@ -47,7 +47,7 @@ In `Automatic` mode, export begins as soon as a project is received. In `Manual`
 ![Summary](/assets/pd-excel-example_09.png)
 +++
 
-## PDF Sample
+## PDF Sample Pages
 
 +++ Page 1
 ![Selected Roles Inventory](/assets/pd-pdf-example_01.png)
