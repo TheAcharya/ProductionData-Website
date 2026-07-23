@@ -24,7 +24,7 @@
 
 ## User Guide
 
-- [Overview](http://productiondata.theacharya.co/user-guide/overview.md): Production Data has been meticulously crafted with a focus on simplicity, ensuring that users can effortlessly execute tasks and operations with minimal interaction.
+- [Overview](http://productiondata.theacharya.co/user-guide/overview.md): Production Data has been meticulously crafted with a focus on simplicity, ensuring that users can execute tasks with minimal interaction. A central objective in its development has been reducing the number of clicks required for a seamless experience.
 - [Extract](http://productiondata.theacharya.co/user-guide/extract.md): Extract Window
 - [General Settings](http://productiondata.theacharya.co/user-guide/general.md): General Settings
 - [Roles](http://productiondata.theacharya.co/user-guide/roles.md): Roles Settings
