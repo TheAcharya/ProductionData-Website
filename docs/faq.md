@@ -27,9 +27,13 @@ Apple provides a mechanism for requesting refunds on App Store purchases. Please
 
 **Production Data** facilitates extraction from any conceivable timeline such as Projects and Compound Clips.
 
-## Why are Markers or Keywords listed twice?
+## Why are entries like Markers or Keywords listed twice?
 
 This is expected behaviour rather than a fault. For an A/V clip, a report intentionally generates one row per component role, so a single marker or keyword attached to a clip with both a Video role and a Music role, for instance, will appear as two separate rows, one for each role. This ensures that the role breakdown remains accurate and complete, rather than collapsing distinct roles into a single, less informative entry.
+
+## Why is the Media Summary sheet empty?
+
+The `Media Summary` sheet is designed to report only missing media. If your timeline does not contain any missing media, the sheet will appear empty in the exported Excel workbook, even if `Media Summary` has been enabled under the [Sheets](/user-guide/genera/#sheets) tab. This is expected behaviour rather than an error.
 
 ## Why is there no Workflow Extension for Production Data?
 

@@ -75,7 +75,7 @@ The `Hidden` column is not listed under [Columns](#columns). It appears only whe
 
 Checking `Distinguish Original and Proxy Media` separates missing original and proxy media into distinct columns on the `Media Summary` sheet, rather than combining them into a single Missing Media column.
 
-By [!badge text="Default"], Media Summary uses one Missing Media column. Enable this option when you need to tell original and proxy media apart. It only takes effect when `Media Summary` is enabled under [Sheets](#sheets).
+By [!badge text="Default"], `Media Summary` uses one Missing Media column. Enable this option when you need to tell original and proxy media apart. It only takes effect when `Media Summary` is enabled under [Sheets](#sheets).
 
 ### Protect Sheets
 
