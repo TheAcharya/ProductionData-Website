@@ -14,7 +14,7 @@ The lightweight spreadsheet creation application crafted for [Final Cut Pro](htt
 - Configurable report columns, timecode format, and disabled-clip exclusion for tailored deliverables.
 - Allows the creation of multiple configurations tailored to diverse project requirements, with assignable keyboard shortcuts.
 - Export on drop or confirm when you are ready, with automatic and manual export modes.
-- Accepts drag and drop, Final Cut Pro timeline drags, and Finder text clippings.
+- Accepts drag and drop and Final Cut Pro timeline drags.
 - Each export is saved to a uniquely named timestamped folder within your chosen export destination.
 - Optional experimental PDF report export (`.pdf`) alongside the Excel workbook, using the same active Configuration settings.
 - Written in Apple Swift language and SwiftUI framework.
