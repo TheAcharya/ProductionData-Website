@@ -19,7 +19,7 @@ This opens the Logs folder in Finder and writes a current snapshot of applicatio
 Both files live under Application Support for **Production Data**. Share them only if you are comfortable doing so when requesting support — they may include project and file names from your machine.
 !!!
 
-## Failed to export completely”
+## Failed to export completely
 
 ![Failed to export completely](/assets/pd-troubleshooting_01.png)
 
@@ -103,6 +103,8 @@ Paths may appear as missing when:
 
 The rest of the Excel (and optional PDF) report still exports normally. Turn off `Media Summary` under [Sheets](/user-guide/general/#sheets) if you do not need this sheet, or open an on-disk `.fcpxml` / `.fcpxmld` beside its media when you need more accurate missing-media checks.
 
+When the sheet is enabled and no referenced media is missing, Excel and PDF keep the headers and show a `No Missing Media` status row — that is expected, not an error.
+
 !!!info Info
 Checking `Distinguish Original and Proxy Media` only splits Missing Original / Missing Proxy columns; it does not grant broader disk access.
 !!!
@@ -184,14 +186,25 @@ The Markers `Hidden` column appears only when `Include Markers Outside Clip Boun
 
 If the role inventory `Total` footer is missing, check [Columns](/user-guide/general/#columns). Excluding `Timeline Out` or `Clip Duration` omits the Total footer entirely (Excel and PDF).
 
-## An enabled sheet is missing from the Excel or PDF report
+## An enabled sheet shows “No … Found” or looks empty
 
-Enabling a sheet under [Sheets](/user-guide/general/#sheets) builds that section when the project has matching content, but an empty timeline does not always produce a populated worksheet.
+Enabling a sheet under [Sheets](/user-guide/general/#sheets) includes that section in the Excel workbook and optional PDF. When the project has no matching items, the sheet is **not** omitted — Excel and PDF keep the headers and show a single status row, for example:
 
-- **PDF** — optional content sheets with no rows may be omitted
-- **Excel** — an empty `Non-Standard Effects & Templates` sheet is omitted; empty per-role inventory tabs may also be omitted; other optional sheets may still appear with headers only
+- `No Markers Found`
+- `No Keywords Found`
+- `No Titles & Generators Found`
+- `No Transitions Found`
+- `No Effects Found`
+- `No Speed Change Effects Found`
+- `No Non-Std Effects Found`
+- `No Roles Found`
+- `No Missing Media` (on `Media Summary` when nothing is missing)
 
 This is not an export failure. Confirm the timeline actually contains the items you expect for that sheet, or turn the sheet off if you do not need it.
+
+!!!info Info
+Individual **per-role** inventory tabs may still be omitted when empty. `Summary` keeps its project-metrics layout rather than a `No … Found` status row.
+!!!
 
 ## Excel shows “Non-Std Effects & Templates” instead of the full name
 
