@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.838468220995">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.838610110182">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -44,11 +44,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../static/favicon.ico" />
-    <link href="../resources/css/retype.css?v=4.6.0.838468220995" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=4.6.0.838610110182" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=4.6.0.838468220995" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=4.6.0.838610110182" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.6.0.838468220995" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.6.0.838610110182" data-turbo-eval="false" defer></script>
 
     <meta name="msvalidate.01" content="325120C12888C61306930ACDFB17A57E" />
     <!-- Google Tag Manager -->
@@ -289,7 +289,7 @@
         </div>
     </div>
 </div>
-<h2 id="failed-to-export-completely">Failed to export completely”</h2>
+<h2 id="failed-to-export-completely">Failed to export completely</h2>
 <figure class="content-center">
     <img src="../assets/pd-troubleshooting_01.png" alt="Failed to export completely" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="2064" height="1368" />
     <figcaption class="caption">Failed to export completely</figcaption>
@@ -377,6 +377,7 @@
 <li>The media volume is offline or the files have moved since the project was edited</li>
 </ul>
 <p>The rest of the Excel (and optional PDF) report still exports normally. Turn off <code translate="no" v-pre>Media Summary</code> under <a href="/user-guide/general/#sheets">Sheets</a> if you do not need this sheet, or open an on-disk <code translate="no" v-pre>.fcpxml</code> / <code translate="no" v-pre>.fcpxmld</code> beside its media when you need more accurate missing-media checks.</p>
+<p>When the sheet is enabled and no referenced media is missing, Excel and PDF keep the headers and show a <code translate="no" v-pre>No Missing Media</code> status row — that is expected, not an error.</p>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-info"></div>
     <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
@@ -459,13 +460,38 @@
 </ol>
 <p>The Markers <code translate="no" v-pre>Hidden</code> column appears only when <code translate="no" v-pre>Include Markers Outside Clip Boundaries</code> is on; it is not listed under Columns.</p>
 <p>If the role inventory <code translate="no" v-pre>Total</code> footer is missing, check <a href="/user-guide/general/#columns">Columns</a>. Excluding <code translate="no" v-pre>Timeline Out</code> or <code translate="no" v-pre>Clip Duration</code> omits the Total footer entirely (Excel and PDF).</p>
-<h2 id="an-enabled-sheet-is-missing-from-the-excel-or-pdf-report">An enabled sheet is missing from the Excel or PDF report</h2>
-<p>Enabling a sheet under <a href="/user-guide/general/#sheets">Sheets</a> builds that section when the project has matching content, but an empty timeline does not always produce a populated worksheet.</p>
+<h2 id="an-enabled-sheet-shows-no--found-or-looks-empty">An enabled sheet shows “No … Found” or looks empty</h2>
+<p>Enabling a sheet under <a href="/user-guide/general/#sheets">Sheets</a> includes that section in the Excel workbook and optional PDF. When the project has no matching items, the sheet is <strong>not</strong> omitted — Excel and PDF keep the headers and show a single status row, for example:</p>
 <ul>
-<li><strong>PDF</strong> — optional content sheets with no rows may be omitted</li>
-<li><strong>Excel</strong> — an empty <code translate="no" v-pre>Non-Standard Effects &amp; Templates</code> sheet is omitted; empty per-role inventory tabs may also be omitted; other optional sheets may still appear with headers only</li>
+<li><code translate="no" v-pre>No Markers Found</code></li>
+<li><code translate="no" v-pre>No Keywords Found</code></li>
+<li><code translate="no" v-pre>No Titles &amp; Generators Found</code></li>
+<li><code translate="no" v-pre>No Transitions Found</code></li>
+<li><code translate="no" v-pre>No Effects Found</code></li>
+<li><code translate="no" v-pre>No Speed Change Effects Found</code></li>
+<li><code translate="no" v-pre>No Non-Std Effects Found</code></li>
+<li><code translate="no" v-pre>No Roles Found</code></li>
+<li><code translate="no" v-pre>No Missing Media</code> (on <code translate="no" v-pre>Media Summary</code> when nothing is missing)</li>
 </ul>
 <p>This is not an export failure. Confirm the timeline actually contains the items you expect for that sheet, or turn the sheet off if you do not need it.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-info"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-info" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Info</h5>
+<p>Individual <strong>per-role</strong> inventory tabs may still be omitted when empty. <code translate="no" v-pre>Summary</code> keeps its project-metrics layout rather than a <code translate="no" v-pre>No … Found</code> status row.</p>
+        </div>
+    </div>
+</div>
 <h2 id="excel-shows-non-std-effects--templates-instead-of-the-full-name">Excel shows “Non-Std Effects &amp; Templates” instead of the full name</h2>
 <p>Excel limits worksheet names to 31 characters, so the workbook tab would appear as <code translate="no" v-pre>Non-Std Effects &amp; Templates</code>. The Sheets toggle and Extract status bar use the full name <code translate="no" v-pre>Non-Standard Effects &amp; Templates</code>.</p>
 <p>See <a href="/user-guide/general/#sheets">Sheets</a>.</p>

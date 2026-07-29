@@ -130,11 +130,11 @@ In the Excel workbook, the worksheet tab may appear as `Non-Std Effects & Templa
 !!!
 
 !!!info Info
-`Media Summary` lists media files referenced in the project. **Production Data** does not read or copy your media files for this sheet.
+`Media Summary` lists media files referenced in the project. **Production Data** does not read or copy your media files for this sheet. When the sheet is enabled and no referenced media is missing, Excel and PDF keep the headers and show a `No Missing Media` status row.
 !!!
 
 !!!info Info
-If an enabled sheet has no matching items in the project, it may be omitted from the PDF. In Excel, an empty `Non-Standard Effects & Templates` sheet is omitted; other optional sheets may still appear with headers only.
+When an enabled sheet has no matching items in the project, Excel and PDF keep the sheet headers and show a single status row — for example `No Markers Found`, `No Keywords Found`, `No Titles & Generators Found`, `No Transitions Found`, `No Effects Found`, `No Speed Change Effects Found`, `No Non-Std Effects Found`, or `No Roles Found`. Individual per-role inventory tabs may still be omitted when empty. `Summary` keeps its project-metrics layout.
 !!!
 
 ### Label

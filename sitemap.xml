@@ -16,22 +16,22 @@
     <loc>http://productiondata.theacharya.co/troubleshooting/</loc>
   </url>
   <url>
+    <loc>http://productiondata.theacharya.co/user-guide/extract/</loc>
+  </url>
+  <url>
     <loc>http://productiondata.theacharya.co/prologue/</loc>
   </url>
   <url>
     <loc>http://productiondata.theacharya.co/user-guide/configurations/</loc>
   </url>
   <url>
-    <loc>http://productiondata.theacharya.co/user-guide/extract/</loc>
-  </url>
-  <url>
     <loc>http://productiondata.theacharya.co/user-guide/general/</loc>
   </url>
   <url>
-    <loc>http://productiondata.theacharya.co/privacy/</loc>
+    <loc>http://productiondata.theacharya.co/faq/</loc>
   </url>
   <url>
-    <loc>http://productiondata.theacharya.co/faq/</loc>
+    <loc>http://productiondata.theacharya.co/privacy/</loc>
   </url>
   <url>
     <loc>http://productiondata.theacharya.co/press-kit-media/</loc>
@@ -52,19 +52,25 @@
     <loc>http://productiondata.theacharya.co/user-guide/roles/</loc>
   </url>
   <url>
-    <loc>http://productiondata.theacharya.co/user-guide/overview/</loc>
+    <loc>http://productiondata.theacharya.co/in-action/reviewing-roles/</loc>
   </url>
   <url>
-    <loc>http://productiondata.theacharya.co/user-guide/keyboard-shortcuts/</loc>
+    <loc>http://productiondata.theacharya.co/in-action/creating-excel-spreadsheet/</loc>
+  </url>
+  <url>
+    <loc>http://productiondata.theacharya.co/in-action/creating-pdf-report/</loc>
   </url>
   <url>
     <loc>http://productiondata.theacharya.co/case-study/final-cut-pro-enigma/</loc>
   </url>
   <url>
+    <loc>http://productiondata.theacharya.co/user-guide/overview/</loc>
+  </url>
+  <url>
     <loc>http://productiondata.theacharya.co/case-study/reviving-a-lost-feature/</loc>
   </url>
   <url>
-    <loc>http://productiondata.theacharya.co/in-action/excel-spreadsheet/</loc>
+    <loc>http://productiondata.theacharya.co/user-guide/keyboard-shortcuts/</loc>
   </url>
   <url>
     <loc>http://productiondata.theacharya.co/case-study/alternative-report-generator/</loc>
