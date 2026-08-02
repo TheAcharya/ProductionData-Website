@@ -7,7 +7,7 @@ order: -3
 
 ## Offer Weapon
 
-![The heptapods' weapon meant tool, a gift freely given.<br>Similarly, Production Data is built upon an open, freely given framework, offered to the editorial community.](assets/arrival_01.gif)
+![The heptapods' weapon meant tool, a gift freely given. <br>Similarly, Production Data is built upon an open, freely given framework, offered to the editorial community.](assets/arrival_01.gif)
 
 Considering the multifaceted issues and concepts elucidated in the case studies, my aspiration is to conceive an application that adeptly tackles these challenges. This envisioned application would proficiently parse an FCPXML export from Final Cut Pro, seamlessly translating its underlying structure, roles, markers, and effects into a report that is not only meaningful but also genuinely useful to editors, coordinators, producers, and directors alike. Envision a scenario where users can judiciously review and share role inventories, marker logs, keyword collections, and media summaries with unparalleled clarity, without wrestling with the Terminal or the intricacies of raw FCPXML.
 
