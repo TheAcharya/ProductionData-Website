@@ -6,7 +6,7 @@
 - [Disclaimers](http://productiondata.theacharya.co/disclaimers.md): The author(s) have no affiliation with Apple, Microsoft, or Adobe in any capacity. All product names, logos, and brands are property of their respective owners.
 - [Production Data End User License Agreement](http://productiondata.theacharya.co/license.md): Copyright (c) 2026 The Acharya
 - [Production Data](http://productiondata.theacharya.co/readme.md): Production Data
-- [Prologue](http://productiondata.theacharya.co/prologue.md): The heptapods' weapon was later understood as tool, a gift freely given.Similarly, Production Data is built upon an open, freely given framework, offered to the editorial community.
+- [Prologue](http://productiondata.theacharya.co/prologue.md): The heptapods' weapon meant tool, a gift freely given.Similarly, Production Data is built upon an open, freely given framework, offered to the editorial community.
 - [Frequently Asked Questions](http://productiondata.theacharya.co/faq.md): Yes. The exported .xlsx workbook follows the standard Excel file format, so it opens directly in Apple's Numbers, Microsoft Excel, Google Sheets, and other spreadsheet applications that support .xlsx files, without requiring any conversion.
 - [Troubleshooting](http://productiondata.theacharya.co/troubleshooting.md): Below, you will find a comprehensive list of common issues users may encounter, accompanied by solutions to resolve them.
 - [Press Kit & Media](http://productiondata.theacharya.co/press-kit-media.md): We would greatly appreciate your support in sharing and promoting Production Data!

@@ -2,7 +2,7 @@
 
 ## Use Weapon
 
-![Louise Banks opens "The Universal Language," a tool for understanding.](assets/arrival_02.gif)
+![Louise Banks opens The Universal Language, a tool for understanding.](assets/arrival_02.gif)
 
 Filmmaking is a costly, demanding craft, one that asks for technical precision and creative vision in equal measure, at every stage from pre-production through to the final cut. Cutting-edge equipment, specialised software, and a mastery of cinematography, sound, and visual effects must sit alongside storytelling instinct and an eye for what moves an audience, all of it underpinned by considerable time and expense.
 
