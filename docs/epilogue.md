@@ -6,18 +6,16 @@ order: -96
 
 # Epilogue
 
-## <a href="https://www.youtube.com/watch?v=FwdvVuK7a88" target="_blank">Where We're Going</a>
+## Use Weapon
 
-![Cooper and TARS embarks on a new journey.](assets/interstellar_02.gif)
+![Louise Banks opens "The Universal Language," a tool for understanding.](assets/arrival_02.gif)
 
-Filmmaking, often hailed as the seventh art, is undeniably an expensive endeavour. It is a multifaceted craft that intricately weaves together technical prowess and creative ingenuity, making it one of the most involved and demanding industries in the world. From pre-production planning to post-production editing, the entire filmmaking process requires a harmonious marriage of various skills, resources, and substantial financial investments.
+Filmmaking is a costly, demanding craft, one that asks for technical precision and creative vision in equal measure, at every stage from pre-production through to the final cut. Cutting-edge equipment, specialised software, and a mastery of cinematography, sound, and visual effects must sit alongside storytelling instinct and an eye for what moves an audience, all of it underpinned by considerable time and expense.
 
-The technical aspect of filmmaking involves the use of cutting-edge equipment, specialised software, and an understanding of intricate processes such as cinematography, sound design, and visual effects. On the other hand, the creative facet demands a keen eye for storytelling, visual aesthetics, and the ability to bring emotions to life on the screen. Balancing these two realms requires not only talent and dedication but also access to expensive tools and resources.
+Within this pipeline, the editorial phase carries particular weight. Hours, days, and often months are spent refining a project frame by frame, and within that intricate process, I believe **Production Data** offers a genuinely transformative addition, one capable of lifting a workflow to a level once reserved for far larger productions.
 
-In the expansive realm of the filmmaking pipeline, the editorial phase stands out as a pivotal stage within the post-production process. Its significance is underscored by the investment of considerable time, spanning hours, days, weeks, and months, dedicated to the meticulous refinement of each frame. Within this intricate milieu, I posit that the integration of **Marker Data** with Final Cut Pro represents a transformative catalyst, affording users the opportunity to elevate their workflow to unprecedented heights.
+**Production Data** emerges as a catalyst poised to democratise advanced reporting workflows that were once the exclusive domain of high-end film productions. This strategic initiative seeks to broaden the horizons of the filmmaking pipeline, rendering sophisticated processes available to a more diverse audience.
 
-**Marker Data** emerges as a catalyst poised to democratise advanced workflows that were once the exclusive domain of high-end film productions. This strategic initiative seeks to broaden the horizons of the filmmaking pipeline, rendering sophisticated processes available to a more diverse audience.
-
-I trust that **Marker Data** may serve as an invaluable companion throughout your editorial odyssey, akin to the indelible role played by TARS.
+Much like the heptapods' offering, understood, in time, to be a tool for connection, I trust that **Production Data** may serve as an invaluable companion throughout your editorial work, freely given and openly built, a universal language of its own.
 
 Vigneswaran Rajkumar
