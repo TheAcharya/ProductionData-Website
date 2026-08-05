@@ -1,7 +1,7 @@
 ---
 label: Keyboard Shortcuts
 icon: key-asterisk
-order: -12
+order: -6
 ---
 # Keyboard Shortcuts
 
