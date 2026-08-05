@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/TheAcharya/ProductionData"><img src="https://github.com/TheAcharya/ProductionData/blob/main/assets/Production_data_app_icon.png?raw=true" height="200">
+  <a href="https://productiondata.theacharya.co"><img src="https://github.com/TheAcharya/ProductionData-Website/blob/main/docs/static/logo.png?raw=true" height="200">
   <h1 align="center">Production Data Website</h1>
 </p>
 
