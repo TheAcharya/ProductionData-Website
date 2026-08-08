@@ -60,6 +60,14 @@ As an independent developer, we have elected to support only the current and imm
 
 Put simply, **Marker Data** is oriented towards ongoing, collaborative database workflows, while **Production Data** is oriented towards producing a self-contained, shareable report. Both applications are built on open-source parsing foundations, and depending on your workflow, they can be used independently or alongside one another.
 
+## Was AI and LLMs used in the development of Production Data?
+
+Yes, though the extent varied across different parts of the application. The underlying engine, [OpenFCPXMLKit](https://github.com/TheAcharya/OpenFCPXMLKit), which handles the parsing and reporting logic that powers **Production Data** , was developed with substantial assistance from various large language models throughout its creation.
+
+The user interface, by contrast, has a more traditional origin. It was built upon the interface of [Marker Data](https://markerdata.theacharya.co), which was originally hand-written. AI and LLM tools were subsequently used to re-wire and repurpose this existing interface for **Production Data**'s specific needs, rather than to author it from scratch.
+
+In short, AI played a meaningful role throughout the development process, though its involvement looked rather different depending on which part of the application you're looking at, more foundational in the engine, and more of a re-wiring aid where existing, hand-written work already existed.
+
 ## Why is Production Data a paid application?
 
 This is a fair and reasonable question. Generating revenue from application development has never been a particular interest or priority; it has always been, first and foremost, a side project undertaken for workflow experimentation. That said, developing software for the Apple ecosystem carries genuine and ongoing costs, not least the annual Apple Developer Programme fee. Given that [OpenFCPXMLKit](https://github.com/TheAcharya/OpenFCPXMLKit) is provided entirely free of charge and as open-source software, it seemed only fair to position **Production Data** as a modest paid application, offering the convenience of a polished graphical interface for those users who would rather not engage with the macOS Terminal or are unfamiliar with it.
