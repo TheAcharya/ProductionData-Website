@@ -5,7 +5,7 @@ order: -2
 ---
 # Creating PDF Report
 
-![](/assets/content-banner-pdf.png)
+![](/assets/content-banner-excel.png)
 
 ## Configuration Setup
 
