@@ -1,6 +1,6 @@
 # Creating PDF Report
 
-![](/assets/content-banner-excel.png)
+![](/assets/content-banner-pdf.png)
 
 ## Configuration Setup
 
