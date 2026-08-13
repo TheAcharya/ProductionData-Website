@@ -37,31 +37,24 @@ The lightweight spreadsheet creation application crafted for [Final Cut Pro](htt
 
 ## Demo
 
-==- Export to Excel
+==- Creating Excel Spreadsheet
 
 <video controls width="1920">
-  <source src="/assets/pd-export-01.mp4" type="video/mp4">
+  <source src="/assets/pd-create-excel-spreadsheet-02.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
-==- Review Roles
+==- Creating PDF Report
 
 <video controls width="1920">
-  <source src="/assets/pd-roles-01.mp4" type="video/mp4">
+  <source src="/assets/pd-create-pdf-report-02.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
-==- Automatic Export
+==- Reviewing Roles
 
 <video controls width="1920">
-  <source src="/assets/pd-automatic-export-01.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
-
-==- Manual Export
-
-<video controls width="1920">
-  <source src="/assets/pd-manual-export-01.mp4" type="video/mp4">
+  <source src="/assets/pd-reviewing-roles-02.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
