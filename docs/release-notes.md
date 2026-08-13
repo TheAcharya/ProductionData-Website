@@ -5,9 +5,9 @@ order: -97
 ---
 # Release Notes
 
-### 1.0.0 (2) - TestFlight
+### 1.0.0 (X)
 
 **🎉 Released:**
-- 13th August 2026
+- TBA
 
-This is the first private beta of **Production Data**!
+This is the first public release of **Production Data**!
