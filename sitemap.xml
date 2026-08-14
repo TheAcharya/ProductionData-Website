@@ -22,10 +22,10 @@
     <loc>http://productiondata.theacharya.co/prologue/</loc>
   </url>
   <url>
-    <loc>http://productiondata.theacharya.co/user-guide/configurations/</loc>
+    <loc>http://productiondata.theacharya.co/user-guide/general/</loc>
   </url>
   <url>
-    <loc>http://productiondata.theacharya.co/user-guide/general/</loc>
+    <loc>http://productiondata.theacharya.co/user-guide/configurations/</loc>
   </url>
   <url>
     <loc>http://productiondata.theacharya.co/faq/</loc>
@@ -52,6 +52,9 @@
     <loc>http://productiondata.theacharya.co/user-guide/roles/</loc>
   </url>
   <url>
+    <loc>http://productiondata.theacharya.co/user-guide/overview/</loc>
+  </url>
+  <url>
     <loc>http://productiondata.theacharya.co/in-action/reviewing-roles/</loc>
   </url>
   <url>
@@ -62,9 +65,6 @@
   </url>
   <url>
     <loc>http://productiondata.theacharya.co/case-study/final-cut-pro-enigma/</loc>
-  </url>
-  <url>
-    <loc>http://productiondata.theacharya.co/user-guide/overview/</loc>
   </url>
   <url>
     <loc>http://productiondata.theacharya.co/case-study/reviving-a-lost-feature/</loc>
