@@ -177,6 +177,22 @@ See [Create PDF Report](/user-guide/general/#create-pdf-report).
 
 Excel still opens the file without a password. Anyone can turn protection off in Excel. PDF export ignores this option — use Preview’s Encrypt (or another PDF tool) if you need a password-protected PDF.
 
+## Role Inventory screenshots are blank
+
+`Include Screenshots in Role Inventory` embeds a `Source In` frame grab in the Excel Role Inventory sheets. The PDF report never includes screenshots.
+
+Screenshots rely on media this Mac can decode. Blank cells are common for offline media, unsupported codecs, audio-only rows, titles or generators with no media file, some MXF or proprietary wrappers, and corrupt or DRM-locked files. Stills (PNG, JPEG, and similar) use the image itself; video frames are taken at `Source In` (not `Timeline In`) and may land on a nearby frame on hard GOP media.
+
+If screenshot cells are blank:
+
+- Confirm the option is enabled under [General](/user-guide/general/#include-screenshots-in-role-inventory) → File → Export Options
+- Confirm media paths in the project are reachable from this Mac (absolute paths on connected volumes work best)
+- Cache / drag-and-drop intake may not resolve relative media paths — try File → Export XML from Final Cut Pro and open that file instead
+
+Blank cells are expected when media cannot be read. This is not an export failure, and the rest of the workbook still exports normally.
+
+See [Include Screenshots in Role Inventory](/user-guide/general/#include-screenshots-in-role-inventory) and [Media Summary lists files as missing](#media-summary-lists-files-as-missing-but-the-media-is-on-disk).
+
 ## The spreadsheet is missing sheets or columns I expected
 
 Exports follow the **active Configuration**:
@@ -184,9 +200,9 @@ Exports follow the **active Configuration**:
 1. Check [Sheets](/user-guide/general/#sheets) for which worksheets are enabled.
 2. Check [Columns](/user-guide/general/#columns) for enabled workbook columns.
 3. Check [Roles](/user-guide/roles) — disabled roles are omitted from the report.
-4. Confirm options such as `Exclude Disabled Clips` and `Include Markers Outside Clip Boundaries` under General → File.
+4. Confirm options such as `Exclude Disabled Clips`, `Include Markers Outside Clip Boundaries`, `Include Speed Change Settings in Role Inventory`, and `Include Screenshots in Role Inventory` under General → File.
 
-The Markers `Hidden` column appears only when `Include Markers Outside Clip Boundaries` is on; it is not listed under Columns.
+The Markers `Hidden` column appears only when `Include Markers Outside Clip Boundaries` is on; it is not listed under Columns. Likewise, Role Inventory `Speed Change Settings` and `Screenshot` columns appear only when their File options are on, and they are not listed under Columns.
 
 If the role inventory `Total` footer is missing, check [Columns](/user-guide/general/#columns). Excluding `Timeline Out` or `Clip Duration` omits the Total footer entirely (Excel and PDF).
 
