@@ -16,6 +16,10 @@ Notwithstanding this emphasis on user-friendly design, this website stands ready
 6. Press `⌘` `S` on your keyboard to `Update Active Configuration`.
 7. Start using **Production Data** and have fun!
 
+!!!info Info
+Whenever you change settings on an active [Configuration](/user-guide/configurations), press `⌘` `S` to `Update Active Configuration`. Press `⌘` `Z` to `Discard Changes` and revert to the last saved preset.
+!!!
+
 ## Onboarding
 
 It is imperative to review Production Data’s Onboarding information and instructions to familiarise yourself with its key features and perform necessary initial steps before using the application.
