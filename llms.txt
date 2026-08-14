@@ -36,3 +36,4 @@
 - [Creating Excel Spreadsheet](http://productiondata.theacharya.co/in-action/creating-excel-spreadsheet.md): Create Configuration for Excel
 - [Creating PDF Report](http://productiondata.theacharya.co/in-action/creating-pdf-report.md): Create Configuration for PDF
 - [Reviewing Roles](http://productiondata.theacharya.co/in-action/reviewing-roles.md): Create Configuration for Roles
+- [Include Screenshots](http://productiondata.theacharya.co/in-action/include-screenshots.md): Create Configuration for Excel

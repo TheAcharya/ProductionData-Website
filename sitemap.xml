@@ -19,10 +19,10 @@
     <loc>http://productiondata.theacharya.co/user-guide/extract/</loc>
   </url>
   <url>
-    <loc>http://productiondata.theacharya.co/prologue/</loc>
+    <loc>http://productiondata.theacharya.co/user-guide/general/</loc>
   </url>
   <url>
-    <loc>http://productiondata.theacharya.co/user-guide/general/</loc>
+    <loc>http://productiondata.theacharya.co/prologue/</loc>
   </url>
   <url>
     <loc>http://productiondata.theacharya.co/user-guide/configurations/</loc>
@@ -61,18 +61,21 @@
     <loc>http://productiondata.theacharya.co/in-action/creating-excel-spreadsheet/</loc>
   </url>
   <url>
-    <loc>http://productiondata.theacharya.co/in-action/creating-pdf-report/</loc>
-  </url>
-  <url>
     <loc>http://productiondata.theacharya.co/case-study/final-cut-pro-enigma/</loc>
   </url>
   <url>
     <loc>http://productiondata.theacharya.co/case-study/reviving-a-lost-feature/</loc>
   </url>
   <url>
-    <loc>http://productiondata.theacharya.co/user-guide/keyboard-shortcuts/</loc>
+    <loc>http://productiondata.theacharya.co/in-action/creating-pdf-report/</loc>
   </url>
   <url>
     <loc>http://productiondata.theacharya.co/case-study/alternative-report-generator/</loc>
+  </url>
+  <url>
+    <loc>http://productiondata.theacharya.co/user-guide/keyboard-shortcuts/</loc>
+  </url>
+  <url>
+    <loc>http://productiondata.theacharya.co/in-action/include-screenshots/</loc>
   </url>
 </urlset>
