@@ -15,7 +15,7 @@ What if the intricate task of transforming a complex timeline into a professiona
 
 ## Application Objectives
 
-- Deliver a nearly seamless experience, from FCPXML to finished spreadsheet, with a near-single-drop functionality.
+- Deliver a nearly seamless experience, from FCPXML to finished spreadsheet, with a single drag and drop.
 - Facilitate a native, graphical macOS interface, sparing users from having to touch the Terminal.
 - Provide comprehensive Excel reporting, with an optional accompanying PDF report for those who prefer it.
 - Build upon an open-source parsing framework, ensuring the logic behind every report remains transparent.
