@@ -66,6 +66,47 @@ Enable this option when you need a complete marker inventory, including markers 
 The `Hidden` column is not listed under [Columns](#columns). It appears only when this option is on and cannot be excluded like other workbook columns.
 !!!
 
+### Include Speed Change Settings in Role Inventory
+
+Checking `Include Speed Change Settings in Role Inventory` adds a `Speed Change Settings` column after `Effects` on Role Inventory sheets (`Selected Roles Inventory` and each per-role tab). Cells show the retime percent for clips with a non-identity speed change (for example `50.0%`); other clips leave the cell blank.
+
+By [!badge text="Default"], this column is omitted. Enable it when you need speed-change values on the role inventory without opening the separate `Speed Change Effects` sheet. This option is independent of `Speed Change Effects` under [Sheets](#sheets).
+
+!!!info Info
+The `Speed Change Settings` column is not listed under [Columns](#columns). It appears only when this option is on and cannot be excluded like other workbook columns.
+!!!
+
+### Include Screenshots in Role Inventory
+
+Checking `Include Screenshots in Role Inventory` adds a `Screenshot` column after `Row` on Role Inventory sheets and embeds a `Source In` frame grab in the Excel workbook (`.xlsx`). Embeds keep the image aspect ratio.
+
+By [!badge text="Default"], screenshots are omitted. Enable this option when you want a visual reference on each inventory row. If media cannot be read, the cell is left blank.
+
+`Include Screenshots in Role Inventory` applies to the Excel workbook only. PDF export is unaffected — the PDF does not include a Screenshot column or embeds.
+
+Screenshots work for most common video files this Mac can decode (via AVFoundation) — not every format. They are reliable for typical Final Cut Pro library media when the files are on disk and reachable.
+
+**Typically supported**
+
+- ProRes, H.264/AVC, and HEVC/H.265 in `.mov`, `.mp4`, and `.m4v`
+- Many camera originals Final Cut Pro uses day to day
+- Still images (PNG, JPEG, and similar) — the image file itself is used; `Source In` time is ignored
+
+**Often blank**
+
+- Missing or offline media (the path does not resolve on this Mac)
+- Codecs this Mac cannot decode
+- Audio-only rows (skipped on purpose)
+- Titles and generators with no media file
+- Some MXF, proprietary, or poorly supported wrappers
+- Corrupt or DRM-locked files
+
+The frame is taken at `Source In` relative to the asset start — not `Timeline In`. On hard GOP structures, seek tolerance may be loosened and, if needed, fall back to the first frame, so you may see a nearby frame rather than the exact `Source In` frame.
+
+!!!info Info
+The `Screenshot` column is not listed under [Columns](#columns). It appears only when this option is on and cannot be excluded like other workbook columns.
+!!!
+
 ### Distinguish Original and Proxy Media
 
 Checking `Distinguish Original and Proxy Media` separates missing original and proxy media into distinct columns on the `Media Summary` sheet, rather than combining them into a single Missing Media column.
@@ -141,9 +182,11 @@ When an enabled sheet has no matching items in the project, Excel and PDF keep t
 
 ![](/assets/pd-general-settings-sheets-copyright.png)
 
-The `Label` section adds an optional copyright line to the report cover branding.
+The Excel and PDF report covers use a four-row branding stack: `Created by Production Data`, `Created on` with the export timestamp, `Visit https://productiondata.theacharya.co`, and an optional copyright line when enabled.
 
-Checking `Copyright` includes your text on the Excel cover sheet and, when [Create PDF Report](#create-pdf-report) is enabled, on the PDF cover and centred in the PDF page footer. By [!badge text="Default"], no copyright label is exported.
+The `Label` section controls that optional copyright line.
+
+Checking `Copyright` includes your text on the Excel cover (after Visit) and, when [Create PDF Report](#create-pdf-report) is enabled, on the PDF cover and centred in the PDF page footer. By [!badge text="Default"], no copyright label is exported.
 
 Press `Edit Copyright` at the bottom of the Sheets tab to enter or change the text. Enter the string as typed — year, `©`, or any wording you prefer. **Production Data** does not insert a copyright symbol or year for you. When text is set, the current value is shown beside the button.
 
@@ -163,6 +206,10 @@ The `Columns` tab controls which columns appear on role inventory sheets in the 
 
 !!!info Info
 Role inventory sheets also include a `Total` footer that sums `Clip Duration` under the `Timeline Out` column. If `Timeline Out` or `Clip Duration` is excluded, the Total footer is omitted entirely (Excel and PDF).
+!!!
+
+!!!info Info
+`Speed Change Settings` and `Screenshot` on Role Inventory sheets are controlled under [Export Options](#export-options), not on this Columns tab. They are not listed among excludeable columns.
 !!!
 
 ### Enable All

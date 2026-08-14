@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.840034117291">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.840035425589">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -44,11 +44,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../static/favicon.ico" />
-    <link href="../../resources/css/retype.css?v=4.6.0.840034117291" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.6.0.840035425589" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.840034117291" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.840035425589" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.840034117291" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.840035425589" data-turbo-eval="false" defer></script>
 
     <meta name="msvalidate.01" content="325120C12888C61306930ACDFB17A57E" />
     <!-- Google Tag Manager -->
@@ -372,6 +372,70 @@
         </div>
     </div>
 </div>
+<h3 id="include-speed-change-settings-in-role-inventory">Include Speed Change Settings in Role Inventory</h3>
+<p>Checking <code translate="no" v-pre>Include Speed Change Settings in Role Inventory</code> adds a <code translate="no" v-pre>Speed Change Settings</code> column after <code translate="no" v-pre>Effects</code> on Role Inventory sheets (<code translate="no" v-pre>Selected Roles Inventory</code> and each per-role tab). Cells show the retime percent for clips with a non-identity speed change (for example <code translate="no" v-pre>50.0%</code>); other clips leave the cell blank.</p>
+<p>By <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-primary-text bg-badge-primary border border-badge-primary-border h-6 px-2 text-xs rounded-md">
+    <span>Default</span>
+</span>, this column is omitted. Enable it when you need speed-change values on the role inventory without opening the separate <code translate="no" v-pre>Speed Change Effects</code> sheet. This option is independent of <code translate="no" v-pre>Speed Change Effects</code> under <doc-anchor-trigger to="#sheets">Sheets</doc-anchor-trigger>.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-info"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-info" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Info</h5>
+<p>The <code translate="no" v-pre>Speed Change Settings</code> column is not listed under <doc-anchor-trigger to="#columns">Columns</doc-anchor-trigger>. It appears only when this option is on and cannot be excluded like other workbook columns.</p>
+        </div>
+    </div>
+</div>
+<h3 id="include-screenshots-in-role-inventory">Include Screenshots in Role Inventory</h3>
+<p>Checking <code translate="no" v-pre>Include Screenshots in Role Inventory</code> adds a <code translate="no" v-pre>Screenshot</code> column after <code translate="no" v-pre>Row</code> on Role Inventory sheets and embeds a <code translate="no" v-pre>Source In</code> frame grab in the Excel workbook (<code translate="no" v-pre>.xlsx</code>). Embeds keep the image aspect ratio.</p>
+<p>By <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-primary-text bg-badge-primary border border-badge-primary-border h-6 px-2 text-xs rounded-md">
+    <span>Default</span>
+</span>, screenshots are omitted. Enable this option when you want a visual reference on each inventory row. If media cannot be read, the cell is left blank.</p>
+<p><code translate="no" v-pre>Include Screenshots in Role Inventory</code> applies to the Excel workbook only. PDF export is unaffected — the PDF does not include a Screenshot column or embeds.</p>
+<p>Screenshots work for most common video files this Mac can decode (via AVFoundation) — not every format. They are reliable for typical Final Cut Pro library media when the files are on disk and reachable.</p>
+<p><strong>Typically supported</strong></p>
+<ul>
+<li>ProRes, H.264/AVC, and HEVC/H.265 in <code translate="no" v-pre>.mov</code>, <code translate="no" v-pre>.mp4</code>, and <code translate="no" v-pre>.m4v</code></li>
+<li>Many camera originals Final Cut Pro uses day to day</li>
+<li>Still images (PNG, JPEG, and similar) — the image file itself is used; <code translate="no" v-pre>Source In</code> time is ignored</li>
+</ul>
+<p><strong>Often blank</strong></p>
+<ul>
+<li>Missing or offline media (the path does not resolve on this Mac)</li>
+<li>Codecs this Mac cannot decode</li>
+<li>Audio-only rows (skipped on purpose)</li>
+<li>Titles and generators with no media file</li>
+<li>Some MXF, proprietary, or poorly supported wrappers</li>
+<li>Corrupt or DRM-locked files</li>
+</ul>
+<p>The frame is taken at <code translate="no" v-pre>Source In</code> relative to the asset start — not <code translate="no" v-pre>Timeline In</code>. On hard GOP structures, seek tolerance may be loosened and, if needed, fall back to the first frame, so you may see a nearby frame rather than the exact <code translate="no" v-pre>Source In</code> frame.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-info"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-info" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Info</h5>
+<p>The <code translate="no" v-pre>Screenshot</code> column is not listed under <doc-anchor-trigger to="#columns">Columns</doc-anchor-trigger>. It appears only when this option is on and cannot be excluded like other workbook columns.</p>
+        </div>
+    </div>
+</div>
 <h3 id="distinguish-original-and-proxy-media">Distinguish Original and Proxy Media</h3>
 <p>Checking <code translate="no" v-pre>Distinguish Original and Proxy Media</code> separates missing original and proxy media into distinct columns on the <code translate="no" v-pre>Media Summary</code> sheet, rather than combining them into a single Missing Media column.</p>
 <p>By <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-primary-text bg-badge-primary border border-badge-primary-border h-6 px-2 text-xs rounded-md">
@@ -498,8 +562,9 @@
     <img src="../../assets/pd-general-settings-sheets-copyright.png" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="2064" height="1368" />
     <figcaption class="caption"></figcaption>
 </figure>
-<p>The <code translate="no" v-pre>Label</code> section adds an optional copyright line to the report cover branding.</p>
-<p>Checking <code translate="no" v-pre>Copyright</code> includes your text on the Excel cover sheet and, when <doc-anchor-trigger to="#create-pdf-report">Create PDF Report</doc-anchor-trigger> is enabled, on the PDF cover and centred in the PDF page footer. By <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-primary-text bg-badge-primary border border-badge-primary-border h-6 px-2 text-xs rounded-md">
+<p>The Excel and PDF report covers use a four-row branding stack: <code translate="no" v-pre>Created by Production Data</code>, <code translate="no" v-pre>Created on</code> with the export timestamp, <code translate="no" v-pre>Visit https://productiondata.theacharya.co</code>, and an optional copyright line when enabled.</p>
+<p>The <code translate="no" v-pre>Label</code> section controls that optional copyright line.</p>
+<p>Checking <code translate="no" v-pre>Copyright</code> includes your text on the Excel cover (after Visit) and, when <doc-anchor-trigger to="#create-pdf-report">Create PDF Report</doc-anchor-trigger> is enabled, on the PDF cover and centred in the PDF page footer. By <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-primary-text bg-badge-primary border border-badge-primary-border h-6 px-2 text-xs rounded-md">
     <span>Default</span>
 </span>, no copyright label is exported.</p>
 <p>Press <code translate="no" v-pre>Edit Copyright</code> at the bottom of the Sheets tab to enter or change the text. Enter the string as typed — year, <code translate="no" v-pre>©</code>, or any wording you prefer. <strong>Production Data</strong> does not insert a copyright symbol or year for you. When text is set, the current value is shown beside the button.</p>
@@ -544,6 +609,24 @@
         <div class="pr-5 ml-3 w-full">
             <h5>Info</h5>
 <p>Role inventory sheets also include a <code translate="no" v-pre>Total</code> footer that sums <code translate="no" v-pre>Clip Duration</code> under the <code translate="no" v-pre>Timeline Out</code> column. If <code translate="no" v-pre>Timeline Out</code> or <code translate="no" v-pre>Clip Duration</code> is excluded, the Total footer is omitted entirely (Excel and PDF).</p>
+        </div>
+    </div>
+</div>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-info"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-info" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Info</h5>
+<p><code translate="no" v-pre>Speed Change Settings</code> and <code translate="no" v-pre>Screenshot</code> on Role Inventory sheets are controlled under <doc-anchor-trigger to="#export-options">Export Options</doc-anchor-trigger>, not on this Columns tab. They are not listed among excludeable columns.</p>
         </div>
     </div>
 </div>
