@@ -16,7 +16,8 @@ order: -1
 3. Select `Automatic` or `Manual` [Export Mode](/user-guide/general/#export-mode). `Automatic` [!badge text="Default"] begins the export as soon as a project is received.
 4. Optionally, under [Sheets](/user-guide/general/#sheets), enable the report worksheets you need — or turn on `Full Report` to include every optional sheet.
 5. Optionally, under [Columns](/user-guide/general/#columns), enable or disable the columns that appear on role inventory sheets.
-6. Return to Configurations to [Update Active Configuration](/user-guide/configurations/#update-active-configuration).
+6. Optionally, under [Export Options](/user-guide/general/#export-options), enable `Include Speed Change Settings in Role Inventory` or `Include Screenshots in Role Inventory` when you need those Role Inventory extras (screenshots are Excel only).
+7. Return to Configurations to [Update Active Configuration](/user-guide/configurations/#update-active-configuration).
 
 !!!info Info
 By [!badge text="Default"], **Production Data** includes `Selected Roles Inventory` only. Sheet and column choices are optional — leave them as-is for a lean roles workbook, or tailor them for your deliverable before you save the Configuration.
