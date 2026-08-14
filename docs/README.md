@@ -19,7 +19,7 @@ The lightweight spreadsheet creation application crafted for [Final Cut Pro](htt
 - Role-based inventory sheets built from audio and video roles on the timeline, with per-role enable and disable control.
 - Comprehensive timeline functionality, encompassing support for timelines such as Projects and Compound Clips.
 - Optional report sheets for Markers, Keywords, Titles & Generators, Transitions, Effects, Speed Changes, Summary, and Media Summary.
-- Configurable report columns, timecode format, disabled-clip exclusion, optional Role Inventory speed-change settings and Excel screenshots, and other File options for tailored deliverables.
+- Configurable columns, timecode, disabled-clip exclusion, and optional Role Inventory screenshots.
 - Allows the creation of multiple configurations tailored to diverse project requirements, with assignable keyboard shortcuts.
 - Export on drop or confirm when you are ready, with automatic and manual export modes.
 - Accepts drag and drop and Final Cut Pro timeline drags.
