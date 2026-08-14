@@ -89,6 +89,8 @@ By [!badge text="Default"], screenshots are omitted. Enable this option when you
 
 `Include Screenshots in Role Inventory` applies to the Excel workbook only. PDF export is unaffected — the PDF does not include a Screenshot column or embeds.
 
+During export, **Production Data** may show `Choose Media Folder` if it cannot read the source media from the FCPXML or export folder alone (for example media on an external volume). Choose the folder that contains those files — or a parent folder — then press `Grant Access`. Cancelling the prompt cancels that export.
+
 Screenshots work for most common video files this Mac can decode (via AVFoundation) — not every format. They are reliable for typical Final Cut Pro library media when the files are on disk and reachable.
 
 **Typically supported**
