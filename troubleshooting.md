@@ -20,6 +20,8 @@ Both files live under Application Support for **Production Data**. Share them on
 
 **Production Data** cannot write the Excel workbook until you choose an export destination.
 
+It is important to create your first [Configuration](/user-guide/configurations) with a valid `Export Folder` before exporting. Select a destination under `General` Settings, then press `⌘` `S` to `Update Active Configuration`.
+
 You will see this when:
 
 - The Extract footer shows `Please select!` next to `Export Folder`
