@@ -61,7 +61,7 @@ Your browser does not support the video tag.
 ==- Include Screenshots
 
 <video controls width="1920">
-  <source src="/assets/pd-include-screenshots-02.mp4.mp4" type="video/mp4">
+  <source src="/assets/pd-include-screenshots-02.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
