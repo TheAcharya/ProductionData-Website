@@ -86,7 +86,7 @@ By [!badge text="Default"], screenshots are omitted. Enable this option when you
 
 When original media is missing or unreadable, **Production Data** uses proxy media for the frame grab when a proxy file is available.
 
-During export, **Production Data** may show `Choose Media Folder` if it cannot read the original or proxy media from the FCPXML or export folder alone (for example media on an external volume). Choose the original media folder, the proxy folder, a Final Cut Pro library (`.fcpbundle`), or a parent folder that contains them, then press `Grant Access`. Cancelling the prompt cancels that export.
+During export, **Production Data** may show `Choose Media Folder` if it cannot read the original or proxy media from the FCPXML or export folder alone (for example media on an external volume). Choose the original media folder, the proxy folder, a Final Cut Pro library (`.fcpbundle`), or an enclosing folder, then press `Grant Access`. Cancelling the prompt cancels that export.
 
 Screenshots work for most common video files this Mac can decode (via AVFoundation) — not every format. They are reliable for typical Final Cut Pro library media when the files are on disk and reachable.
 
