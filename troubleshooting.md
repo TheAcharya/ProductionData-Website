@@ -178,12 +178,12 @@ Excel still opens the file without a password. Anyone can turn protection off in
 
 Screenshots rely on media this Mac can decode. Blank cells are common for offline media, unsupported codecs, audio-only rows, titles or generators with no media file, some MXF or proprietary wrappers, and corrupt or DRM-locked files. Stills (PNG, JPEG, and similar) use the image itself; video frames are taken at `Source In` (not `Timeline In`) and may land on a nearby frame on hard GOP media.
 
-A `Media Summary` row of `No Missing Media` only means the path exists on disk. It does **not** mean **Production Data** can open the file for a screenshot embed.
+A `Media Summary` row of `No Missing Media` only means the path exists on disk. It does **not** mean **Production Data** can open the file for a screenshot embed. When original media is missing or unreadable, a readable proxy is used when available.
 
 If screenshot cells are blank:
 
 - Confirm the option is enabled under [General](/user-guide/general/#include-screenshots-in-role-inventory) → File → Export Options
-- When `Choose Media Folder` appears, select the folder that holds the source media (or a parent folder) and press `Grant Access` — cancelling the prompt cancels that export
+- When `Choose Media Folder` appears, select the original media folder, the proxy folder, a Final Cut Pro library (`.fcpbundle`), or a parent folder that contains them, then press `Grant Access` — cancelling the prompt cancels that export.
 - Confirm media paths in the project are reachable from this Mac (absolute paths on connected volumes work best)
 - Cache / drag-and-drop intake may not resolve relative media paths — try File → Export XML from Final Cut Pro and open that file instead
 
@@ -193,9 +193,9 @@ See [Include Screenshots in Role Inventory](/user-guide/general/#include-screens
 
 ## Choose Media Folder / Grant Access appeared during export
 
-When `Include Screenshots in Role Inventory` is on, **Production Data** may ask you to choose a media folder before writing the Excel workbook. This happens when the source files sit outside the FCPXML and export folders — for example on an external drive.
+When `Include Screenshots in Role Inventory` is on, **Production Data** may ask you to choose a media folder before writing the Excel workbook. This happens when neither the original nor the proxy media is readable from the FCPXML and export folders — for example on an external drive.
 
-Choose the folder that contains those media files, or a parent folder that contains all of them, then press `Grant Access`. If the selected folder does not contain the files, **Production Data** shows an error and the export fails — choose a higher-level folder and try again.
+Choose the original media folder, the proxy folder, a Final Cut Pro library (`.fcpbundle`), or a parent folder that contains them, then press `Grant Access`. If the selected folder does not contain the files, **Production Data** shows an error and the export fails — choose a higher-level folder and try again.
 
 Cancelling `Choose Media Folder` cancels that export. Roles and other sheets are unaffected; turn the screenshot option off under [General](/user-guide/general/#include-screenshots-in-role-inventory) if you do not need embeds.
 
