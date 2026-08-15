@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.840095117016">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.840095233202">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -44,11 +44,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../static/favicon.ico" />
-    <link href="../../resources/css/retype.css?v=4.6.0.840095117016" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.6.0.840095233202" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.840095117016" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.840095233202" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.840095117016" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.840095233202" data-turbo-eval="false" defer></script>
 
     <meta name="msvalidate.01" content="325120C12888C61306930ACDFB17A57E" />
     <!-- Google Tag Manager -->
@@ -401,7 +401,8 @@
     <span>Default</span>
 </span>, screenshots are omitted. Enable this option when you want a visual reference on each inventory row. If media cannot be read, the cell is left blank.</p>
 <p><code translate="no" v-pre>Include Screenshots in Role Inventory</code> applies to the Excel workbook only. PDF export is unaffected — the PDF does not include a Screenshot column or embeds.</p>
-<p>During export, <strong>Production Data</strong> may show <code translate="no" v-pre>Choose Media Folder</code> if it cannot read the source media from the FCPXML or export folder alone (for example media on an external volume). Choose the folder that contains those files — or a parent folder — then press <code translate="no" v-pre>Grant Access</code>. Cancelling the prompt cancels that export.</p>
+<p>When original media is missing or unreadable, <strong>Production Data</strong> uses proxy media for the frame grab when a proxy file is available.</p>
+<p>During export, <strong>Production Data</strong> may show <code translate="no" v-pre>Choose Media Folder</code> if it cannot read the original or proxy media from the FCPXML or export folder alone (for example media on an external volume). Choose the original media folder, the proxy folder, a Final Cut Pro library (<code translate="no" v-pre>.fcpbundle</code>), or a parent folder that contains them, then press <code translate="no" v-pre>Grant Access</code>. Cancelling the prompt cancels that export.</p>
 <p>Screenshots work for most common video files this Mac can decode (via AVFoundation) — not every format. They are reliable for typical Final Cut Pro library media when the files are on disk and reachable.</p>
 <p><strong>Typically supported</strong></p>
 <ul>
