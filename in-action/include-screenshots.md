@@ -48,7 +48,7 @@ Your browser does not support the video tag.
 
 1. Drag and drop your `.fcpxml` or `.fcpxmld` file onto [Extract](/user-guide/extract), or drag a timeline / compound clip from Final Cut Pro.
 2. **Production Data** will begin the export.
-3. If `Choose Media Folder` appears, select the original media folder, the proxy folder, a Final Cut Pro library (`.fcpbundle`), or a parent folder that contains them, then press `Grant Access`. Cancelling the prompt cancels that export.
+3. If `Choose Media Folder` appears, select the original media folder, the proxy folder, a Final Cut Pro library (`.fcpbundle`), or an enclosing folder, then press `Grant Access`. Cancelling the prompt cancels that export.
 4. **Production Data** will create an Excel workbook (`.xlsx`) in your Export Destination, with `Source In` frame grabs in the Role Inventory `Screenshot` column.
 
 !!!info Info
