@@ -183,7 +183,7 @@ A `Media Summary` row of `No Missing Media` only means the path exists on disk. 
 If screenshot cells are blank:
 
 - Confirm the option is enabled under [General](/user-guide/general/#include-screenshots-in-role-inventory) → File → Export Options
-- When `Choose Media Folder` appears, select the original media folder, the proxy folder, a Final Cut Pro library (`.fcpbundle`), or a parent folder that contains them, then press `Grant Access` — cancelling the prompt cancels that export.
+- When `Choose Media Folder` appears, select the original media folder, the proxy folder, a Final Cut Pro library (`.fcpbundle`), or an enclosing folder, then press `Grant Access` — cancelling the prompt cancels that export.
 - Confirm media paths in the project are reachable from this Mac (absolute paths on connected volumes work best)
 - Cache / drag-and-drop intake may not resolve relative media paths — try File → Export XML from Final Cut Pro and open that file instead
 
@@ -195,7 +195,7 @@ See [Include Screenshots in Role Inventory](/user-guide/general/#include-screens
 
 When `Include Screenshots in Role Inventory` is on, **Production Data** may ask you to choose a media folder before writing the Excel workbook. This happens when neither the original nor the proxy media is readable from the FCPXML and export folders — for example on an external drive.
 
-Choose the original media folder, the proxy folder, a Final Cut Pro library (`.fcpbundle`), or a parent folder that contains them, then press `Grant Access`. If the selected folder does not contain the files, **Production Data** shows an error and the export fails — choose a higher-level folder and try again.
+Choose the original media folder, the proxy folder, a Final Cut Pro library (`.fcpbundle`), or an enclosing folder, then press `Grant Access`. If the selected folder does not contain the files, **Production Data** shows an error and the export fails — choose a higher-level folder and try again.
 
 Cancelling `Choose Media Folder` cancels that export. Roles and other sheets are unaffected; turn the screenshot option off under [General](/user-guide/general/#include-screenshots-in-role-inventory) if you do not need embeds.
 
