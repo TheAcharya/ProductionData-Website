@@ -95,7 +95,9 @@ During export, **Production Data** may show `Choose Media Folder` if it cannot r
 
 After you grant original media, the same `Choose Media Folder` panel may appear again for unread proxy or transcoded media — even when the original files are already readable. Some formats, such as MXF or camera RAW, still need a readable proxy for the frame grab. Grant the proxy folder the same way. **Production Data** keeps every successful grant for that export.
 
+!!!info Info
 If remaining files still cannot be read, **Production Data** offers `Choose Another Folder`, `Continue Without Remaining Screenshots`, or `Cancel Export`. Leftover cells stay blank if you continue; the rest of the workbook still exports. Cancelling the first `Choose Media Folder` prompt cancels that export.
+!!!
 
 A Final Cut Pro library (`.fcpbundle`) is accepted as a file or a folder. A library may only *reference* external media — if screenshots stay blank, grant the actual original or proxy folder instead.
 
