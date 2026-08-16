@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.840159780774">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.840159881173">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -44,11 +44,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../static/favicon.ico" />
-    <link href="../../resources/css/retype.css?v=4.6.0.840159780774" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.6.0.840159881173" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.840159780774" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.840159881173" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.840159780774" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.840159881173" data-turbo-eval="false" defer></script>
 
     <meta name="msvalidate.01" content="325120C12888C61306930ACDFB17A57E" />
     <!-- Google Tag Manager -->
@@ -341,7 +341,9 @@ Your browser does not support the video tag.
 <ol>
 <li>Drag and drop your <code translate="no" v-pre>.fcpxml</code> or <code translate="no" v-pre>.fcpxmld</code> file onto <a href="/user-guide/extract">Extract</a>, or drag a timeline / compound clip from Final Cut Pro.</li>
 <li><strong>Production Data</strong> will begin the export.</li>
-<li>If <code translate="no" v-pre>Choose Media Folder</code> appears, select the original media folder, the proxy folder, a Final Cut Pro library (<code translate="no" v-pre>.fcpbundle</code>), or an enclosing folder, then press <code translate="no" v-pre>Grant Access</code>. Cancelling the prompt cancels that export.</li>
+<li>If <code translate="no" v-pre>Choose Media Folder</code> appears, select the original media folder, the proxy folder, a Final Cut Pro library (<code translate="no" v-pre>.fcpbundle</code>), or an enclosing folder, then press <code translate="no" v-pre>Grant Access</code>. Cancelling this first prompt cancels that export.</li>
+<li>The same <code translate="no" v-pre>Choose Media Folder</code> panel may appear again for unread proxy or transcoded media — even after original media was granted. Grant the proxy folder the same way. Original and proxy media often live in different folders.</li>
+<li>If remaining files still cannot be read, choose <code translate="no" v-pre>Choose Another Folder</code>, <code translate="no" v-pre>Continue Without Remaining Screenshots</code>, or <code translate="no" v-pre>Cancel Export</code>.</li>
 <li><strong>Production Data</strong> will create an Excel workbook (<code translate="no" v-pre>.xlsx</code>) in your Export Destination, with <code translate="no" v-pre>Source In</code> frame grabs in the Role Inventory <code translate="no" v-pre>Screenshot</code> column.</li>
 </ol>
 <div class="flex mb-6">
@@ -358,7 +360,7 @@ Your browser does not support the video tag.
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Info</h5>
-<p>Titles, generators, and audio-only rows leave the Screenshot cell blank. If media cannot be read after you grant access, the cell is also left blank — the rest of the workbook still exports. See <a href="/user-guide/general/#include-screenshots-in-role-inventory">Include Screenshots in Role Inventory</a>.</p>
+<p>Titles, generators, and audio-only rows leave the Screenshot cell blank. If media cannot be read after you grant access — or you continue without remaining screenshots — leftover cells stay blank. The rest of the workbook still exports. See <a href="/user-guide/general/#include-screenshots-in-role-inventory">Include Screenshots in Role Inventory</a>.</p>
         </div>
     </div>
 </div>
