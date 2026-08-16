@@ -26,7 +26,7 @@ If [Include Screenshots in Role Inventory](/user-guide/general/#include-screensh
 
 ## Choose Media Folder
 
-After the report is built, **Production Data** may show `Choose Media Folder` if Role Inventory screenshots are on and it cannot read the original or proxy media — for example after dragging a timeline from Final Cut Pro (staged in Cache), when media lives on another volume, or when media sits inside a Final Cut Pro library (`.fcpbundle`).
+After the report is built, **Production Data** may show `Choose Media Folder` if [Role Inventory screenshots](/user-guide/general/#include-screenshots-in-role-inventory) are on and it cannot read the original or proxy media — for example after dragging a timeline from Final Cut Pro (staged in Cache), when media lives on another volume, or when media sits inside a Final Cut Pro library (`.fcpbundle`).
 
 The panel title is `Choose Media Folder`, the message is `Original media, proxy media, a Final Cut Pro library, or an enclosing folder.`, and the button is `Grant Access`. Select one of those, then press `Grant Access`.
 
