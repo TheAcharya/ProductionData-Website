@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.840145482033">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.840159688839">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -44,11 +44,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../static/favicon.ico" />
-    <link href="../resources/css/retype.css?v=4.6.0.840145482033" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=4.6.0.840159688839" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=4.6.0.840145482033" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=4.6.0.840159688839" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.6.0.840145482033" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.6.0.840159688839" data-turbo-eval="false" defer></script>
 
     <meta name="msvalidate.01" content="325120C12888C61306930ACDFB17A57E" />
     <!-- Google Tag Manager -->
@@ -475,16 +475,27 @@
 <p>If screenshot cells are blank:</p>
 <ul>
 <li>Confirm the option is enabled under <a href="/user-guide/general/#include-screenshots-in-role-inventory">General</a> → File → Export Options</li>
-<li>When <code translate="no" v-pre>Choose Media Folder</code> appears, select the original media folder, the proxy folder, a Final Cut Pro library (<code translate="no" v-pre>.fcpbundle</code>), or an enclosing folder, then press <code translate="no" v-pre>Grant Access</code> — cancelling the prompt cancels that export.</li>
+<li>When <code translate="no" v-pre>Choose Media Folder</code> appears, select the original media folder, the proxy folder, a Final Cut Pro library (<code translate="no" v-pre>.fcpbundle</code>), or an enclosing folder, then press <code translate="no" v-pre>Grant Access</code> — cancelling the first prompt cancels that export</li>
+<li>If the same panel appears again, grant the unread proxy or transcoded-media folder — original and proxy media often live in different places</li>
+<li>If remaining files still cannot be read, use <code translate="no" v-pre>Choose Another Folder</code>, or <code translate="no" v-pre>Continue Without Remaining Screenshots</code> to finish with leftover cells blank</li>
 <li>Confirm media paths in the project are reachable from this Mac (absolute paths on connected volumes work best)</li>
 <li>Cache / drag-and-drop intake may not resolve relative media paths — try File → Export XML from Final Cut Pro and open that file instead</li>
 </ul>
-<p>Blank cells are expected when media cannot be read after access is granted, and for titles or audio-only rows. This is not an export failure, and the rest of the workbook still exports normally.</p>
+<p>Blank cells are expected when media cannot be read after access is granted, when you continue without remaining screenshots, and for titles or audio-only rows. This is not an export failure, and the rest of the workbook still exports normally.</p>
 <p>See <a href="/user-guide/general/#include-screenshots-in-role-inventory">Include Screenshots in Role Inventory</a> and <doc-anchor-trigger to="#media-summary-lists-files-as-missing-but-the-media-is-on-disk">Media Summary lists files as missing</doc-anchor-trigger>.</p>
 <h2 id="choose-media-folder--grant-access-appeared-during-export">Choose Media Folder / Grant Access appeared during export</h2>
-<p>When <code translate="no" v-pre>Include Screenshots in Role Inventory</code> is on, <strong>Production Data</strong> may ask you to choose a media folder before writing the Excel workbook. This happens when neither the original nor the proxy media is readable from the FCPXML and export folders — for example on an external drive.</p>
-<p>Choose the original media folder, the proxy folder, a Final Cut Pro library (<code translate="no" v-pre>.fcpbundle</code>), or an enclosing folder, then press <code translate="no" v-pre>Grant Access</code>. If the selected folder does not contain the files, <strong>Production Data</strong> shows an error and the export fails — choose a higher-level folder and try again.</p>
-<p>Cancelling <code translate="no" v-pre>Choose Media Folder</code> cancels that export. Roles and other sheets are unaffected; turn the screenshot option off under <a href="/user-guide/general/#include-screenshots-in-role-inventory">General</a> if you do not need embeds.</p>
+<p>When <code translate="no" v-pre>Include Screenshots in Role Inventory</code> is on, <strong>Production Data</strong> may ask you to choose a media folder before writing the Excel workbook. This happens when the original or proxy media is not readable from the FCPXML and export folders — for example on an external drive.</p>
+<p>The panel is always the same: title <code translate="no" v-pre>Choose Media Folder</code>, message <code translate="no" v-pre>Original media, proxy media, a Final Cut Pro library, or an enclosing folder.</code>, button <code translate="no" v-pre>Grant Access</code>. Choose one of those locations, then press <code translate="no" v-pre>Grant Access</code>.</p>
+<p>After you grant original media, the same panel may appear again for unread proxy or transcoded media — even when the original files are already readable. Some formats, such as MXF or camera RAW, still need a readable proxy. Grant that second folder the same way. <strong>Production Data</strong> keeps every successful grant for that export.</p>
+<p>A Final Cut Pro library (<code translate="no" v-pre>.fcpbundle</code>) is accepted as a file or a folder. A library may only <em>reference</em> external media — if screenshots stay blank, grant the actual original or proxy folder instead.</p>
+<p>If remaining files still cannot be read, <strong>Production Data</strong> does <strong>not</strong> fail the export. It offers:</p>
+<ul>
+<li><code translate="no" v-pre>Choose Another Folder</code> — grant a different location</li>
+<li><code translate="no" v-pre>Continue Without Remaining Screenshots</code> — leftover cells stay blank; the rest of the workbook still exports</li>
+<li><code translate="no" v-pre>Cancel Export</code> — abort that export</li>
+</ul>
+<p>Cancelling the first <code translate="no" v-pre>Choose Media Folder</code> prompt cancels that export. If you cancel the follow-up proxy prompt, the same three choices appear.</p>
+<p>Roles and other sheets are unaffected; turn the screenshot option off under <a href="/user-guide/general/#include-screenshots-in-role-inventory">General</a> if you do not need embeds.</p>
 <h2 id="the-spreadsheet-is-missing-sheets-or-columns-i-expected">The spreadsheet is missing sheets or columns I expected</h2>
 <p>Exports follow the <strong>active Configuration</strong>:</p>
 <ol>
