@@ -84,9 +84,15 @@ By [!badge text="Default"], screenshots are omitted. Enable this option when you
 
 `Include Screenshots in Role Inventory` applies to the Excel workbook only. PDF export is unaffected — the PDF does not include a Screenshot column or embeds.
 
-When original media is missing or unreadable, **Production Data** uses proxy media for the frame grab when a proxy file is available.
+When original media is missing or unreadable, **Production Data** uses proxy media for the frame grab when a proxy file is available. Original and proxy media often live in different folders.
 
-During export, **Production Data** may show `Choose Media Folder` if it cannot read the original or proxy media from the FCPXML or export folder alone (for example media on an external volume). Choose the original media folder, the proxy folder, a Final Cut Pro library (`.fcpbundle`), or an enclosing folder, then press `Grant Access`. Cancelling the prompt cancels that export.
+During export, **Production Data** may show `Choose Media Folder` if it cannot read the original or proxy media from the FCPXML or export folder alone (for example media on an external volume). The panel title is `Choose Media Folder`, the message is `Original media, proxy media, a Final Cut Pro library, or an enclosing folder.`, and the button is `Grant Access`. Choose one of those locations, then press `Grant Access`.
+
+After you grant original media, the same `Choose Media Folder` panel may appear again for unread proxy or transcoded media — even when the original files are already readable. Some formats, such as MXF or camera RAW, still need a readable proxy for the frame grab. Grant the proxy folder the same way. **Production Data** keeps every successful grant for that export.
+
+If remaining files still cannot be read, **Production Data** offers `Choose Another Folder`, `Continue Without Remaining Screenshots`, or `Cancel Export`. Leftover cells stay blank if you continue; the rest of the workbook still exports. Cancelling the first `Choose Media Folder` prompt cancels that export.
+
+A Final Cut Pro library (`.fcpbundle`) is accepted as a file or a folder. A library may only *reference* external media — if screenshots stay blank, grant the actual original or proxy folder instead.
 
 Screenshots work for most common video files this Mac can decode (via AVFoundation) — not every format. They are reliable for typical Final Cut Pro library media when the files are on disk and reachable.
 
