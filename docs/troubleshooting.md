@@ -188,21 +188,35 @@ A `Media Summary` row of `No Missing Media` only means the path exists on disk. 
 If screenshot cells are blank:
 
 - Confirm the option is enabled under [General](/user-guide/general/#include-screenshots-in-role-inventory) → File → Export Options
-- When `Choose Media Folder` appears, select the original media folder, the proxy folder, a Final Cut Pro library (`.fcpbundle`), or an enclosing folder, then press `Grant Access` — cancelling the prompt cancels that export.
+- When `Choose Media Folder` appears, select the original media folder, the proxy folder, a Final Cut Pro library (`.fcpbundle`), or an enclosing folder, then press `Grant Access` — cancelling the first prompt cancels that export
+- If the same panel appears again, grant the unread proxy or transcoded-media folder — original and proxy media often live in different places
+- If remaining files still cannot be read, use `Choose Another Folder`, or `Continue Without Remaining Screenshots` to finish with leftover cells blank
 - Confirm media paths in the project are reachable from this Mac (absolute paths on connected volumes work best)
 - Cache / drag-and-drop intake may not resolve relative media paths — try File → Export XML from Final Cut Pro and open that file instead
 
-Blank cells are expected when media cannot be read after access is granted, and for titles or audio-only rows. This is not an export failure, and the rest of the workbook still exports normally.
+Blank cells are expected when media cannot be read after access is granted, when you continue without remaining screenshots, and for titles or audio-only rows. This is not an export failure, and the rest of the workbook still exports normally.
 
 See [Include Screenshots in Role Inventory](/user-guide/general/#include-screenshots-in-role-inventory) and [Media Summary lists files as missing](#media-summary-lists-files-as-missing-but-the-media-is-on-disk).
 
 ## Choose Media Folder / Grant Access appeared during export
 
-When `Include Screenshots in Role Inventory` is on, **Production Data** may ask you to choose a media folder before writing the Excel workbook. This happens when neither the original nor the proxy media is readable from the FCPXML and export folders — for example on an external drive.
+When `Include Screenshots in Role Inventory` is on, **Production Data** may ask you to choose a media folder before writing the Excel workbook. This happens when the original or proxy media is not readable from the FCPXML and export folders — for example on an external drive.
 
-Choose the original media folder, the proxy folder, a Final Cut Pro library (`.fcpbundle`), or an enclosing folder, then press `Grant Access`. If the selected folder does not contain the files, **Production Data** shows an error and the export fails — choose a higher-level folder and try again.
+The panel is always the same: title `Choose Media Folder`, message `Original media, proxy media, a Final Cut Pro library, or an enclosing folder.`, button `Grant Access`. Choose one of those locations, then press `Grant Access`.
 
-Cancelling `Choose Media Folder` cancels that export. Roles and other sheets are unaffected; turn the screenshot option off under [General](/user-guide/general/#include-screenshots-in-role-inventory) if you do not need embeds.
+After you grant original media, the same panel may appear again for unread proxy or transcoded media — even when the original files are already readable. Some formats, such as MXF or camera RAW, still need a readable proxy. Grant that second folder the same way. **Production Data** keeps every successful grant for that export.
+
+A Final Cut Pro library (`.fcpbundle`) is accepted as a file or a folder. A library may only *reference* external media — if screenshots stay blank, grant the actual original or proxy folder instead.
+
+If remaining files still cannot be read, **Production Data** does **not** fail the export. It offers:
+
+- `Choose Another Folder` — grant a different location
+- `Continue Without Remaining Screenshots` — leftover cells stay blank; the rest of the workbook still exports
+- `Cancel Export` — abort that export
+
+Cancelling the first `Choose Media Folder` prompt cancels that export. If you cancel the follow-up proxy prompt, the same three choices appear.
+
+Roles and other sheets are unaffected; turn the screenshot option off under [General](/user-guide/general/#include-screenshots-in-role-inventory) if you do not need embeds.
 
 ## The spreadsheet is missing sheets or columns I expected
 
