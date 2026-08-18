@@ -35,6 +35,18 @@ Apple provides a mechanism for requesting refunds on App Store purchases. Please
 
 This is expected behaviour rather than a fault. For an A/V clip, a report intentionally generates one row per component role, so a single marker or keyword attached to a clip with both a Video role and a Music role, for instance, will appear as two separate rows, one for each role. This ensures that the role breakdown remains accurate and complete, rather than collapsing distinct roles into a single, less informative entry.
 
+## I disabled a role. Why did Markers, Effects, or Summary change?
+
+Disabling a role on the [Roles](/user-guide/roles) panel no longer affects Role Inventory alone. Matching Role ▸ Subrole rows are also omitted from Markers, Keywords, Titles & Generators, Video & Audio Effects, Speed Change Effects, and Summary. This is expected: the same role filter is applied across every role-bearing sheet, so a disabled dialogue or VFX role does not linger on those other worksheets.
+
+Transitions, Non-Standard Effects & Templates, and Media Summary are not filtered by role. If you need those Marker, Effects, or Summary rows back, enable the role again on the Video or Audio tab, update the active Configuration, and export once more.
+
+## Why do Effect Settings, Optical Flow names, or Title Text look different from an older export?
+
+Report cells now follow Final Cut Pro's own display. Effect Settings use inspector-style values — for example opacity as a percent, and Transform Position, Rotation, and Scale. Speed Change optical-flow retimes are reported as `Optical Flow Retime`. Titles & Generators Title Text concatenates style runs that sit on the same line, rather than splitting them.
+
+This is automatic. There is no extra toggle under [General](/user-guide/general).
+
 ## Why is there no Workflow Extension for Production Data?
 
 Incorporating a Final Cut Pro Workflow Extension into **Production Data** would not, in practice, unlock any meaningfully new capability for spreadsheet generation. There are two principal reasons for this decision.
