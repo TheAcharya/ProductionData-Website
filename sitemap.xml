@@ -13,16 +13,16 @@
     <loc>http://productiondata.theacharya.co/disclaimers/</loc>
   </url>
   <url>
-    <loc>http://productiondata.theacharya.co/troubleshooting/</loc>
-  </url>
-  <url>
-    <loc>http://productiondata.theacharya.co/user-guide/extract/</loc>
-  </url>
-  <url>
     <loc>http://productiondata.theacharya.co/user-guide/general/</loc>
   </url>
   <url>
+    <loc>http://productiondata.theacharya.co/troubleshooting/</loc>
+  </url>
+  <url>
     <loc>http://productiondata.theacharya.co/prologue/</loc>
+  </url>
+  <url>
+    <loc>http://productiondata.theacharya.co/user-guide/extract/</loc>
   </url>
   <url>
     <loc>http://productiondata.theacharya.co/user-guide/configurations/</loc>
@@ -37,19 +37,19 @@
     <loc>http://productiondata.theacharya.co/press-kit-media/</loc>
   </url>
   <url>
-    <loc>http://productiondata.theacharya.co/credits/</loc>
+    <loc>http://productiondata.theacharya.co/epilogue/</loc>
   </url>
   <url>
-    <loc>http://productiondata.theacharya.co/epilogue/</loc>
+    <loc>http://productiondata.theacharya.co/credits/</loc>
   </url>
   <url>
     <loc>http://productiondata.theacharya.co/release-notes/</loc>
   </url>
   <url>
-    <loc>http://productiondata.theacharya.co/the-acharya/</loc>
+    <loc>http://productiondata.theacharya.co/user-guide/roles/</loc>
   </url>
   <url>
-    <loc>http://productiondata.theacharya.co/user-guide/roles/</loc>
+    <loc>http://productiondata.theacharya.co/the-acharya/</loc>
   </url>
   <url>
     <loc>http://productiondata.theacharya.co/user-guide/overview/</loc>
@@ -58,10 +58,10 @@
     <loc>http://productiondata.theacharya.co/in-action/reviewing-roles/</loc>
   </url>
   <url>
-    <loc>http://productiondata.theacharya.co/in-action/creating-excel-spreadsheet/</loc>
+    <loc>http://productiondata.theacharya.co/case-study/final-cut-pro-enigma/</loc>
   </url>
   <url>
-    <loc>http://productiondata.theacharya.co/case-study/final-cut-pro-enigma/</loc>
+    <loc>http://productiondata.theacharya.co/in-action/creating-excel-spreadsheet/</loc>
   </url>
   <url>
     <loc>http://productiondata.theacharya.co/case-study/reviving-a-lost-feature/</loc>
