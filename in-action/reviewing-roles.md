@@ -12,7 +12,7 @@
 4. Return to Configurations to [Update Active Configuration](/user-guide/configurations/#update-active-configuration).
 
 !!!info Info
-Disabled roles are omitted from the export. Role enable and disable choices are saved with the active Configuration when you update it.
+Disabled roles are omitted from Role Inventory and from Markers, Keywords, Titles & Generators, Video & Audio Effects, Speed Change Effects, and Summary. `Transitions`, `Non-Standard Effects & Templates`, and `Media Summary` are unchanged. Role enable and disable choices are saved with the active Configuration when you update it.
 !!!
 
 ## Review Roles
@@ -27,4 +27,4 @@ Your browser does not support the video tag.
 1. Drag and drop your `.fcpxml` or `.fcpxmld` file onto [Roles](/user-guide/roles), or drag a timeline / compound clip from Final Cut Pro.
 2. Review the `Video` and `Audio` tabs. Enable or disable roles as needed — or use `Enable All` / `Disable All` for the selected tab.
 3. Switch to [Extract](/user-guide/extract) and press `Start Export`.
-4. **Production Data** will create an Excel workbook (`.xlsx`) with only the enabled roles.
+4. **Production Data** will create an Excel workbook (`.xlsx`) that includes only the enabled roles on those sheets.
