@@ -30,7 +30,7 @@ Apple provides a mechanism for requesting refunds on App Store purchases. Please
 
 This is expected behaviour rather than a fault. For an A/V clip, a report intentionally generates one row per component role, so a single marker or keyword attached to a clip with both a Video role and a Music role, for instance, will appear as two separate rows, one for each role. This ensures that the role breakdown remains accurate and complete, rather than collapsing distinct roles into a single, less informative entry.
 
-## I disabled a role. Why did Markers, Effects, or Summary change?
+## Why does disabling a role affect other sheets too?
 
 Disabling a role on the [Roles](/user-guide/roles) panel does not only affect Role Inventory. Matching Role ▸ Subrole rows are also omitted from Markers, Keywords, Titles & Generators, Video & Audio Effects, Speed Change Effects, and Summary. This is expected: the same role filter is applied across every role-bearing sheet, so a disabled dialogue or VFX role does not linger on those other worksheets.
 
