@@ -7,7 +7,7 @@ order: -4
 
 ![Roles Settings](/assets/pd-roles-settings.png)
 
-**Production Data**'s `Roles` panel lets you review and include or exclude the video and audio roles found in your Final Cut Pro project. Role settings in the active [Configuration](/user-guide/configurations) control which roles appear in the exported report
+**Production Data**'s `Roles` panel lets you review and include or exclude the video and audio roles found in your Final Cut Pro project. Role settings in the active [Configuration](/user-guide/configurations) control which roles appear in the exported report.
 
 Drop an `.fcpxml` or `.fcpxmld` file onto Roles, or drag a timeline / compound clip from Final Cut Pro. Tables appear only after a project has been loaded.
 
@@ -18,7 +18,21 @@ Drop an `.fcpxml` or `.fcpxmld` file onto Roles, or drag a timeline / compound c
 - **Video** — lists video roles from the loaded project.
 - **Audio** — lists audio roles from the loaded project.
 
-Use `Enable All` or `Disable All` for the selected tab. Disabled roles are omitted from the export.
+Use `Enable All` or `Disable All` for the selected tab. Disabled roles are omitted from Role Inventory and from other role-bearing sheets in the same export:
+
+- Selected Roles Inventory (and each per-role inventory tab)
+- Markers
+- Keywords
+- Titles & Generators
+- Video & Audio Effects
+- Speed Change Effects
+- Summary
+
+`Transitions`, `Non-Standard Effects & Templates`, and `Media Summary` are not filtered by disabled roles.
+
+!!!info Info
+Disable a role when you want matching Role ▸ Subrole rows dropped from those sheets — not from Role Inventory alone. Empty Role ▸ Subrole fields are left as they are.
+!!!
 
 ## Automatic and Manual Mode
 
