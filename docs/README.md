@@ -16,7 +16,7 @@ The lightweight spreadsheet creation application crafted for [Final Cut Pro](htt
 
 - Functionality allowing export of Excel workbooks (`.xlsx`) from Final Cut Pro timelines.
 - Precise extraction of timeline metadata, ensuring an accurate representation of clips, roles, and production information.
-- Role-based inventory sheets built from audio and video roles on the timeline, with per-role enable and disable control.
+- Role-based inventory sheets built from audio and video roles on the timeline, with per-role enable and disable control across matching report sheets.
 - Comprehensive timeline functionality, encompassing support for timelines such as Projects and Compound Clips.
 - Optional report sheets for Markers, Keywords, Titles & Generators, Transitions, Effects, Speed Changes, Summary, and Media Summary.
 - Configurable columns, timecode, disabled-clip exclusion, and optional Role Inventory screenshots.
