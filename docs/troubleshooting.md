@@ -224,12 +224,20 @@ Exports follow the **active Configuration**:
 
 1. Check [Sheets](/user-guide/general/#sheets) for which worksheets are enabled.
 2. Check [Columns](/user-guide/general/#columns) for enabled workbook columns.
-3. Check [Roles](/user-guide/roles) — disabled roles are omitted from the report.
+3. Check [Roles](/user-guide/roles) — disabled roles are omitted from Role Inventory and from Markers, Keywords, Titles & Generators, Video & Audio Effects, Speed Change Effects, and Summary. `Transitions`, `Non-Standard Effects & Templates`, and `Media Summary` are not filtered by role.
 4. Confirm options such as `Exclude Disabled Clips`, `Include Markers Outside Clip Boundaries`, `Include Speed Change Settings in Role Inventory`, and `Include Screenshots in Role Inventory` under General → File.
 
 The Markers `Hidden` column appears only when `Include Markers Outside Clip Boundaries` is on; it is not listed under Columns. Likewise, Role Inventory `Speed Change Settings` and `Screenshot` columns appear only when their File options are on, and they are not listed under Columns.
 
 If the role inventory `Total` footer is missing, check [Columns](/user-guide/general/#columns). Excluding `Timeline Out` or `Clip Duration` omits the Total footer entirely (Excel and PDF).
+
+## I disabled a role and Markers / Effects / Summary look different
+
+When you disable a role on [Roles](/user-guide/roles), **Production Data** omits matching Role ▸ Subrole rows from Role Inventory, Markers, Keywords, Titles & Generators, Video & Audio Effects, Speed Change Effects, and Summary. This is expected, not an export failure.
+
+`Transitions`, `Non-Standard Effects & Templates`, and `Media Summary` do not filter by disabled roles.
+
+If you expected a role to remain on Markers, Effects, or Summary, enable it again on the `Video` or `Audio` tab, press `Update Active Configuration` (`⌘` `S`), and export once more. See [Roles](/user-guide/roles).
 
 ## An enabled sheet shows “No … Found” or looks empty
 
@@ -245,7 +253,7 @@ Enabling a sheet under [Sheets](/user-guide/general/#sheets) includes that secti
 - `No Roles Found`
 - `No Missing Media` (on `Media Summary` when nothing is missing)
 
-This is not an export failure. Confirm the timeline actually contains the items you expect for that sheet, or turn the sheet off if you do not need it.
+This is not an export failure. Confirm the timeline actually contains the items you expect for that sheet, or turn the sheet off if you do not need it. If you disabled every role that had matching Marker, Keyword, Title, Effects, or Speed Change rows, you would also see a `No … Found` status row on that sheet.
 
 !!!info Info
 Individual **per-role** inventory tabs may still be omitted when empty. `Summary` keeps its project-metrics layout rather than a `No … Found` status row.
