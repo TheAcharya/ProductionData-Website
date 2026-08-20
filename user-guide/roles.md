@@ -13,7 +13,7 @@ Drop an `.fcpxml` or `.fcpxmld` file onto Roles, or drag a timeline / compound c
 - **Video** — lists video roles from the loaded project.
 - **Audio** — lists audio roles from the loaded project.
 
-Use `Enable All` or `Disable All` for the selected tab. Disabled roles are omitted from Role Inventory and from other role-bearing sheets in the same export:
+Use `Enable All` or `Disable All` for the selected tab. Disabled roles are omitted only from **role-bearing** sheets in the same export:
 
 - Selected Roles Inventory (and each per-role inventory tab)
 - Markers
@@ -23,10 +23,12 @@ Use `Enable All` or `Disable All` for the selected tab. Disabled roles are omitt
 - Speed Change Effects
 - Summary
 
-`Transitions`, `Non-Standard Effects & Templates`, and `Media Summary` are not filtered by disabled roles.
+Role exclusion does **not** filter `Transitions`, `Non-Standard Effects & Templates`, or `Media Summary`.
 
 !!!info Info
-Disable a role when you want matching Role ▸ Subrole rows dropped from those sheets — not from Role Inventory alone. Empty Role ▸ Subrole fields are left as they are.
+Disable a role when you want matching Role ▸ Subrole rows dropped from those role-bearing sheets — not from Role Inventory alone. Empty Role ▸ Subrole fields are left as they are.
+
+Long role names may appear truncated on per-role Excel inventory tabs (Excel’s 31-character sheet-name limit). Disabling that truncated Roles entry still omits the matching full-length Role ▸ Subrole rows on Selected Roles Inventory and the other role-bearing sheets above. On Video & Audio Effects, exclusion also matches full inventory Role ▸ Subrole names, bare main-role fields, and raw Final Cut Pro role ids.
 !!!
 
 ## Automatic and Manual Mode

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.840547064496">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.840547139909">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -44,11 +44,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../static/favicon.ico" />
-    <link href="../../resources/css/retype.css?v=4.6.0.840547064496" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.6.0.840547139909" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.840547064496" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.840547139909" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.840547064496" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.840547139909" data-turbo-eval="false" defer></script>
 
     <meta name="msvalidate.01" content="325120C12888C61306930ACDFB17A57E" />
     <!-- Google Tag Manager -->
@@ -289,7 +289,7 @@
 <li><strong>Video</strong> — lists video roles from the loaded project.</li>
 <li><strong>Audio</strong> — lists audio roles from the loaded project.</li>
 </ul>
-<p>Use <code translate="no" v-pre>Enable All</code> or <code translate="no" v-pre>Disable All</code> for the selected tab. Disabled roles are omitted from Role Inventory and from other role-bearing sheets in the same export:</p>
+<p>Use <code translate="no" v-pre>Enable All</code> or <code translate="no" v-pre>Disable All</code> for the selected tab. Disabled roles are omitted only from <strong>role-bearing</strong> sheets in the same export:</p>
 <ul>
 <li>Selected Roles Inventory (and each per-role inventory tab)</li>
 <li>Markers</li>
@@ -299,7 +299,7 @@
 <li>Speed Change Effects</li>
 <li>Summary</li>
 </ul>
-<p><code translate="no" v-pre>Transitions</code>, <code translate="no" v-pre>Non-Standard Effects &amp; Templates</code>, and <code translate="no" v-pre>Media Summary</code> are not filtered by disabled roles.</p>
+<p>Role exclusion does <strong>not</strong> filter <code translate="no" v-pre>Transitions</code>, <code translate="no" v-pre>Non-Standard Effects &amp; Templates</code>, or <code translate="no" v-pre>Media Summary</code>.</p>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-info"></div>
     <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
@@ -314,7 +314,8 @@
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Info</h5>
-<p>Disable a role when you want matching Role ▸ Subrole rows dropped from those sheets — not from Role Inventory alone. Empty Role ▸ Subrole fields are left as they are.</p>
+<p>Disable a role when you want matching Role ▸ Subrole rows dropped from those role-bearing sheets — not from Role Inventory alone. Empty Role ▸ Subrole fields are left as they are.</p>
+<p>Long role names may appear truncated on per-role Excel inventory tabs (Excel’s 31-character sheet-name limit). Disabling that truncated Roles entry still omits the matching full-length Role ▸ Subrole rows on Selected Roles Inventory and the other role-bearing sheets above. On Video &amp; Audio Effects, exclusion also matches full inventory Role ▸ Subrole names, bare main-role fields, and raw Final Cut Pro role ids.</p>
         </div>
     </div>
 </div>
