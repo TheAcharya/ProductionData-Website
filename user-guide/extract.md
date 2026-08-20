@@ -40,7 +40,7 @@ After you grant original media, the same panel may appear again for unread proxy
 If remaining files still cannot be read, **Production Data** offers `Choose Another Folder`, `Continue Without Remaining Screenshots`, or `Cancel Export`. Leftover cells stay blank if you continue; the rest of the workbook still exports. Cancelling the first `Choose Media Folder` prompt cancels that export. Closing the follow-up proxy prompt offers the same three choices.
 
 !!!info Info
-The [Export Folder](/user-guide/general/#export-destination) bookmark does not automatically cover source media. A media-folder grant is session-only for that export and is not saved under [General](/user-guide/general). A `.fcpbundle` may only *reference* external media — if screenshots stay blank, grant the actual original or proxy folder. See [Include Screenshots in Role Inventory](/user-guide/general/#include-screenshots-in-role-inventory) and [Troubleshooting](/troubleshooting#choose-media-folder--grant-access-appeared-during-export).
+The [Export Folder](/user-guide/general/#export-destination) bookmark does not automatically cover source media. A media-folder grant is session-only for that export and is not saved under [General](/user-guide/general). A `.fcpbundle` may only *reference* external media — if screenshots stay blank, grant the actual original or proxy folder. See [Include Screenshots in Role Inventory](/user-guide/general/#include-screenshots-in-role-inventory) and [Troubleshooting](/troubleshooting#choose-media-folder-grant-access-appeared-during-export).
 !!!
 
 ## Excel Sample Sheets
