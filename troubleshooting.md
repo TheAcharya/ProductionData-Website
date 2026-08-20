@@ -219,7 +219,7 @@ Exports follow the **active Configuration**:
 
 1. Check [Sheets](/user-guide/general/#sheets) for which worksheets are enabled.
 2. Check [Columns](/user-guide/general/#columns) for enabled workbook columns.
-3. Check [Roles](/user-guide/roles) — disabled roles are omitted from Role Inventory and from Markers, Keywords, Titles & Generators, Video & Audio Effects, Speed Change Effects, and Summary. `Transitions`, `Non-Standard Effects & Templates`, and `Media Summary` are not filtered by role.
+3. Check [Roles](/user-guide/roles) — disabled roles are omitted only from **role-bearing** sheets (Role Inventory, Markers, Keywords, Titles & Generators, Video & Audio Effects, Speed Change Effects, and Summary). `Transitions`, `Non-Standard Effects & Templates`, and `Media Summary` are not filtered by role.
 4. Confirm options such as `Exclude Disabled Clips`, `Include Markers Outside Clip Boundaries`, `Include Speed Change Settings in Role Inventory`, and `Include Screenshots in Role Inventory` under General → File.
 
 The Markers `Hidden` column appears only when `Include Markers Outside Clip Boundaries` is on; it is not listed under Columns. Likewise, Role Inventory `Speed Change Settings` and `Screenshot` columns appear only when their File options are on, and they are not listed under Columns.
@@ -228,9 +228,11 @@ If the role inventory `Total` footer is missing, check [Columns](/user-guide/gen
 
 ## I disabled a role and Markers / Effects / Summary look different
 
-When you disable a role on [Roles](/user-guide/roles), **Production Data** omits matching Role ▸ Subrole rows from Role Inventory, Markers, Keywords, Titles & Generators, Video & Audio Effects, Speed Change Effects, and Summary. This is expected, not an export failure.
+When you disable a role on [Roles](/user-guide/roles), **Production Data** omits matching Role ▸ Subrole rows from **role-bearing** sheets only — Role Inventory, Markers, Keywords, Titles & Generators, Video & Audio Effects, Speed Change Effects, and Summary. This is expected, not an export failure.
 
-`Transitions`, `Non-Standard Effects & Templates`, and `Media Summary` do not filter by disabled roles.
+Role exclusion does **not** filter `Transitions`, `Non-Standard Effects & Templates`, or `Media Summary`.
+
+Long role names may appear truncated on per-role Excel inventory tabs (Excel’s 31-character sheet-name limit). Disabling that truncated Roles entry still omits the matching full-length Role ▸ Subrole rows on Selected Roles Inventory and the other role-bearing sheets. On Video & Audio Effects, exclusion also matches full inventory Role ▸ Subrole names, bare main-role fields, and raw Final Cut Pro role ids.
 
 If you expected a role to remain on Markers, Effects, or Summary, enable it again on the `Video` or `Audio` tab, press `Update Active Configuration` (`⌘` `S`), and export once more. See [Roles](/user-guide/roles).
 

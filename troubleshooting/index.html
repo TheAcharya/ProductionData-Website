@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.840415142384">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.840547064496">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -44,11 +44,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../static/favicon.ico" />
-    <link href="../resources/css/retype.css?v=4.6.0.840415142384" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=4.6.0.840547064496" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=4.6.0.840415142384" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=4.6.0.840547064496" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.6.0.840415142384" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.6.0.840547064496" data-turbo-eval="false" defer></script>
 
     <meta name="msvalidate.01" content="325120C12888C61306930ACDFB17A57E" />
     <!-- Google Tag Manager -->
@@ -501,14 +501,15 @@
 <ol>
 <li>Check <a href="/user-guide/general/#sheets">Sheets</a> for which worksheets are enabled.</li>
 <li>Check <a href="/user-guide/general/#columns">Columns</a> for enabled workbook columns.</li>
-<li>Check <a href="/user-guide/roles">Roles</a> — disabled roles are omitted from Role Inventory and from Markers, Keywords, Titles &amp; Generators, Video &amp; Audio Effects, Speed Change Effects, and Summary. <code translate="no" v-pre>Transitions</code>, <code translate="no" v-pre>Non-Standard Effects &amp; Templates</code>, and <code translate="no" v-pre>Media Summary</code> are not filtered by role.</li>
+<li>Check <a href="/user-guide/roles">Roles</a> — disabled roles are omitted only from <strong>role-bearing</strong> sheets (Role Inventory, Markers, Keywords, Titles &amp; Generators, Video &amp; Audio Effects, Speed Change Effects, and Summary). <code translate="no" v-pre>Transitions</code>, <code translate="no" v-pre>Non-Standard Effects &amp; Templates</code>, and <code translate="no" v-pre>Media Summary</code> are not filtered by role.</li>
 <li>Confirm options such as <code translate="no" v-pre>Exclude Disabled Clips</code>, <code translate="no" v-pre>Include Markers Outside Clip Boundaries</code>, <code translate="no" v-pre>Include Speed Change Settings in Role Inventory</code>, and <code translate="no" v-pre>Include Screenshots in Role Inventory</code> under General → File.</li>
 </ol>
 <p>The Markers <code translate="no" v-pre>Hidden</code> column appears only when <code translate="no" v-pre>Include Markers Outside Clip Boundaries</code> is on; it is not listed under Columns. Likewise, Role Inventory <code translate="no" v-pre>Speed Change Settings</code> and <code translate="no" v-pre>Screenshot</code> columns appear only when their File options are on, and they are not listed under Columns.</p>
 <p>If the role inventory <code translate="no" v-pre>Total</code> footer is missing, check <a href="/user-guide/general/#columns">Columns</a>. Excluding <code translate="no" v-pre>Timeline Out</code> or <code translate="no" v-pre>Clip Duration</code> omits the Total footer entirely (Excel and PDF).</p>
 <h2 id="i-disabled-a-role-and-markers--effects--summary-look-different">I disabled a role and Markers / Effects / Summary look different</h2>
-<p>When you disable a role on <a href="/user-guide/roles">Roles</a>, <strong>Production Data</strong> omits matching Role ▸ Subrole rows from Role Inventory, Markers, Keywords, Titles &amp; Generators, Video &amp; Audio Effects, Speed Change Effects, and Summary. This is expected, not an export failure.</p>
-<p><code translate="no" v-pre>Transitions</code>, <code translate="no" v-pre>Non-Standard Effects &amp; Templates</code>, and <code translate="no" v-pre>Media Summary</code> do not filter by disabled roles.</p>
+<p>When you disable a role on <a href="/user-guide/roles">Roles</a>, <strong>Production Data</strong> omits matching Role ▸ Subrole rows from <strong>role-bearing</strong> sheets only — Role Inventory, Markers, Keywords, Titles &amp; Generators, Video &amp; Audio Effects, Speed Change Effects, and Summary. This is expected, not an export failure.</p>
+<p>Role exclusion does <strong>not</strong> filter <code translate="no" v-pre>Transitions</code>, <code translate="no" v-pre>Non-Standard Effects &amp; Templates</code>, or <code translate="no" v-pre>Media Summary</code>.</p>
+<p>Long role names may appear truncated on per-role Excel inventory tabs (Excel’s 31-character sheet-name limit). Disabling that truncated Roles entry still omits the matching full-length Role ▸ Subrole rows on Selected Roles Inventory and the other role-bearing sheets. On Video &amp; Audio Effects, exclusion also matches full inventory Role ▸ Subrole names, bare main-role fields, and raw Final Cut Pro role ids.</p>
 <p>If you expected a role to remain on Markers, Effects, or Summary, enable it again on the <code translate="no" v-pre>Video</code> or <code translate="no" v-pre>Audio</code> tab, press <code translate="no" v-pre>Update Active Configuration</code> (<code translate="no" v-pre>⌘</code> <code translate="no" v-pre>S</code>), and export once more. See <a href="/user-guide/roles">Roles</a>.</p>
 <h2 id="an-enabled-sheet-shows-no--found-or-looks-empty">An enabled sheet shows “No … Found” or looks empty</h2>
 <p>Enabling a sheet under <a href="/user-guide/general/#sheets">Sheets</a> includes that section in the Excel workbook and optional PDF. When the project has no matching items, the sheet is <strong>not</strong> omitted — Excel and PDF keep the headers and show a single status row, for example:</p>
