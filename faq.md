@@ -30,11 +30,21 @@ Apple provides a mechanism for requesting refunds on App Store purchases. Please
 
 This is expected behaviour rather than a fault. For an A/V clip, a report intentionally generates one row per component role, so a single marker or keyword attached to a clip with both a Video role and a Music role, for instance, will appear as two separate rows, one for each role. This ensures that the role breakdown remains accurate and complete, rather than collapsing distinct roles into a single, less informative entry.
 
+## Why do Timeline Out and Source Out show the last visible frame?
+
+`Timeline Out` and `Source Out` report the last included, visible frame — the same Mark Out style used in Final Cut Pro and DaVinci Resolve. Duration columns are unchanged and still reflect the clip’s full duration.
+
+Because Out is the last visible frame rather than an exclusive end time, you should not assume that `Out − In` equals Duration in SMPTE arithmetic. This applies to both the Excel workbook and the optional PDF report.
+
 ## Why does disabling a role affect other sheets too?
 
-Disabling a role on the [Roles](/user-guide/roles) panel does not only affect Role Inventory. Matching Role ▸ Subrole rows are also omitted from Markers, Keywords, Titles & Generators, Video & Audio Effects, Speed Change Effects, and Summary. This is expected: the same role filter is applied across every role-bearing sheet, so a disabled dialogue or VFX role does not linger on those other worksheets.
+Disabling a role on the [Roles](/user-guide/roles) panel does not only affect Role Inventory. Matching Role ▸ Subrole rows are also omitted from the other **role-bearing** sheets — Markers, Keywords, Titles & Generators, Video & Audio Effects, Speed Change Effects, and Summary. This is expected: the same role filter is applied across every role-bearing sheet, so a disabled dialogue or VFX role does not linger on those worksheets.
 
-Transitions, Non-Standard Effects & Templates, and Media Summary are not filtered by role. If you need those Marker, Effects, or Summary rows back, enable the role again on the Video or Audio tab, update the active Configuration, and export once more.
+Role exclusion affects **role-bearing sheets only**. `Transitions`, `Non-Standard Effects & Templates`, and `Media Summary` are not filtered by disabled roles.
+
+Long role names may appear truncated on per-role Excel inventory tabs (Excel’s 31-character sheet-name limit). Disabling that truncated Roles entry still omits the matching full-length Role ▸ Subrole rows on Selected Roles Inventory and the other role-bearing sheets. On Video & Audio Effects, exclusion also matches full inventory Role ▸ Subrole names, bare main-role fields, and raw Final Cut Pro role ids.
+
+If you need those Marker, Effects, or Summary rows back, enable the role again on the Video or Audio tab, update the active Configuration, and export once more.
 
 ## Why is there no Workflow Extension for Production Data?
 
