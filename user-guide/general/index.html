@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.840549396376">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.840549608152">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -44,11 +44,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../static/favicon.ico" />
-    <link href="../../resources/css/retype.css?v=4.6.0.840549396376" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.6.0.840549608152" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.840549396376" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.840549608152" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.840549396376" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.840549608152" data-turbo-eval="false" defer></script>
 
     <meta name="msvalidate.01" content="325120C12888C61306930ACDFB17A57E" />
     <!-- Google Tag Manager -->
@@ -310,9 +310,9 @@
 </span></li>
 <li><strong>Manual</strong></li>
 </ul>
-<p>In <code translate="no" v-pre>Automatic</code> mode, <strong>Production Data</strong> begins the export as soon as a project is received. In <code translate="no" v-pre>Manual</code> mode, the project is queued on <a href="/extract">Extract</a> and you confirm the export with <code translate="no" v-pre>Start Export</code> when you are ready.</p>
-<p>In <code translate="no" v-pre>Automatic</code> mode, dropping a project on the <a href="/roles">Roles</a> tab will switch to <a href="/extract">Extract</a> before the export runs.</p>
-<p>The current mode is shown as a badge on <a href="/extract">Extract</a>. You can also switch modes from the File menu (<code translate="no" v-pre>Switch to Manual Export</code> / <code translate="no" v-pre>Switch to Automatic Export</code>) or by pressing <code translate="no" v-pre>⌘</code> <code translate="no" v-pre>⇧</code> <code translate="no" v-pre>E</code> on your keyboard.</p>
+<p>In <code translate="no" v-pre>Automatic</code> mode, <strong>Production Data</strong> begins the export as soon as a project is received. In <code translate="no" v-pre>Manual</code> mode, the project is queued on <a href="/user-guide/extract">Extract</a> and you confirm the export with <code translate="no" v-pre>Start Export</code> when you are ready.</p>
+<p>In <code translate="no" v-pre>Automatic</code> mode, dropping a project on the <a href="/user-guide/roles">Roles</a> tab will switch to <a href="/user-guide/extract">Extract</a> before the export runs.</p>
+<p>The current mode is shown as a badge on <a href="/user-guide/extract">Extract</a>. You can also switch modes from the File menu (<code translate="no" v-pre>Switch to Manual Export</code> / <code translate="no" v-pre>Switch to Automatic Export</code>) or by pressing <code translate="no" v-pre>⌘</code> <code translate="no" v-pre>⇧</code> <code translate="no" v-pre>E</code> on your keyboard.</p>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-info"></div>
     <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
@@ -327,7 +327,7 @@
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Info</h5>
-<p><strong>Production Data</strong> processes one FCPXML project per action. Whether you drag and drop onto <a href="/extract">Extract</a> or <a href="/roles">Roles</a>, choose a file with <code translate="no" v-pre>Choose File</code>, use <code translate="no" v-pre>File → Open…</code>, or open a project from Finder or the Dock, only a single project is accepted. If multiple files are offered at once, <strong>Production Data</strong> uses the first item only.</p>
+<p><strong>Production Data</strong> processes one FCPXML project per action. Whether you drag and drop onto <a href="/user-guide/extract">Extract</a> or <a href="/user-guide/roles">Roles</a>, choose a file with <code translate="no" v-pre>Choose File</code>, use <code translate="no" v-pre>File → Open…</code>, or open a project from Finder or the Dock, only a single project is accepted. If multiple files are offered at once, <strong>Production Data</strong> uses the first item only.</p>
         </div>
     </div>
 </div>
@@ -474,9 +474,9 @@
 <p>By <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-primary-text bg-badge-primary border border-badge-primary-border h-6 px-2 text-xs rounded-md">
     <span>Default</span>
 </span>, only the Excel workbook is exported. Enable this option when you need a shareable PDF for review or distribution. When enabled, <strong>Production Data</strong> exports <code translate="no" v-pre>MyTimeline.xlsx</code> and <code translate="no" v-pre>MyTimeline.pdf</code> in the same folder (for example, <code translate="no" v-pre>My Project-2026-07-13-10-30-45/MyTimeline.xlsx</code> and <code translate="no" v-pre>MyTimeline.pdf</code>).</p>
-<p>The PDF report is generated from the same built report as the Excel export. The columns, sheets, role inclusions, timecode format, and clip filtering reflected in the PDF are determined entirely by the <a href="../configurations/#make-active-configuration">Active Configuration</a> selected in the toolbar or <a href="/configurations">Configurations</a> panel.</p>
+<p>The PDF report is generated from the same built report as the Excel export. The columns, sheets, role inclusions, timecode format, and clip filtering reflected in the PDF are determined entirely by the <a href="/user-guide/configurations/#make-active-configuration">Active Configuration</a> selected in the toolbar or <a href="/user-guide/configurations">Configurations</a> panel.</p>
 <p><strong>Production Data</strong> does not maintain separate PDF-specific sheet, column, or role settings. Any change to <code translate="no" v-pre>Sheets</code>, <code translate="no" v-pre>Columns</code>, or <code translate="no" v-pre>Roles</code> in the active Configuration applies equally to both the <code translate="no" v-pre>.xlsx</code> and <code translate="no" v-pre>.pdf</code> outputs for that export. This is intentional.</p>
-<p>To produce a different PDF layout or column set, switch to or update the appropriate <a href="/configurations">Configurations</a> before exporting.</p>
+<p>To produce a different PDF layout or column set, switch to or update the appropriate <a href="/user-guide/configurations">Configurations</a> before exporting.</p>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-info"></div>
     <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
@@ -521,7 +521,7 @@
 <li><strong>Summary</strong></li>
 <li><strong>Media Summary</strong></li>
 </ul>
-<p>A summary of enabled sheets is also shown in the status bar on <a href="/extract">Extract</a>.</p>
+<p>A summary of enabled sheets is also shown in the status bar on <a href="/user-guide/extract">Extract</a>.</p>
 <p>Checking <code translate="no" v-pre>Non-Standard Effects &amp; Templates</code> includes non-Apple effects and Motion templates from the timeline on their own sheet. Missing effect or template paths are flagged as <code translate="no" v-pre>MISSING</code>. By <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-primary-text bg-badge-primary border border-badge-primary-border h-6 px-2 text-xs rounded-md">
     <span>Default</span>
 </span>, this sheet is not included.</p>

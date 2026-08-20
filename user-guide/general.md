@@ -25,14 +25,14 @@ Select your desired Export Mode.
 - **Automatic** [!badge text="Default"]
 - **Manual**
 
-In `Automatic` mode, **Production Data** begins the export as soon as a project is received. In `Manual` mode, the project is queued on [Extract](/extract) and you confirm the export with `Start Export` when you are ready.
+In `Automatic` mode, **Production Data** begins the export as soon as a project is received. In `Manual` mode, the project is queued on [Extract](/user-guide/extract) and you confirm the export with `Start Export` when you are ready.
 
-In `Automatic` mode, dropping a project on the [Roles](/roles) tab will switch to [Extract](/extract) before the export runs.
+In `Automatic` mode, dropping a project on the [Roles](/user-guide/roles) tab will switch to [Extract](/user-guide/extract) before the export runs.
 
-The current mode is shown as a badge on [Extract](/extract). You can also switch modes from the File menu (`Switch to Manual Export` / `Switch to Automatic Export`) or by pressing `⌘` `⇧` `E` on your keyboard.
+The current mode is shown as a badge on [Extract](/user-guide/extract). You can also switch modes from the File menu (`Switch to Manual Export` / `Switch to Automatic Export`) or by pressing `⌘` `⇧` `E` on your keyboard.
 
 !!!info Info
-**Production Data** processes one FCPXML project per action. Whether you drag and drop onto [Extract](/extract) or [Roles](/roles), choose a file with `Choose File`, use `File → Open…`, or open a project from Finder or the Dock, only a single project is accepted. If multiple files are offered at once, **Production Data** uses the first item only.
+**Production Data** processes one FCPXML project per action. Whether you drag and drop onto [Extract](/user-guide/extract) or [Roles](/user-guide/roles), choose a file with `Choose File`, use `File → Open…`, or open a project from Finder or the Dock, only a single project is accepted. If multiple files are offered at once, **Production Data** uses the first item only.
 !!!
 
 ## Export Options
@@ -139,11 +139,11 @@ Checking `Create PDF Report` instructs **Production Data** to write a PDF report
 
 By [!badge text="Default"], only the Excel workbook is exported. Enable this option when you need a shareable PDF for review or distribution. When enabled, **Production Data** exports `MyTimeline.xlsx` and `MyTimeline.pdf` in the same folder (for example, `My Project-2026-07-13-10-30-45/MyTimeline.xlsx` and `MyTimeline.pdf`).
 
-The PDF report is generated from the same built report as the Excel export. The columns, sheets, role inclusions, timecode format, and clip filtering reflected in the PDF are determined entirely by the [Active Configuration](configurations/#make-active-configuration) selected in the toolbar or [Configurations](/configurations) panel.
+The PDF report is generated from the same built report as the Excel export. The columns, sheets, role inclusions, timecode format, and clip filtering reflected in the PDF are determined entirely by the [Active Configuration](/user-guide/configurations/#make-active-configuration) selected in the toolbar or [Configurations](/user-guide/configurations) panel.
 
 **Production Data** does not maintain separate PDF-specific sheet, column, or role settings. Any change to `Sheets`, `Columns`, or `Roles` in the active Configuration applies equally to both the `.xlsx` and `.pdf` outputs for that export. This is intentional.
 
-To produce a different PDF layout or column set, switch to or update the appropriate [Configurations](/configurations) before exporting.
+To produce a different PDF layout or column set, switch to or update the appropriate [Configurations](/user-guide/configurations) before exporting.
 
 !!!info Experimental
 PDF export is experimental and optimised for A4 landscape. Tables paginate across pages and cell text may truncate. The Row column is included by default for traceability; exclude it the same way as in Excel. Matching sheet pages share a tint. For the complete dataset and column options, use the accompanying Excel (.xlsx) report.
@@ -174,7 +174,7 @@ Turning `Full Report` on enables every optional sheet below. Turning it off allo
 - **Summary**
 - **Media Summary**
 
-A summary of enabled sheets is also shown in the status bar on [Extract](/extract).
+A summary of enabled sheets is also shown in the status bar on [Extract](/user-guide/extract).
 
 Checking `Non-Standard Effects & Templates` includes non-Apple effects and Motion templates from the timeline on their own sheet. Missing effect or template paths are flagged as `MISSING`. By [!badge text="Default"], this sheet is not included.
 
