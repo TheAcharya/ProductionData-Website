@@ -269,7 +269,7 @@ See [Sheets](/user-guide/general/#sheets).
 
 ## Drag and drop from Final Cut Pro does not start an export
 
-Set a valid [Export Folder](#failed-to-export-completely) first. Confirm Export Mode: `Automatic` starts immediately; `Manual` waits for `Start Export` on Extract. Drop onto Extract or Roles (or the Dock icon), or use `Choose File` / `File → Open…`. Finder text clippings are accepted only when they contain FCPXML content, and only one project is processed per action.
+Set a valid [Export Folder](#failed-to-export-completely--please-select-a-valid-export-folder) first. Confirm Export Mode: `Automatic` starts immediately; `Manual` waits for `Start Export` on Extract. Drop onto Extract or Roles (or the Dock icon), or use `Choose File` / `File → Open…`. Finder text clippings are accepted only when they contain FCPXML content, and only one project is processed per action.
 
 If nothing happens, try File → Export XML from Final Cut Pro and open the `.fcpxml` / `.fcpxmld` file instead.
 
