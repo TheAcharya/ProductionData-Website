@@ -33,7 +33,7 @@ Role exclusion does **not** filter `Transitions`, `Non-Standard Effects & Templa
 !!!info Info
 Disable a role when you want matching Role ▸ Subrole rows dropped from those role-bearing sheets — not from Role Inventory alone. Empty Role ▸ Subrole fields are left as they are.
 
-Long role names may appear truncated on per-role Excel inventory tabs (Excel’s 31-character sheet-name limit). Disabling that truncated Roles entry still omits the matching full-length Role ▸ Subrole rows on Selected Roles Inventory and the other role-bearing sheets above. On Video & Audio Effects, exclusion also matches full inventory Role ▸ Subrole names, bare main-role fields, and raw Final Cut Pro role ids.
+If a role name is very long, Excel may shorten the per-role sheet tab. Disabling that role in **Production Data** still removes the matching rows from Selected Roles Inventory and the other role-bearing sheets listed above, including Video & Audio Effects.
 !!!
 
 ## Automatic and Manual Mode
