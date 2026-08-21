@@ -51,3 +51,7 @@ Your browser does not support the video tag.
 !!!info Experimental
 PDF export is experimental and optimised for A4 landscape. For the complete dataset and full column control, use the accompanying Excel (`.xlsx`) workbook.
 !!!
+
+!!!warning Warning
+On large or complex timelines — especially with `Full Report` enabled — the PDF can run to **a thousand pages, and sometimes ten thousand or more**. Preview can take a very long time to open, or the file can be impractical to use. Leave `Create PDF Report` off for those jobs.
+!!!
