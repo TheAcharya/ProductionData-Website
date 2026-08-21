@@ -69,6 +69,32 @@ Drop an `.fcpxml` or `.fcpxmld` file onto Roles or Extract, drag a timeline / co
 There is no Clear or Refresh control for Roles. To refresh the list, load a project again.
 !!!
 
+## Production Data appears hung while loading FCPXML / Roles take a long time
+
+This is expected on large or complex timelines, not a freeze. Watch the [Roles](/user-guide/roles) or [Extract](/user-guide/extract) footer for the green progress ring and `Loading roles…`. That indicator can remain on screen for a long time. The Dock progress ring appears only during the later export — not while roles are loading — so a still Dock icon during this stage does not mean the application has stopped.
+
+Complex `.fcpxml` / `.fcpxmld` files of around **10 MB and above** (feature cuts, dense markers or keywords, nested compound clips) will often take a long while to load roles. Smaller files can still be slow when the timeline itself is dense.
+
+**Production Data** walks the project **twice**:
+
+1. A roles-only pass, so the [Roles](/user-guide/roles) tables can list video and audio roles for you to enable or disable.
+2. A full report pass when the export starts — `Projecting Timeline`, then each enabled sheet, then `Saving Workbook`, and `Saving PDF` if [Create PDF Report](/user-guide/general/#create-pdf-report) is on.
+
+The second pass is expected. It is not the first load repeating because something failed.
+
+Leave `Create PDF Report` **off** for large jobs unless you truly need a PDF. The PDF is experimental and paginates every table onto A4 landscape. A feature-length timeline or a `Full Report` export can run to **a thousand pages, and sometimes ten thousand or more**. Preview can take a very long time to open, or the file can be impractical to use. The Excel workbook (`.xlsx`) is the complete dataset.
+
+To keep large exports manageable:
+
+- Use `Manual` [Export Mode](/user-guide/general/#export-mode) so you can review Roles before `Start Export`
+- Disable roles you do not need on the Video and Audio tabs
+- Avoid `Full Report` until you know how large the workbook will be
+- Keep `Include Screenshots in Role Inventory` off unless you need frame grabs — embeds also lengthen the Excel write
+
+If the green ring never appears and the application is unresponsive for many minutes, quit **Production Data**, reopen it, and try File → Export XML from Final Cut Pro rather than a timeline drag. If it still never finishes, open the logs (`Help` → `Open Logs`) and contact support with `openfcpxmlkit_log.txt`.
+
+See also [PDF export looks different from Excel or truncates text](#pdf-export-looks-different-from-excel-or-truncates-text) and [Create PDF Report](/user-guide/general/#create-pdf-report).
+
 ## No audio or video roles found
 
 After loading a project, Roles may report that no audio or video roles were found. Confirm the file is a Final Cut Pro XML export (`.fcpxml` / `.fcpxmld`) or a timeline / compound-clip drag that contains FCPXML. Prefer File → Export XML from Final Cut Pro for a full project document when possible. For compound clips dragged from Final Cut Pro, allow **Production Data** a moment to stage the file — root-level compound clips are normalised before roles are read. You may also try exporting XML again from Final Cut Pro and reopening the new file.
@@ -162,9 +188,11 @@ Cache files may be named like `FCP Drop-…`. Export folders and `.xlsx` / `.pdf
 
 `Create PDF Report` is experimental and optimised for A4 landscape. Tables paginate across pages and cell text may truncate. Matching sheet pages share a tint.
 
-For the complete dataset and full column control, use the Excel (`.xlsx`) workbook. The PDF uses the same active Configuration (sheets, columns, roles, timecode, and filters) — there are no separate PDF-only settings.
+On large or complex timelines the PDF can grow to **a thousand pages, and sometimes ten thousand or more**, especially with `Full Report` enabled. Preview may take a very long time to open, or the file may be impractical to scroll or search. Leave `Create PDF Report` off for those jobs and use the Excel (`.xlsx`) workbook — it is the complete dataset and the practical deliverable.
 
-See [Create PDF Report](/user-guide/general/#create-pdf-report).
+The PDF uses the same active Configuration (sheets, columns, roles, timecode, and filters) — there are no separate PDF-only settings.
+
+See [Create PDF Report](/user-guide/general/#create-pdf-report) and [Production Data appears hung while loading FCPXML / Roles take a long time](#production-data-appears-hung-while-loading-fcpxml--roles-take-a-long-time).
 
 ## Protect Sheets — I cannot open the file / where is the password?
 

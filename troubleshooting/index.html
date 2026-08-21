@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.840550267737">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.840630997839">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -44,11 +44,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../static/favicon.ico" />
-    <link href="../resources/css/retype.css?v=4.6.0.840550267737" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=4.6.0.840630997839" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=4.6.0.840550267737" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=4.6.0.840630997839" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.6.0.840550267737" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.6.0.840630997839" data-turbo-eval="false" defer></script>
 
     <meta name="msvalidate.01" content="325120C12888C61306930ACDFB17A57E" />
     <!-- Google Tag Manager -->
@@ -373,6 +373,25 @@
         </div>
     </div>
 </div>
+<h2 id="production-data-appears-hung-while-loading-fcpxml--roles-take-a-long-time">Production Data appears hung while loading FCPXML / Roles take a long time</h2>
+<p>This is expected on large or complex timelines, not a freeze. Watch the <a href="/user-guide/roles">Roles</a> or <a href="/user-guide/extract">Extract</a> footer for the green progress ring and <code translate="no" v-pre>Loading roles…</code>. That indicator can remain on screen for a long time. The Dock progress ring appears only during the later export — not while roles are loading — so a still Dock icon during this stage does not mean the application has stopped.</p>
+<p>Complex <code translate="no" v-pre>.fcpxml</code> / <code translate="no" v-pre>.fcpxmld</code> files of around <strong>10 MB and above</strong> (feature cuts, dense markers or keywords, nested compound clips) will often take a long while to load roles. Smaller files can still be slow when the timeline itself is dense.</p>
+<p><strong>Production Data</strong> walks the project <strong>twice</strong>:</p>
+<ol>
+<li>A roles-only pass, so the <a href="/user-guide/roles">Roles</a> tables can list video and audio roles for you to enable or disable.</li>
+<li>A full report pass when the export starts — <code translate="no" v-pre>Projecting Timeline</code>, then each enabled sheet, then <code translate="no" v-pre>Saving Workbook</code>, and <code translate="no" v-pre>Saving PDF</code> if <a href="/user-guide/general/#create-pdf-report">Create PDF Report</a> is on.</li>
+</ol>
+<p>The second pass is expected. It is not the first load repeating because something failed.</p>
+<p>Leave <code translate="no" v-pre>Create PDF Report</code> <strong>off</strong> for large jobs unless you truly need a PDF. The PDF is experimental and paginates every table onto A4 landscape. A feature-length timeline or a <code translate="no" v-pre>Full Report</code> export can run to <strong>a thousand pages, and sometimes ten thousand or more</strong>. Preview can take a very long time to open, or the file can be impractical to use. The Excel workbook (<code translate="no" v-pre>.xlsx</code>) is the complete dataset.</p>
+<p>To keep large exports manageable:</p>
+<ul>
+<li>Use <code translate="no" v-pre>Manual</code> <a href="/user-guide/general/#export-mode">Export Mode</a> so you can review Roles before <code translate="no" v-pre>Start Export</code></li>
+<li>Disable roles you do not need on the Video and Audio tabs</li>
+<li>Avoid <code translate="no" v-pre>Full Report</code> until you know how large the workbook will be</li>
+<li>Keep <code translate="no" v-pre>Include Screenshots in Role Inventory</code> off unless you need frame grabs — embeds also lengthen the Excel write</li>
+</ul>
+<p>If the green ring never appears and the application is unresponsive for many minutes, quit <strong>Production Data</strong>, reopen it, and try File → Export XML from Final Cut Pro rather than a timeline drag. If it still never finishes, open the logs (<code translate="no" v-pre>Help</code> → <code translate="no" v-pre>Open Logs</code>) and contact support with <code translate="no" v-pre>openfcpxmlkit_log.txt</code>.</p>
+<p>See also <doc-anchor-trigger to="#pdf-export-looks-different-from-excel-or-truncates-text">PDF export looks different from Excel or truncates text</doc-anchor-trigger> and <a href="/user-guide/general/#create-pdf-report">Create PDF Report</a>.</p>
 <h2 id="no-audio-or-video-roles-found">No audio or video roles found</h2>
 <p>After loading a project, Roles may report that no audio or video roles were found. Confirm the file is a Final Cut Pro XML export (<code translate="no" v-pre>.fcpxml</code> / <code translate="no" v-pre>.fcpxmld</code>) or a timeline / compound-clip drag that contains FCPXML. Prefer File → Export XML from Final Cut Pro for a full project document when possible. For compound clips dragged from Final Cut Pro, allow <strong>Production Data</strong> a moment to stage the file — root-level compound clips are normalised before roles are read. You may also try exporting XML again from Final Cut Pro and reopening the new file.</p>
 <p>If roles still do not appear, open the logs (<code translate="no" v-pre>Help</code> → <code translate="no" v-pre>Open Logs</code>) and contact support with <code translate="no" v-pre>openfcpxmlkit_log.txt</code>.</p>
@@ -463,8 +482,9 @@
 </div>
 <h2 id="pdf-export-looks-different-from-excel-or-truncates-text">PDF export looks different from Excel or truncates text</h2>
 <p><code translate="no" v-pre>Create PDF Report</code> is experimental and optimised for A4 landscape. Tables paginate across pages and cell text may truncate. Matching sheet pages share a tint.</p>
-<p>For the complete dataset and full column control, use the Excel (<code translate="no" v-pre>.xlsx</code>) workbook. The PDF uses the same active Configuration (sheets, columns, roles, timecode, and filters) — there are no separate PDF-only settings.</p>
-<p>See <a href="/user-guide/general/#create-pdf-report">Create PDF Report</a>.</p>
+<p>On large or complex timelines the PDF can grow to <strong>a thousand pages, and sometimes ten thousand or more</strong>, especially with <code translate="no" v-pre>Full Report</code> enabled. Preview may take a very long time to open, or the file may be impractical to scroll or search. Leave <code translate="no" v-pre>Create PDF Report</code> off for those jobs and use the Excel (<code translate="no" v-pre>.xlsx</code>) workbook — it is the complete dataset and the practical deliverable.</p>
+<p>The PDF uses the same active Configuration (sheets, columns, roles, timecode, and filters) — there are no separate PDF-only settings.</p>
+<p>See <a href="/user-guide/general/#create-pdf-report">Create PDF Report</a> and <doc-anchor-trigger to="#production-data-appears-hung-while-loading-fcpxml--roles-take-a-long-time">Production Data appears hung while loading FCPXML / Roles take a long time</doc-anchor-trigger>.</p>
 <h2 id="protect-sheets--i-cannot-open-the-file--where-is-the-password">Protect Sheets — I cannot open the file / where is the password?</h2>
 <p><code translate="no" v-pre>Protect Sheets</code> applies an Excel worksheet <strong>edit lock</strong> so cells are harder to change by accident. It is <strong>not</strong> file-open encryption and does not set a workbook password.</p>
 <p>Excel still opens the file without a password. Anyone can turn protection off in Excel. PDF export ignores this option — use Preview’s Encrypt (or another PDF tool) if you need a password-protected PDF.</p>
