@@ -14,10 +14,14 @@ Drag and drop an `.fcpxml` or `.fcpxmld` file onto Extract, or drag a timeline /
 
 Alternatively, click `Choose File` or press `⌘` `O` to select a file.
 
-In `Automatic` mode, export begins as soon as a project is received. In `Manual` mode, confirm with `Start Export` when you are ready.
+In `Automatic` mode, export begins as soon as a project is received. In `Manual` mode, confirm with `Start Export` when you are ready. Either way, **Production Data** first loads roles (`Loading roles…` in the footer), then builds the full report — `Projecting Timeline`, each enabled sheet, `Saving Workbook`, and `Saving PDF` if [Create PDF Report](/user-guide/general/#create-pdf-report) is on. That second pass is expected.
 
 !!!info Info
 **Production Data** processes one FCPXML project per action. If multiple items are offered at once, only the first item is used.
+!!!
+
+!!!info Info
+On large or complex timelines, `Loading roles…` can remain on screen for a long time. The Dock progress ring appears only during the later export, not while roles are loading. See [Production Data appears hung while loading FCPXML / Roles take a long time](/troubleshooting#production-data-appears-hung-while-loading-fcpxml--roles-take-a-long-time).
 !!!
 
 !!!info Info

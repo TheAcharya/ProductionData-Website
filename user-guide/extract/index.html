@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.840631646382">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.840631767729">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -44,11 +44,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../static/favicon.ico" />
-    <link href="../../resources/css/retype.css?v=4.6.0.840631646382" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.6.0.840631767729" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.840631646382" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.840631767729" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.840631646382" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.840631767729" data-turbo-eval="false" defer></script>
 
     <meta name="msvalidate.01" content="325120C12888C61306930ACDFB17A57E" />
     <!-- Google Tag Manager -->
@@ -287,7 +287,7 @@
 </figure>
 <p>Drag and drop an <code translate="no" v-pre>.fcpxml</code> or <code translate="no" v-pre>.fcpxmld</code> file onto Extract, or drag a timeline / compound clip directly from Final Cut Pro. You may also use a Finder text clipping that contains FCPXML. The drop overlay reads <code translate="no" v-pre>Drop to Extract Metadata to Spreadsheet</code>.</p>
 <p>Alternatively, click <code translate="no" v-pre>Choose File</code> or press <code translate="no" v-pre>⌘</code> <code translate="no" v-pre>O</code> to select a file.</p>
-<p>In <code translate="no" v-pre>Automatic</code> mode, export begins as soon as a project is received. In <code translate="no" v-pre>Manual</code> mode, confirm with <code translate="no" v-pre>Start Export</code> when you are ready.</p>
+<p>In <code translate="no" v-pre>Automatic</code> mode, export begins as soon as a project is received. In <code translate="no" v-pre>Manual</code> mode, confirm with <code translate="no" v-pre>Start Export</code> when you are ready. Either way, <strong>Production Data</strong> first loads roles (<code translate="no" v-pre>Loading roles…</code> in the footer), then builds the full report — <code translate="no" v-pre>Projecting Timeline</code>, each enabled sheet, <code translate="no" v-pre>Saving Workbook</code>, and <code translate="no" v-pre>Saving PDF</code> if <a href="/user-guide/general/#create-pdf-report">Create PDF Report</a> is on. That second pass is expected.</p>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-info"></div>
     <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
@@ -303,6 +303,24 @@
         <div class="pr-5 ml-3 w-full">
             <h5>Info</h5>
 <p><strong>Production Data</strong> processes one FCPXML project per action. If multiple items are offered at once, only the first item is used.</p>
+        </div>
+    </div>
+</div>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-info"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="block text-callout-info" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Info</h5>
+<p>On large or complex timelines, <code translate="no" v-pre>Loading roles…</code> can remain on screen for a long time. The Dock progress ring appears only during the later export, not while roles are loading. See <a href="../../troubleshooting/#production-data-appears-hung-while-loading-fcpxml--roles-take-a-long-time">Production Data appears hung while loading FCPXML / Roles take a long time</a>.</p>
         </div>
     </div>
 </div>
