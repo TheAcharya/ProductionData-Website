@@ -87,7 +87,9 @@ Complex `.fcpxml` / `.fcpxmld` files of around **10 MB and above** (feature cuts
 
 The second pass is expected. It is not the first load repeating because something failed.
 
-Leave `Create PDF Report` **off** for large jobs unless you truly need a PDF. The PDF is experimental and paginates every table onto A4 landscape. A feature-length timeline or a `Full Report` export can run to **a thousand pages, and sometimes ten thousand or more**. Preview can take a very long time to open, or the file can be impractical to use. The Excel workbook (`.xlsx`) is the complete dataset.
+!!!warning Warning
+Leave `Create PDF Report` **off** for large jobs unless you truly need a PDF. A feature-length timeline or a `Full Report` export can run to **a thousand pages, and sometimes ten thousand or more**. Preview can take a very long time to open, or the file can be impractical to use. The Excel workbook (`.xlsx`) is the complete dataset.
+!!!
 
 To keep large exports manageable:
 
@@ -193,7 +195,9 @@ Cache files may be named like `FCP Drop-…`. Export folders and `.xlsx` / `.pdf
 
 `Create PDF Report` is experimental and optimised for A4 landscape. Tables paginate across pages and cell text may truncate. Matching sheet pages share a tint.
 
+!!!warning Warning
 On large or complex timelines the PDF can grow to **a thousand pages, and sometimes ten thousand or more**, especially with `Full Report` enabled. Preview may take a very long time to open, or the file may be impractical to scroll or search. Leave `Create PDF Report` off for those jobs and use the Excel (`.xlsx`) workbook — it is the complete dataset and the practical deliverable.
+!!!
 
 The PDF uses the same active Configuration (sheets, columns, roles, timecode, and filters) — there are no separate PDF-only settings.
 
