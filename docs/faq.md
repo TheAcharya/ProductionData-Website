@@ -37,9 +37,39 @@ This is expected behaviour rather than a fault. For an A/V clip, a report intent
 
 ## Why do Timeline Out and Source Out show the last visible frame?
 
-`Timeline Out` and `Source Out` report the last included, visible frame — the same Mark Out style used in Final Cut Pro and DaVinci Resolve. Duration columns are unchanged and still reflect the clip’s full duration.
+`Timeline Out` and `Source Out` report the last included, visible frame — the same Mark Out style used in Final Cut Pro and DaVinci Resolve. `Timeline Duration` still reports the clip’s duration on the timeline.
 
 Because Out is the last visible frame rather than an exclusive end time, you should not assume that `Out − In` equals Duration in SMPTE arithmetic. This applies to both the Excel workbook and the optional PDF report.
+
+Role Inventory `Source Duration` and `Clip Duration` follow the spans actually used on retimed clips and container shells — see the questions below.
+
+## Why is Source Duration shorter on a retimed clip?
+
+This is expected behaviour rather than a fault. On Role Inventory sheets, `Source Duration` and `Source Out` report the source span the clip actually consumes, not the full source file and not a copy of the timeline duration.
+
+For example, a clip retimed to `50.0%` that occupies `8s 20f` on the timeline consumes about `4s 10f` of source. The Role Inventory `Speed Change Settings` column (when enabled under [Export Options](/user-guide/general/#include-speed-change-settings-in-role-inventory)) shows that retime percent; `Source Duration` / `Source Out` follow the same consumed span.
+
+## Why is Clip Duration not the full length of the source file?
+
+This is expected behaviour rather than a fault. `Clip Duration` reports the portion used on the timeline. An audio or video shell that only plays part of a longer file is bounded to that visible span, rather than listing the entire source length.
+
+`Summary` uses the same timeline-bounded durations. If you exclude `Timeline Out` or `Clip Duration` under [Columns](/user-guide/general/#columns), the Role Inventory `Total` footer is omitted entirely.
+
+## Why does Speed Change Effects list the same clip more than once?
+
+This is expected behaviour rather than a fault. `Speed Change Effects` writes **one row per timeline usage**. If the same retimed source appears several times on the timeline, each usage is listed separately, with speed as media span divided by timeline span.
+
+Each of those rows also carries a Role ▸ Subrole (the same style as Video & Audio Effects — typically **Video**, or **Dialogue** for audio-only hosts). Disabling that role on the [Roles](/user-guide/roles) panel therefore omits the matching Speed Change Effects rows as well.
+
+See [Why does disabling a role affect other sheets too?](#why-does-disabling-a-role-affect-other-sheets-too).
+
+## Why does loading FCPXML take a long time / appear hung?
+
+On large or complex timelines this is expected rather than a freeze. Watch the [Roles](/user-guide/roles) or [Extract](/user-guide/extract) footer for `Loading roles…`. That pass only builds the roles list; starting the export then walks the project again to write Excel, and PDF if enabled.
+
+Leave `Create PDF Report` off for large jobs — the PDF can run to thousands of pages and can be impractical to open in Preview.
+
+See [Production Data appears hung while loading FCPXML / Roles take a long time](/troubleshooting#production-data-appears-hung-while-loading-fcpxml--roles-take-a-long-time).
 
 ## Why does disabling a role affect other sheets too?
 
