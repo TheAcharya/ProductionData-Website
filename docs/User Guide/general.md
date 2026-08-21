@@ -155,7 +155,7 @@ PDF export is experimental and optimised for A4 landscape. Tables paginate acros
 !!!
 
 !!!warning Warning
-On large or complex timelines — especially with `Full Report` enabled — the PDF can run to **a thousand pages, and sometimes ten thousand or more**. Preview can take a very long time to open, or the file can be impractical to use. Leave `Create PDF Report` off for those jobs.
+On large or complex timelines — especially with `Full Report` enabled — the PDF can run to **a thousand pages, and sometimes several thousand or more**. Preview can take a very long time to open, or the file can be impractical to use. Leave `Create PDF Report` off for those jobs.
 !!!
 
 <hr>

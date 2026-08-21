@@ -196,7 +196,7 @@ Cache files may be named like `FCP Drop-…`. Export folders and `.xlsx` / `.pdf
 `Create PDF Report` is experimental and optimised for A4 landscape. Tables paginate across pages and cell text may truncate. Matching sheet pages share a tint.
 
 !!!warning Warning
-On large or complex timelines the PDF can grow to **a thousand pages, and sometimes ten thousand or more**, especially with `Full Report` enabled. Preview may take a very long time to open, or the file may be impractical to scroll or search. Leave `Create PDF Report` off for those jobs and use the Excel (`.xlsx`) workbook — it is the complete dataset and the practical deliverable.
+On large or complex timelines the PDF can grow to **a thousand pages, and sometimes several thousand or more**, especially with `Full Report` enabled. Preview may take a very long time to open, or the file may be impractical to scroll or search. Leave `Create PDF Report` off for those jobs and use the Excel (`.xlsx`) workbook — it is the complete dataset and the practical deliverable.
 !!!
 
 The PDF uses the same active Configuration (sheets, columns, roles, timecode, and filters) — there are no separate PDF-only settings.
