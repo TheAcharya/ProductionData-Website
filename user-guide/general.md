@@ -146,11 +146,11 @@ The PDF report is generated from the same built report as the Excel export. The 
 To produce a different PDF layout or column set, switch to or update the appropriate [Configurations](/user-guide/configurations) before exporting.
 
 !!!info Experimental
-PDF export is experimental and optimised for A4 landscape. Tables paginate across pages and cell text may truncate. The Row column is included by default for traceability; exclude it the same way as in Excel. Matching sheet pages share a tint.
+PDF export is experimental and optimised for A4 landscape. Tables paginate across pages and cell text may truncate. The Row column is included by default for traceability; exclude it the same way as in Excel. Matching sheet pages share a tint. For the complete dataset and column options, use the accompanying Excel (`.xlsx`) report.
+!!!
 
-On large or complex timelines — especially with `Full Report` enabled — the PDF can run to **a thousand pages, and sometimes ten thousand or more**. Preview can take a very long time to open, or the file can be impractical to use. Leave `Create PDF Report` off for those jobs. For the complete dataset and column options, use the accompanying Excel (`.xlsx`) workbook.
-
-See [Production Data appears hung while loading FCPXML / Roles take a long time](/troubleshooting#production-data-appears-hung-while-loading-fcpxml--roles-take-a-long-time).
+!!!warning Warning
+On large or complex timelines — especially with `Full Report` enabled — the PDF can run to **a thousand pages, and sometimes ten thousand or more**. Preview can take a very long time to open, or the file can be impractical to use. Leave `Create PDF Report` off for those jobs.
 !!!
 
 <hr>
