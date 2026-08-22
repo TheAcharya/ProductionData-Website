@@ -83,7 +83,7 @@ Complex `.fcpxml` / `.fcpxmld` files of around **10 MB and above** (feature cuts
 The second pass is expected. It is not the first load repeating because something failed.
 
 !!!warning Warning
-Leave `Create PDF Report` **off** for large jobs unless you truly need a PDF. A feature-length timeline or a `Full Report` export can run to **a thousand pages, and sometimes ten thousand or more**. Preview can take a very long time to open, or the file can be impractical to use. The Excel workbook (`.xlsx`) is the complete dataset.
+Leave `Create PDF Report` **off** for large jobs unless you truly need a PDF. A feature-length timeline or a `Full Report` export can run to **a thousand pages, and sometimes several thousand or more**. Preview can take a very long time to open, or the file can be impractical to use. The Excel workbook (`.xlsx`) is the complete dataset.
 !!!
 
 To keep large exports manageable:
