@@ -10,6 +10,6 @@ Within this pipeline, the editorial phase carries particular weight. Hours, days
 
 **Production Data** emerges as a catalyst poised to democratise advanced reporting workflows that were once the exclusive domain of high-end film productions. This strategic initiative seeks to broaden the horizons of the filmmaking pipeline, rendering sophisticated processes available to a more diverse audience.
 
-Much like the heptapods' offering, understood, in time, to be a tool for connection, I trust that **Production Data** may serve as an invaluable companion throughout your editorial work, freely given and openly built, a foundation for what comes next.
+Much like the heptapods' offering, understood, in time, to be a tool for connection, I trust that **Production Data** may serve as an invaluable companion throughout your editorial work, affordable and openly built, a foundation for what comes next.
 
 Vigneswaran Rajkumar
