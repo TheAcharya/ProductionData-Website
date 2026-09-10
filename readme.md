@@ -1,5 +1,7 @@
 # Production Data
 
+> [:icon-desktop-download: Available on the Mac App Store for USD $5.99.](https://apps.apple.com/app/production-data/id6788936506)
+
 ![](/static/production-data-social-card.png)
 
 The lightweight spreadsheet creation application crafted for [Final Cut Pro](https://www.apple.com/final-cut-pro/). It serves as a native macOS frontend, allowing users to conveniently export structured Excel production reports from Final Cut Pro projects, powered by [OpenFCPXMLKit](https://github.com/TheAcharya/OpenFCPXMLKit), a free and open-source, experimental FCPXML parsing engine.
@@ -20,7 +22,6 @@ The lightweight spreadsheet creation application crafted for [Final Cut Pro](htt
 - Exported Excel workbooks are compatible with Apple's Numbers and other spreadsheet applications.
 - Written in Apple Swift language and SwiftUI framework.
 - No hidden costs, no subscriptions, no in-app purchases.
-- Available on the Mac App Store.
 
 ## Available Report Sheets
 
