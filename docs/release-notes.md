@@ -5,9 +5,9 @@ order: -97
 ---
 # Release Notes
 
-### 1.0.0 (X)
+### 1.0.0 (13)
 
 **🎉 Released:**
-- TBA
+- 14th September 2026
 
 This is the first public release of **Production Data**!
