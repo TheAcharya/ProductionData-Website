@@ -38,3 +38,4 @@ Feel free to reach out directly [here](https://tech.theacharya.co).
 ## Trivia
 
 - **Production Data** is the second macOS application developed by The Acharya.
+- **Production Data** is free in the Singapore Region of the Mac App Store.
