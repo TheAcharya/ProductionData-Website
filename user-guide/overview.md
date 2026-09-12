@@ -8,6 +8,8 @@ Notwithstanding this emphasis on user-friendly design, this website stands ready
 
 ## Install
 
+![Production Data's Mac App Store Page](/assets/pd-install.png)
+
 1. Download **Production Data** from the [Mac App Store](https://apps.apple.com/app/production-data/id6788936506).
 2. Launch **Production Data**.
 3. Read `Onboarding` information and instructions.
