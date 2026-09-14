@@ -60,7 +60,7 @@ You can also click on the `Quick Configurations Selector` menu located on the to
 
 ### Method 4
 
-Starting with **Production Data** version 1.1.0, you will have the capability to assign a shortcut to your chosen Configuration. Shortcuts can be assigned using key combinations ranging from `⌘` `1` to `⌘` `9`.
+You can assign a shortcut to your chosen Configuration. Shortcuts can be assigned using key combinations ranging from `⌘` `1` to `⌘` `9`.
 
 1. Right-click on your desired Configuration.
 
