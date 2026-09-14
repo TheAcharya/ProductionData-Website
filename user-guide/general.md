@@ -238,7 +238,7 @@ Pressing `Disable All` will uncheck all column selections.
 
 <hr>
 
-## Notification
+## Notifications
 
 ![](/assets/pd-general-settings-notifications.png)
 
