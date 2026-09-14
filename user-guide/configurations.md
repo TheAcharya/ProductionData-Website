@@ -108,7 +108,7 @@ Go to **Production Data**'s menu bar, click on `Update Active Configuration` und
 
 ### Method 3
 
-Press `⌘` `s` on your keyboard to `Update Active Configuration`. You can press `⌘` `s` anywhere within **Production Data**.
+Press `⌘` `S` on your keyboard to `Update Active Configuration`. You can press `⌘` `s` anywhere within **Production Data**.
 
 ## Delete Configuration
 
