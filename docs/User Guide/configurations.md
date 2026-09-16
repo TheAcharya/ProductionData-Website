@@ -3,7 +3,7 @@ label: Configurations
 icon: briefcase
 order: -5
 ---
-# Configurations Settings
+# Configuration Settings
 
 ![Configuration Settings](/assets/pd-configuration-settings.png)
 
