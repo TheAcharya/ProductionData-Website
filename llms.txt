@@ -28,7 +28,7 @@
 - [Extract](http://productiondata.theacharya.co/user-guide/extract.md): Extract Window
 - [General Settings](http://productiondata.theacharya.co/user-guide/general.md): General Settings
 - [Roles](http://productiondata.theacharya.co/user-guide/roles.md): Roles Settings
-- [Configurations Settings](http://productiondata.theacharya.co/user-guide/configurations.md): Configuration Settings
+- [Configuration Settings](http://productiondata.theacharya.co/user-guide/configurations.md): Configuration Settings
 - [Keyboard Shortcuts](http://productiondata.theacharya.co/user-guide/keyboard-shortcuts.md): You can use keyboard shortcuts to quickly accomplish common tasks in Production Data. To use a keyboard shortcut, press all the keys in the shortcut at the same time.
 
 ## In Action
