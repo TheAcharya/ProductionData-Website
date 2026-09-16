@@ -1,4 +1,4 @@
-# Configuration Settings
+# Configurations Settings
 
 ![Configuration Settings](/assets/pd-configuration-settings.png)
 
