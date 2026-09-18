@@ -35,6 +35,10 @@ The current mode is shown as a badge on [Extract](/user-guide/extract). You can 
 **Production Data** processes one FCPXML project per action. Whether you drag and drop onto [Extract](/user-guide/extract) or [Roles](/user-guide/roles), choose a file with `Choose File`, use `File → Open…`, or open a project from Finder or the Dock, only a single project is accepted. If multiple files are offered at once, **Production Data** uses the first item only.
 !!!
 
+!!!info Info
+On macOS, dropping an FCPXML onto the Dock icon does not always bring **Production Data** to the front. If the window stays in the background, click the app icon to restore it.
+!!!
+
 ## Export Options
 
 ### Timecode Format
