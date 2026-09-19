@@ -1,5 +1,16 @@
 # Release Notes
 
+### 1.0.2 (15)
+
+**🎉 Released:**
+- 20th September 2026
+
+**🔨 Improvements:**
+- Unified File > Open… and Choose File into a single, more reliable Open dialog
+- Improved Dock-drop so FCPXML files dropped on the app icon open reliably
+
+---
+
 ### 1.0.1 (14)
 
 **🎉 Released:**
