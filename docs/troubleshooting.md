@@ -96,7 +96,7 @@ To keep large exports manageable:
 - Use `Manual` [Export Mode](/user-guide/general/#export-mode) so you can review Roles before `Start Export`
 - Disable roles you do not need on the Video and Audio tabs
 - Avoid `Full Report` until you know how large the workbook will be
-- Keep `Include Screenshots in Role Inventory` off unless you need frame grabs — embeds also lengthen the Excel write
+- Keep `Include Screenshots in Role Inventory` off unless you need frame grabs — they also lengthen the Excel write
 
 If the green ring never appears and the application is unresponsive for many minutes, quit **Production Data**, reopen it, and try File → Export XML from Final Cut Pro rather than a timeline drag. If it still never finishes, open the logs (`Help` → `Open Logs`) and contact support with `openfcpxmlkit_log.txt`.
 
@@ -211,7 +211,7 @@ Excel still opens the file without a password. Anyone can turn protection off in
 
 ## Role Inventory screenshots are blank
 
-`Include Screenshots in Role Inventory` embeds a `Source In` frame grab in the Excel Role Inventory sheets. The PDF report never includes screenshots.
+`Include Screenshots in Role Inventory` embeds a `Source In` frame grab in the Excel Role Inventory sheets and saves full-frame PNGs in a `Screenshots` folder beside the workbook. The PDF report never includes screenshots.
 
 Screenshots rely on media this Mac can decode. Blank cells are common for offline media, unsupported codecs, audio-only rows, titles or generators with no media file, some MXF or proprietary wrappers, and corrupt or DRM-locked files. Stills (PNG, JPEG, and similar) use the image itself; video frames are taken at `Source In` (not `Timeline In`) and may land on a nearby frame on hard GOP media.
 
@@ -226,7 +226,7 @@ If screenshot cells are blank:
 - Confirm media paths in the project are reachable from this Mac (absolute paths on connected volumes work best)
 - Cache / drag-and-drop intake may not resolve relative media paths — try File → Export XML from Final Cut Pro and open that file instead
 
-Blank cells are expected when media cannot be read after access is granted, when you continue without remaining screenshots, and for titles or audio-only rows. This is not an export failure, and the rest of the workbook still exports normally.
+Blank cells are expected when media cannot be read after access is granted, when you continue without remaining screenshots, and for titles or audio-only rows. Those rows are also left out of the `Screenshots` folder. This is not an export failure, and the rest of the workbook still exports normally.
 
 See [Include Screenshots in Role Inventory](/user-guide/general/#include-screenshots-in-role-inventory) and [Media Summary lists files as missing](#media-summary-lists-files-as-missing-but-the-media-is-on-disk).
 
@@ -243,12 +243,12 @@ A Final Cut Pro library (`.fcpbundle`) is accepted as a file or a folder. A libr
 If remaining files still cannot be read, **Production Data** does **not** fail the export. It offers:
 
 - `Choose Another Folder` — grant a different location
-- `Continue Without Remaining Screenshots` — leftover cells stay blank; the rest of the workbook still exports
+- `Continue Without Remaining Screenshots` — leftover cells stay blank and those rows are left out of the `Screenshots` folder; the rest of the workbook still exports
 - `Cancel Export` — abort that export
 
 Cancelling the first `Choose Media Folder` prompt cancels that export. If you cancel the follow-up proxy prompt, the same three choices appear.
 
-Roles and other sheets are unaffected; turn the screenshot option off under [General](/user-guide/general/#include-screenshots-in-role-inventory) if you do not need embeds.
+Roles and other sheets are unaffected; turn the screenshot option off under [General](/user-guide/general/#include-screenshots-in-role-inventory) if you do not need them.
 
 ## The spreadsheet is missing sheets or columns I expected
 
