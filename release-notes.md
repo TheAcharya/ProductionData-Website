@@ -1,5 +1,16 @@
 # Release Notes
 
+### 1.0.3 (16)
+
+**🎉 Released:**
+- 27th September 2026
+
+**🔨 Improvements:**
+- Role Inventory screenshots now also save full-frame PNGs beside the workbook
+- Updated OpenFCPXMLKit to version 3.3.15
+
+---
+
 ### 1.0.2 (15)
 
 **🎉 Released:**
