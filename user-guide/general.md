@@ -82,11 +82,11 @@ The `Speed Change Settings` column is not listed under [Columns](#columns). It a
 
 ### Include Screenshots in Role Inventory
 
-Checking `Include Screenshots in Role Inventory` adds a `Screenshot` column after `Row` on Role Inventory sheets and embeds a `Source In` frame grab in the Excel workbook (`.xlsx`). Embeds keep the image aspect ratio.
+Checking `Include Screenshots in Role Inventory` adds a `Screenshot` column after `Row` on Role Inventory sheets and embeds a `Source In` frame grab in the Excel workbook (`.xlsx`). Embeds keep the image aspect ratio. The same export also saves full-frame PNGs in a `Screenshots` folder beside the workbook.
 
-By [!badge text="Default"], screenshots are omitted. Enable this option when you want a visual reference on each inventory row. If media cannot be read, the cell is left blank.
+By [!badge text="Default"], screenshots are omitted. Enable this option when you want a visual reference on each inventory row. If media cannot be read, the cell is left blank and that row is left out of the `Screenshots` folder.
 
-`Include Screenshots in Role Inventory` applies to the Excel workbook only. PDF export is unaffected — the PDF does not include a Screenshot column or embeds.
+PDF export is unaffected — the PDF does not include a Screenshot column, embeds, or the `Screenshots` folder.
 
 When original media is missing or unreadable, **Production Data** uses proxy media for the frame grab when a proxy file is available. Original and proxy media often live in different folders.
 
@@ -95,7 +95,7 @@ During export, **Production Data** may show `Choose Media Folder` if it cannot r
 After you grant original media, the same `Choose Media Folder` panel may appear again for unread proxy or transcoded media — even when the original files are already readable. Some formats, such as MXF or camera RAW, still need a readable proxy for the frame grab. Grant the proxy folder the same way. **Production Data** keeps every successful grant for that export.
 
 !!!info Info
-If remaining files still cannot be read, **Production Data** offers `Choose Another Folder`, `Continue Without Remaining Screenshots`, or `Cancel Export`. Leftover cells stay blank if you continue; the rest of the workbook still exports. Cancelling the first `Choose Media Folder` prompt cancels that export.
+If remaining files still cannot be read, **Production Data** offers `Choose Another Folder`, `Continue Without Remaining Screenshots`, or `Cancel Export`. Leftover cells stay blank if you continue, and those rows are left out of the `Screenshots` folder; the rest of the workbook still exports. Cancelling the first `Choose Media Folder` prompt cancels that export.
 !!!
 
 A Final Cut Pro library (`.fcpbundle`) is accepted as a file or a folder. A library may only *reference* external media — if screenshots stay blank, grant the actual original or proxy folder instead.

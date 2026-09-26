@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.843164064190">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.843716691185">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.6.0">
@@ -44,11 +44,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../static/favicon.ico" />
-    <link href="../../resources/css/retype.css?v=4.6.0.843164064190" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.6.0.843716691185" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.843164064190" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.843716691185" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.843164064190" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.843716691185" data-turbo-eval="false" defer></script>
 
     <meta name="apple-itunes-app" content="app-id=6788936506">
     <meta name="msvalidate.01" content="325120C12888C61306930ACDFB17A57E" />
@@ -415,11 +415,11 @@
     </div>
 </div>
 <h3 id="include-screenshots-in-role-inventory">Include Screenshots in Role Inventory</h3>
-<p>Checking <code translate="no" v-pre>Include Screenshots in Role Inventory</code> adds a <code translate="no" v-pre>Screenshot</code> column after <code translate="no" v-pre>Row</code> on Role Inventory sheets and embeds a <code translate="no" v-pre>Source In</code> frame grab in the Excel workbook (<code translate="no" v-pre>.xlsx</code>). Embeds keep the image aspect ratio.</p>
+<p>Checking <code translate="no" v-pre>Include Screenshots in Role Inventory</code> adds a <code translate="no" v-pre>Screenshot</code> column after <code translate="no" v-pre>Row</code> on Role Inventory sheets and embeds a <code translate="no" v-pre>Source In</code> frame grab in the Excel workbook (<code translate="no" v-pre>.xlsx</code>). Embeds keep the image aspect ratio. The same export also saves full-frame PNGs in a <code translate="no" v-pre>Screenshots</code> folder beside the workbook.</p>
 <p>By <span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-badge-primary-text bg-badge-primary border border-badge-primary-border h-6 px-2 text-xs rounded-md">
     <span>Default</span>
-</span>, screenshots are omitted. Enable this option when you want a visual reference on each inventory row. If media cannot be read, the cell is left blank.</p>
-<p><code translate="no" v-pre>Include Screenshots in Role Inventory</code> applies to the Excel workbook only. PDF export is unaffected — the PDF does not include a Screenshot column or embeds.</p>
+</span>, screenshots are omitted. Enable this option when you want a visual reference on each inventory row. If media cannot be read, the cell is left blank and that row is left out of the <code translate="no" v-pre>Screenshots</code> folder.</p>
+<p>PDF export is unaffected — the PDF does not include a Screenshot column, embeds, or the <code translate="no" v-pre>Screenshots</code> folder.</p>
 <p>When original media is missing or unreadable, <strong>Production Data</strong> uses proxy media for the frame grab when a proxy file is available. Original and proxy media often live in different folders.</p>
 <p>During export, <strong>Production Data</strong> may show <code translate="no" v-pre>Choose Media Folder</code> if it cannot read the original or proxy media from the FCPXML or export folder alone (for example media on an external volume). The panel title is <code translate="no" v-pre>Choose Media Folder</code>, the message is <code translate="no" v-pre>Original media, proxy media, a Final Cut Pro library, or an enclosing folder.</code>, and the button is <code translate="no" v-pre>Grant Access</code>. Choose one of those locations, then press <code translate="no" v-pre>Grant Access</code>.</p>
 <p>After you grant original media, the same <code translate="no" v-pre>Choose Media Folder</code> panel may appear again for unread proxy or transcoded media — even when the original files are already readable. Some formats, such as MXF or camera RAW, still need a readable proxy for the frame grab. Grant the proxy folder the same way. <strong>Production Data</strong> keeps every successful grant for that export.</p>
@@ -437,7 +437,7 @@
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Info</h5>
-<p>If remaining files still cannot be read, <strong>Production Data</strong> offers <code translate="no" v-pre>Choose Another Folder</code>, <code translate="no" v-pre>Continue Without Remaining Screenshots</code>, or <code translate="no" v-pre>Cancel Export</code>. Leftover cells stay blank if you continue; the rest of the workbook still exports. Cancelling the first <code translate="no" v-pre>Choose Media Folder</code> prompt cancels that export.</p>
+<p>If remaining files still cannot be read, <strong>Production Data</strong> offers <code translate="no" v-pre>Choose Another Folder</code>, <code translate="no" v-pre>Continue Without Remaining Screenshots</code>, or <code translate="no" v-pre>Cancel Export</code>. Leftover cells stay blank if you continue, and those rows are left out of the <code translate="no" v-pre>Screenshots</code> folder; the rest of the workbook still exports. Cancelling the first <code translate="no" v-pre>Choose Media Folder</code> prompt cancels that export.</p>
         </div>
     </div>
 </div>

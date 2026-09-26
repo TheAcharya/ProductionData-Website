@@ -15,7 +15,7 @@
 7. Return to Configurations to [Update Active Configuration](/user-guide/configurations/#update-active-configuration).
 
 !!!info Info
-By [!badge text="Default"], screenshots are omitted. `Include Screenshots in Role Inventory` applies to the Excel workbook (`.xlsx`) only — the PDF does not include a Screenshot column or embeds. The `Screenshot` column is not listed under Columns.
+By [!badge text="Default"], screenshots are omitted. `Include Screenshots in Role Inventory` adds a `Screenshot` column in the Excel workbook (`.xlsx`) and saves full-frame PNGs in a `Screenshots` folder beside it. The PDF does not include screenshots. The `Screenshot` column is not listed under Columns.
 !!!
 
 ### Optional Sheet Selection
@@ -51,8 +51,8 @@ Your browser does not support the video tag.
 3. If `Choose Media Folder` appears, select the original media folder, the proxy folder, a Final Cut Pro library (`.fcpbundle`), or an enclosing folder, then press `Grant Access`. Cancelling this first prompt cancels that export.
 4. The same `Choose Media Folder` panel may appear again for unread proxy or transcoded media — even after original media was granted. Grant the proxy folder the same way. Original and proxy media often live in different folders.
 5. If remaining files still cannot be read, choose `Choose Another Folder`, `Continue Without Remaining Screenshots`, or `Cancel Export`.
-6. **Production Data** will create an Excel workbook (`.xlsx`) in your Export Destination, with `Source In` frame grabs in the Role Inventory `Screenshot` column.
+6. **Production Data** will create an Excel workbook (`.xlsx`) in your Export Destination, with `Source In` frame grabs in the Role Inventory `Screenshot` column and full-frame PNGs in a `Screenshots` folder beside the workbook.
 
 !!!info Info
-Titles, generators, and audio-only rows leave the Screenshot cell blank. If media cannot be read after you grant access — or you continue without remaining screenshots — leftover cells stay blank. The rest of the workbook still exports. See [Include Screenshots in Role Inventory](/user-guide/general/#include-screenshots-in-role-inventory).
+Titles, generators, and audio-only rows leave the Screenshot cell blank and are left out of the `Screenshots` folder. If media cannot be read after you grant access — or you continue without remaining screenshots — leftover cells stay blank and those rows are left out of the folder. The rest of the workbook still exports. See [Include Screenshots in Role Inventory](/user-guide/general/#include-screenshots-in-role-inventory).
 !!!
