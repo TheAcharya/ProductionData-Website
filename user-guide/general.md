@@ -123,6 +123,8 @@ The frame is taken at `Source In` relative to the asset start — not `Timeline 
 The `Screenshot` column is not listed under [Columns](#columns). It appears only when this option is on and cannot be excluded like other workbook columns.
 !!!
 
+[!ref icon="paper-airplane" text="Include Screenshots"](/in-action/include-screenshots)
+
 ### Distinguish Original and Proxy Media
 
 Checking `Distinguish Original and Proxy Media` separates missing original and proxy media into distinct columns on the `Media Summary` sheet, rather than combining them into a single Missing Media column.
@@ -156,6 +158,8 @@ PDF export is experimental and optimised for A4 landscape. Tables paginate acros
 !!!warning Warning
 On large or complex timelines — especially with `Full Report` enabled — the PDF can run to **a thousand pages, and sometimes several thousand or more**. Preview can take a very long time to open, or the file can be impractical to use. Leave `Create PDF Report` off for those jobs.
 !!!
+
+[!ref icon="paper-airplane" text="Creating PDF Report"](/in-action/creating-pdf-report)
 
 <hr>
 

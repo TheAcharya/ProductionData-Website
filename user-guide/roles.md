@@ -45,3 +45,5 @@ Behaviour depends on [Export Mode](/user-guide/general/#export-mode):
 !!!info Info
 To update the roles list, load a project again.
 !!!
+
+[!ref icon="paper-airplane" text="Reviewing Roles"](/in-action/reviewing-roles)
