@@ -33,6 +33,8 @@ On large or complex timelines, `Loading roles…` can remain on screen for a lon
 If [Include Screenshots in Role Inventory](/user-guide/general/#include-screenshots-in-role-inventory) is on and **Production Data** cannot read the original or proxy media, it will ask you to `Choose Media Folder` before writing the Excel workbook — see [Choose Media Folder](#choose-media-folder).
 !!!
 
+[!ref icon="paper-airplane" text="Creating Excel Spreadsheet"](/in-action/creating-excel-spreadsheet)
+
 ## Choose Media Folder
 
 After the report is built, **Production Data** may show `Choose Media Folder` if [Role Inventory screenshots](/user-guide/general/#include-screenshots-in-role-inventory) are on and it cannot read the original or proxy media — for example after dragging a timeline from Final Cut Pro (staged in Cache), when media lives on another volume, or when media sits inside a Final Cut Pro library (`.fcpbundle`).
