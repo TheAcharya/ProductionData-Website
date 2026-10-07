@@ -8,6 +8,10 @@ We would greatly appreciate your support in sharing and promoting **Production D
 
 Feel free to reach out directly [here](https://tech.theacharya.co).
 
+## Featured
+
+- [ProVideo Coalition](https://www.provideocoalition.com/roundup-new-software-for-video-editors/)
+
 ## What Users Say
 
 <style>
@@ -33,6 +37,12 @@ Feel free to reach out directly [here](https://tech.theacharya.co).
 ***“Production Data saves precious time making reports very quickly at the end of a project and with its modern UI, template management and spreadsheet customisation allows the user to tailor those reports to the production’s exact requests.”***<br />
 
 **[Marc Bach](https://www.imdb.com/name/nm4822554/)** <font size="2">- _Colorist_</font>
+:::
+
+:::quote
+***“Production Data lets you export that information as a spreadsheet, letting you build reports for turnovers, list effects and titles in use, and track use use of roles. This tool has worked well for me and it’s not expensive at all.”***<br />
+
+**[Iain Anderson](https://iain-anderson.com/)** <font size="2">- _Author of Final Cut Pro Efficient Editing_</font>
 :::
 
 ## Trivia
